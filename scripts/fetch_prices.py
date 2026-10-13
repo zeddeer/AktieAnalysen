@@ -9,20 +9,55 @@ import json
 import os
 import sys
 import time
+import http.cookiejar
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STOCKS = os.path.join(ROOT, "data", "stocks.json")
 PRICES = os.path.join(ROOT, "data", "prices.json")
-URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=1y&interval=1d"
+HOSTS = ["query1.finance.yahoo.com", "query2.finance.yahoo.com"]
+URL = "https://{host}/v8/finance/chart/{sym}?range=1y&interval=1d{crumb}"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
 
 
+JAR = http.cookiejar.CookieJar()
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
+OPENER.addheaders = [("User-Agent", UA), ("Accept", "application/json,text/html,*/*")]
+CRUMB = ""
+
+
+def get_crumb():
+    """Yahoo sometimes requires a session cookie + crumb (429/401 without)."""
+    global CRUMB
+    for url in ("https://fc.yahoo.com", "https://finance.yahoo.com/"):
+        try:
+            OPENER.open(url, timeout=20).read(1000)
+        except Exception:
+            pass  # fc.yahoo.com returns 404 but still sets the cookie
+    try:
+        CRUMB = OPENER.open("https://query2.finance.yahoo.com/v1/test/getcrumb", timeout=20).read().decode().strip()
+    except Exception as e:
+        print(f"crumb failed: {e}", file=sys.stderr)
+
+
+def fetch_json(sym):
+    errs = []
+    for attempt in range(3):
+        for host in HOSTS:
+            crumb = f"&crumb={urllib.parse.quote(CRUMB)}" if CRUMB else ""
+            try:
+                with OPENER.open(URL.format(host=host, sym=urllib.parse.quote(sym), crumb=crumb), timeout=30) as r:
+                    return json.load(r)
+            except Exception as e:
+                errs.append(f"{host}: {e}")
+        time.sleep(3 * (attempt + 1))
+    raise RuntimeError("; ".join(errs[-2:]))
+
+
 def fetch(sym):
-    req = urllib.request.Request(URL.format(sym=sym), headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.load(r)
+    data = fetch_json(sym)
     res = data["chart"]["result"][0]
     meta = res["meta"]
     ts = res.get("timestamp") or []
@@ -57,6 +92,7 @@ def main():
         old = json.load(open(PRICES, encoding="utf-8")).get("quotes", {})
     except (FileNotFoundError, json.JSONDecodeError):
         old = {}
+    get_crumb()
     quotes, failed = {}, []
     for s in stocks:
         sym = s["yahoo"]
@@ -65,7 +101,7 @@ def main():
             print(f"ok   {sym}: {quotes[sym]['price']}")
         except Exception as e:  # keep going, keep old data
             failed.append(sym)
-            print(f"FAIL {sym}: {e}", file=sys.stderr)
+            print(f"::warning title=Kurs saknas {sym}::{e}")
             if sym in old:
                 quotes[sym] = old[sym]
         time.sleep(1)
