@@ -1,0 +1,714 @@
+{
+  "updated": "2026-10-13",
+  "stocks": [
+    {
+      "id": "electrolux",
+      "name": "Electrolux",
+      "shareClass": "B",
+      "ticker": "ELUX B",
+      "yahoo": "ELUX-B.ST",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap",
+      "sector": "Sällanköpsvaror · Hushållsapparater",
+      "stance": "neutral",
+      "risk": "hög",
+      "thesis": "Turnaround med nyemitterat kapital i ryggen. Midea-samarbetet och kostnadsprogrammet kan lyfta marginalen, men Nordamerika och tullarna håller tillbaka och blankarna är många.",
+      "summary": "Nyemissionen på cirka 9,1 mdr SEK (juni 2026) har stärkt balansräkningen och skuldsättningen har fallit till 2,6x nettoskuld/EBITDA. Underliggande rörelsemarginal var 3,8 % i Q2 – bättre, men fortfarande tunn för ett bolag av den här storleken. Nordamerika (cirka en tredjedel av försäljningen) är svagt med tullar och fallande marknad, medan Europa/APAC och Latinamerika växer över 4 % organiskt. Q3 den 23 oktober blir första kvartalet med Midea-JV:na igång och försäljningen av Juárez-tillgångarna (väntat kassaflöde cirka 1 mdr SEK). Blankningen har stigit till runt 10,7 % och analytikerna är i snitt neutrala.",
+      "keyFigures": [
+        {
+          "label": "Omsättning Q2",
+          "value": "31 569 MSEK",
+          "note": "+2,0 % organiskt"
+        },
+        {
+          "label": "Rörelsemarginal exkl. engångsposter",
+          "value": "3,8 %",
+          "note": "2,5 % året innan"
+        },
+        {
+          "label": "Rapporterat rörelseresultat",
+          "value": "−1 005 MSEK",
+          "note": "Engångsposter ≈ −2,2 mdr"
+        },
+        {
+          "label": "Vinst per aktie Q2",
+          "value": "−3,16 SEK",
+          "note": "0,36 året innan"
+        },
+        {
+          "label": "Kassaflöde efter investeringar",
+          "value": "1 607 MSEK",
+          "note": "−741 året innan"
+        },
+        {
+          "label": "Nettoskuld / EBITDA",
+          "value": "2,6x",
+          "note": "3,5x året innan"
+        },
+        {
+          "label": "Utdelning",
+          "value": "Ingen",
+          "note": ""
+        },
+        {
+          "label": "Blankat",
+          "value": "10,67 %",
+          "note": "8,92 % för en månad sedan"
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q2 2026",
+        "date": "2026-07-29",
+        "highlights": [
+          "Organisk tillväxt 2,0 %; EMEA/APAC och Latinamerika över 4 %, Nordamerika minskade i linje med marknaden (≈ −3 %).",
+          "Kostnadseffektivitet bidrog med 1,4 mdr SEK till rörelseresultatet.",
+          "Prishöjningar 5–20 % i Nordamerika för att motverka tullkostnader.",
+          "Investeringsprognosen sänkt från 4,0 till 3,0–3,5 mdr SEK.",
+          "Aktien steg 22 % på rapportdagen."
+        ]
+      },
+      "bull": [
+        "Balansräkningen reparerad efter nyemissionen – mindre finansiell risk.",
+        "Midea-samarbetet i Nordamerika väntas ge cirka 0,6 mdr SEK i årliga besparingar år tre.",
+        "Europa, APAC och Latinamerika växer och förbättrar resultatet.",
+        "Ansökt om återbetalning av IEEPA-tullar på cirka 88 MUSD."
+      ],
+      "bear": [
+        "Nordamerika är svagt och tullkostnaderna väntas fortsätta tynga.",
+        "Låga marginaler ger liten buffert om efterfrågan viker.",
+        "Hög och stigande blankning (≈ 10,7 %).",
+        "Höga räntor och inflation i Brasilien pressar konsumentfinansieringen."
+      ],
+      "watch": [
+        "Q3 23 okt: tar Nordamerika-marginalen fart när JV:na startat?",
+        "Kassaflödet från Juárez-affären (≈ 1 mdr SEK) ska synas i Q3.",
+        "Utvecklingen i blankningen efter rapporten."
+      ],
+      "events": [
+        {
+          "date": "2026-10-23",
+          "label": "Delårsrapport Q3 2026"
+        }
+      ],
+      "analysts": {
+        "consensus": "Neutral",
+        "avgTarget": 36.22,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
+        "targets": [
+          {
+            "date": "",
+            "bank": "Goldman Sachs",
+            "rating": "Neutral",
+            "target": 28
+          },
+          {
+            "date": "2026-10-01",
+            "bank": "Barclays",
+            "rating": "Undervikt",
+            "target": 25
+          },
+          {
+            "date": "2026-08-31",
+            "bank": "SEB",
+            "rating": "Behåll",
+            "target": 30
+          },
+          {
+            "date": "2026-07-31",
+            "bank": "UBS",
+            "rating": "Neutral",
+            "target": 33
+          },
+          {
+            "date": "2026-07-30",
+            "bank": "Danske Bank",
+            "rating": "Köp",
+            "target": 38
+          },
+          {
+            "date": "2026-07-30",
+            "bank": "Handelsbanken",
+            "rating": "Behåll",
+            "target": 32
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-13",
+          "text": "Första analysen. Utgångsläge neutral: bättre balansräkning, men Nordamerika och hög blankning väger tungt inför Q3."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – Electrolux",
+          "url": "https://www.borskollen.se/aktie/electrolux"
+        },
+        {
+          "title": "Electrolux Group – investerare",
+          "url": "https://www.electroluxgroup.com/investors/"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/electrolux"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Electrolux Group delårsrapport Q2 2026 (Inderes)",
+          "url": "https://www.inderes.se/releases/electrolux-group-delarsrapport-andra-kvartalet-2026"
+        },
+        {
+          "title": "Electrolux och Midea ingår partnerskap i Nordamerika (MFN)",
+          "url": "https://mfn.se/cis/a/electrolux/electrolux-group-och-midea-group-ingar-ett-starkt-kompletterande-langsiktigt-strategiskt-partnerskap-i-nordamerika-i-syfte-att-accelerera-lonsam-tillvaxt-och-starka-innovation-62c3f5a6"
+        },
+        {
+          "title": "Börskollen – Electrolux riktkurser",
+          "url": "https://www.borskollen.se/aktie/electrolux/riktkurs"
+        }
+      ]
+    },
+    {
+      "id": "electrolux-professional",
+      "name": "Electrolux Professional",
+      "shareClass": "B",
+      "ticker": "EPRO B",
+      "yahoo": "EPRO-B.ST",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap",
+      "sector": "Industri · Storkök & tvätteri",
+      "stance": "positiv",
+      "risk": "medel",
+      "thesis": "Kvalitetsbolag med stabila marginaler runt 12 % som handlas långt under fjolårets nivåer. Svag försäljning just nu, men en växande orderstock och ny vd kan vända trenden.",
+      "summary": "Aktien har fallit från runt 67 SEK i november 2025 till mitten av 40-talet, bland annat efter ett svagt Q1 (−11 % på rapportdagen). Försäljningen minskade 3,8 % organiskt i Q2, främst inom Food & Beverage där projektleveranser i USA och APAC-MEA sköts fram. Samtidigt höll EBITA-marginalen på 12,4 % och Laundry levererade 17,2 %. Orderstocken ökade, och nya vd:n Paolo Schira räknar med att priser och tillägg ska kompensera för valuta, tullar och logistik under andra halvåret. Kassaflödet var svagt i kvartalet. Q3 den 28 oktober visar om orderstocken omvandlas till försäljning.",
+      "keyFigures": [
+        {
+          "label": "Omsättning Q2",
+          "value": "3 036 MSEK",
+          "note": "−3,8 % organiskt"
+        },
+        {
+          "label": "EBITA-marginal",
+          "value": "12,4 %",
+          "note": "12,3 % året innan"
+        },
+        {
+          "label": "Laundry EBITA-marginal",
+          "value": "17,2 %",
+          "note": "Inkl. tullåterbetalning"
+        },
+        {
+          "label": "Vinst per aktie Q2",
+          "value": "0,80 SEK",
+          "note": "0,75 året innan"
+        },
+        {
+          "label": "Kassaflöde efter investeringar",
+          "value": "125 MSEK",
+          "note": "305 året innan"
+        },
+        {
+          "label": "Utdelning",
+          "value": "0,95 SEK",
+          "note": "≈ 2,1 % direktavkastning"
+        },
+        {
+          "label": "Blankat",
+          "value": "0,82 %",
+          "note": ""
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q2 2026",
+        "date": "2026-07-22",
+        "highlights": [
+          "Försäljningen minskade 5,0 % (organiskt −3,8 %, valuta −1,9 %, förvärv +0,6 %).",
+          "Food & Beverage −5,8 % organiskt; orderstocken ökade trots lägre orderingång.",
+          "Laundry organiskt stabilt, ökad orderingång och TOSEI i Japan växte igen.",
+          "EBITA fick stöd av en tullåterbetalning på 21 MSEK i USA.",
+          "Aktien steg 6,7 % på rapportdagen."
+        ]
+      },
+      "bull": [
+        "Stabila marginaler i en svag marknad – prissättningsmakt.",
+        "Laundry är en högmarginal-motor (≈ 17 % EBITA).",
+        "Växande orderstock inför andra halvåret.",
+        "Handelsbanken har köp med riktkurs 60 SEK (22 sep)."
+      ],
+      "bear": [
+        "Negativ organisk tillväxt flera kvartal i rad.",
+        "Svagt kassaflöde och högre rörelsekapital.",
+        "Exponering mot USA-tullar och svag krona/valuta.",
+        "Ny vd sedan maj – strategin kan justeras."
+      ],
+      "watch": [
+        "Q3 28 okt: omvandlas orderstocken till försäljning?",
+        "Kassaflödet och rörelsekapitalet.",
+        "Mottagandet av tvätteriserien Generation 7000 (lanserad 23 sep)."
+      ],
+      "events": [
+        {
+          "date": "2026-10-28",
+          "label": "Delårsrapport Q3 2026"
+        },
+        {
+          "date": "2027-01-28",
+          "label": "Bokslutskommuniké 2026"
+        }
+      ],
+      "analysts": {
+        "consensus": "",
+        "avgTarget": null,
+        "avgTargetNote": "",
+        "targets": [
+          {
+            "date": "2026-09-22",
+            "bank": "Handelsbanken",
+            "rating": "Köp",
+            "target": 60
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-13",
+          "text": "Första analysen. Utgångsläge positiv: marginalerna håller trots fallande försäljning och aktien har kommit ner kraftigt. Q3-orderomvandlingen avgör."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – Electrolux Professional",
+          "url": "https://www.borskollen.se/aktie/electrolux-professional-b"
+        },
+        {
+          "title": "Electrolux Professional – investerare",
+          "url": "https://www.electroluxprofessional.com/corporate/investors/"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/electrolux-professional"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Electrolux Professional delårsrapport Q2 2026 (MFN)",
+          "url": "https://mfn.se/a/electrolux-professional/electrolux-professional-ab-interim-report-q2-2026"
+        },
+        {
+          "title": "Börskollen – Electrolux Professional",
+          "url": "https://www.borskollen.se/aktie/electrolux-professional-b"
+        }
+      ]
+    },
+    {
+      "id": "tobii",
+      "name": "Tobii",
+      "shareClass": "",
+      "ticker": "TOBII",
+      "yahoo": "TOBII.ST",
+      "currency": "SEK",
+      "market": "Stockholm · Small Cap",
+      "sector": "IT · Ögonstyrning & biometri",
+      "stance": "negativ",
+      "risk": "mycket hög",
+      "thesis": "Spännande teknik men ansträngd likviditet. Med 37 MSEK i kassan och en pågående strategisk översyn är risken för en utspädande kapitalanskaffning eller avyttring hög.",
+      "summary": "Tobii har levererat på kostnadssidan – besparingarna är 163 MSEK på rullande tolv månader mot målet 100 MSEK – men försäljningen föll 46 % i Q2 mot ett jämförelsekvartal med stora engångsaffärer. Justerat var tillväxten 7 %. Rörelseresultatet på 15 MSEK lyftes av en icke kassapåverkande justering på 51 MSEK. Kassan var bara 37 MSEK och bolaget ger ingen prognos för andra halvåret. Styrelsen diskuterar avyttringar, partnerskap och kapitalanskaffning. Efter rapporten har en tillförordnad CFO utsetts och styrelsen förändrats. Q3 den 22 oktober kan bli avgörande för hur finansieringen löses.",
+      "keyFigures": [
+        {
+          "label": "Omsättning Q2",
+          "value": "154 MSEK",
+          "note": "−46 %; justerat +7 %"
+        },
+        {
+          "label": "Bruttomarginal",
+          "value": "82 %",
+          "note": "83 % året innan"
+        },
+        {
+          "label": "Rörelseresultat Q2",
+          "value": "15 MSEK",
+          "note": "Inkl. +51 MSEK ej kassapåverkande"
+        },
+        {
+          "label": "Fritt kassaflöde Q2",
+          "value": "−10 MSEK",
+          "note": "+35 MSEK rullande 12 mån"
+        },
+        {
+          "label": "Kassa",
+          "value": "37 MSEK",
+          "note": "+ kredit 25 MSEK (14 utnyttjat)"
+        },
+        {
+          "label": "Autosense-försäljning",
+          "value": "40 MSEK",
+          "note": "12 året innan"
+        },
+        {
+          "label": "Utdelning",
+          "value": "Ingen",
+          "note": ""
+        },
+        {
+          "label": "Blankat",
+          "value": "4,45 %",
+          "note": "4,9 % för en månad sedan"
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q2 2026 – \"Handlingskraft i ett utmanande läge\"",
+        "date": "2026-08-28",
+        "highlights": [
+          "Products & Solutions 76 MSEK (93), Integration 37 MSEK (178), Autosense 40 MSEK (12).",
+          "Kostnadsbesparingar på 43 MSEK i kvartalet.",
+          "Strategisk översyn: avyttringar, partnerskap och kapitalanskaffning diskuteras.",
+          "Mål: positivt operativt kassaflöde under 2027.",
+          "Lenovo Legion Y900 är första konsumentprodukten med Tobii Nexus."
+        ]
+      },
+      "bull": [
+        "Kostnadsprogrammet har överlevererat kraftigt.",
+        "Autosense växer och vinner nya förarövervakningsprogram.",
+        "Hög bruttomarginal (≈ 82 %) ger hävstång om försäljningen vänder.",
+        "En avyttring eller partner kan frigöra värde snabbt."
+      ],
+      "bear": [
+        "Mycket liten kassa – risk för otillräcklig finansiering de närmaste 12 månaderna.",
+        "Trolig utspädning om kapital tas in.",
+        "Ingen prognos för andra halvåret.",
+        "Byte av CFO och styrelseledamöter under hösten skapar osäkerhet."
+      ],
+      "watch": [
+        "Q3 22 okt: finansieringsbesked och utfall av strategisk översyn.",
+        "Kassan och utnyttjandet av krediten.",
+        "Blankningstrenden (har fallit från 5,25 % för ett halvår sedan)."
+      ],
+      "events": [
+        {
+          "date": "2026-10-22",
+          "label": "Delårsrapport Q3 2026"
+        }
+      ],
+      "analysts": {
+        "consensus": "",
+        "avgTarget": null,
+        "avgTargetNote": "Inga publika riktkurser på Börskollen",
+        "targets": []
+      },
+      "log": [
+        {
+          "date": "2026-10-13",
+          "text": "Första analysen. Utgångsläge negativ på grund av likviditetsrisken; ses över efter finansieringsbeskedet."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – Tobii",
+          "url": "https://www.borskollen.se/aktie/tobii"
+        },
+        {
+          "title": "Tobii – investerare",
+          "url": "https://corporate.tobii.com/investors"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/tobii"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tobii delårsrapport Q2 2026 (Inderes)",
+          "url": "https://www.inderes.se/releases/interim-report-second-quarter-2026-decisiveness-in-a-challenging-situation"
+        },
+        {
+          "title": "Tobii Q2 2026 (Quartr)",
+          "url": "https://quartr.com/events/tobii-tobii-q2-2026_3gIJ6ORb"
+        },
+        {
+          "title": "Börskollen – Tobii",
+          "url": "https://www.borskollen.se/aktie/tobii"
+        }
+      ]
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "shareClass": "",
+      "ticker": "IBM",
+      "yahoo": "IBM",
+      "currency": "USD",
+      "market": "NYSE",
+      "sector": "IT · Mjukvara, konsult & infrastruktur",
+      "stance": "neutral",
+      "risk": "låg",
+      "thesis": "Stabil utdelare som blir allt mer ett mjukvarubolag. Mjukvara växer, men stordatorcykeln (z17) gick sämre än väntat och tillväxten är fortfarande låg.",
+      "summary": "IBM varnade redan den 14 juli för ett svagare Q2: stordatorerna och tillhörande mjukvara gick sämre efter z17-lanseringen och kunderna flyttade investeringar mot servrar, lagring och minne. Omsättningen landade på 17,2 mdr USD (+1 %), där mjukvara växte 5 % med en ARR på 24,6 mdr USD (+8 %), infrastruktur minskade 7 % och konsult var oförändrat. Justerad vinst per aktie steg 5 %. Utdelningen på cirka 6,7 USD per år ger runt 3 % direktavkastning. Nettoskulden är hög (62 mdr USD i skuld) efter förvärv som HashiCorp och Confluent. Q3 den 21 oktober visar om mjukvarutillväxten accelererar som bolaget sagt.",
+      "keyFigures": [
+        {
+          "label": "Omsättning Q2",
+          "value": "17,2 mdr USD",
+          "note": "+1 %"
+        },
+        {
+          "label": "Mjukvara",
+          "value": "+5 %",
+          "note": "ARR 24,6 mdr USD (+8 %)"
+        },
+        {
+          "label": "Infrastruktur",
+          "value": "−7 %",
+          "note": "Svagare z17-cykel"
+        },
+        {
+          "label": "Justerad vinst per aktie Q2",
+          "value": "2,93 USD",
+          "note": "+5 %"
+        },
+        {
+          "label": "Fritt kassaflöde H1",
+          "value": "4,8 mdr USD",
+          "note": "Oförändrat"
+        },
+        {
+          "label": "Skuld",
+          "value": "62,0 mdr USD",
+          "note": "Kassa 8,2 mdr USD"
+        },
+        {
+          "label": "Utdelning",
+          "value": "≈ 6,73 USD/år",
+          "note": "≈ 3,0 % direktavkastning"
+        }
+      ],
+      "latestReport": {
+        "title": "Q2 2026",
+        "date": "2026-07-22",
+        "highlights": [
+          "Vinstvarning 14 juli: svagare stordatorer (Z) och Transaction Processing.",
+          "Mjukvara +5 %, 80 % återkommande intäkter.",
+          "Konsult oförändrat, infrastruktur −7 %.",
+          "Justerad EBITDA 4,8 mdr USD, marginal 27,8 %.",
+          "3,2 mdr USD återfört till aktieägare via utdelning under H1."
+        ]
+      },
+      "bull": [
+        "Mjukvara med hög andel återkommande intäkter växer.",
+        "Stabil och lång utdelningshistorik.",
+        "Satsningar inom AI och kvantdatorer kan ge långsiktig optionalitet.",
+        "HashiCorp och Confluent stärker hybridmoln-erbjudandet."
+      ],
+      "bear": [
+        "Låg total tillväxt (+1 % i Q2).",
+        "Stordatorcykeln (z17) har redan toppat.",
+        "Hög skuldsättning efter förvärv.",
+        "Konsultverksamheten står still."
+      ],
+      "watch": [
+        "Q3 21 okt: mjukvarutillväxt och om helårsmålen står fast.",
+        "Utvecklingen inom infrastruktur efter z17.",
+        "Truist inledde bevakning med behåll och riktkurs 240 USD."
+      ],
+      "events": [
+        {
+          "date": "2026-10-21",
+          "label": "Rapport Q3 2026 (efter stängning, 23:00 svensk tid)"
+        }
+      ],
+      "analysts": {
+        "consensus": "",
+        "avgTarget": null,
+        "avgTargetNote": "",
+        "targets": [
+          {
+            "date": "",
+            "bank": "Truist",
+            "rating": "Behåll",
+            "target": 240
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-13",
+          "text": "Första analysen. Utgångsläge neutral: trygg utdelare, men tillväxten behöver bevisas i Q3."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – IBM",
+          "url": "https://www.borskollen.se/aktie/ibm"
+        },
+        {
+          "title": "IBM Investor Relations",
+          "url": "https://www.ibm.com/investor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "IBM Q2 2026 (Quartr)",
+          "url": "https://quartr.com/events/international-business-machines-corp-ibm-q2-2026_3PPXZLbu"
+        },
+        {
+          "title": "IBM-vd varnar för Q2 (Fierce Network)",
+          "url": "https://www.fierce-network.com/newswire/ibm-ceo-arvind-krishna-warns-2q-earnings"
+        },
+        {
+          "title": "IBM Q3 2026-datum (Pluang)",
+          "url": "https://pluang.com/en/news-feed/ibm-umumkan-hasil-keuangan-kuartal-tiga-2026"
+        },
+        {
+          "title": "Börskollen – IBM",
+          "url": "https://www.borskollen.se/aktie/ibm"
+        }
+      ]
+    },
+    {
+      "id": "skistar",
+      "name": "SkiStar",
+      "shareClass": "B",
+      "ticker": "SKIS B",
+      "yahoo": "SKIS-B.ST",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap",
+      "sector": "Sällanköpsvaror · Resor & nöjen",
+      "stance": "positiv",
+      "risk": "låg",
+      "thesis": "Rekordår med stigande vinst och höjd utdelning. Bokningarna inför vintern pekar uppåt och analytikerna är eniga köpare.",
+      "summary": "Verksamhetsåret 2025/26 gav en omsättning på 4 954 MSEK (+8 %) och ett rörelseresultat på 872 MSEK (+11 %, +18 % exklusive reavinster). Vinsten per aktie blev 8,01 SEK och utdelningen föreslås höjas till 3,50 SEK (3,00). Soliditeten är 49 %. Bokningarna inför vintern 2026/27 ligger 3 % över fjolåret. Aktien handlas runt 20 gånger vinsten. Fjärde kvartalet är alltid förlustbringande eftersom det är sommar, så nästa riktiga test är vintersäsongen och Q1-rapporten den 12 december.",
+      "keyFigures": [
+        {
+          "label": "Omsättning 2025/26",
+          "value": "4 954 MSEK",
+          "note": "+8 %"
+        },
+        {
+          "label": "Rörelseresultat 2025/26",
+          "value": "872 MSEK",
+          "note": "+11 % (+18 % exkl. reavinster)"
+        },
+        {
+          "label": "Vinst per aktie",
+          "value": "8,01 SEK",
+          "note": "7,05 året innan"
+        },
+        {
+          "label": "Kassaflöde löpande verksamhet",
+          "value": "1 223 MSEK",
+          "note": "1 063 året innan"
+        },
+        {
+          "label": "Föreslagen utdelning",
+          "value": "3,50 SEK",
+          "note": "≈ 2,1 % direktavkastning"
+        },
+        {
+          "label": "Soliditet",
+          "value": "49 %",
+          "note": "45 % året innan"
+        },
+        {
+          "label": "Vinterbokningar 26/27",
+          "value": "+3 %",
+          "note": "Förmedlat boende"
+        },
+        {
+          "label": "Blankat",
+          "value": "0,39 %",
+          "note": ""
+        }
+      ],
+      "latestReport": {
+        "title": "Bokslutskommuniké sep 2025 – aug 2026",
+        "date": "2026-09-30",
+        "highlights": [
+          "Q4 (sommar): omsättning 292 MSEK (+29 %), rörelseresultat −274 MSEK (−310).",
+          "Organisk tillväxt 5 % för helåret.",
+          "Utdelningen motsvarar 44 % av vinsten efter skatt.",
+          "Aktien steg 3,3 % på rapportdagen."
+        ]
+      },
+      "bull": [
+        "Stigande vinst och utdelning – tydlig trend.",
+        "Starkt kassaflöde och god soliditet.",
+        "Bokningarna inför vintern pekar uppåt.",
+        "Samtliga bevakande analytiker har köp (riktkurser 190–205 SEK)."
+      ],
+      "bear": [
+        "Väderberoende – snöfattig eller kort säsong slår direkt mot resultatet.",
+        "Konsumentkänslig vid svagare ekonomi.",
+        "Värderingen (≈ 20 gånger vinsten) prisar redan in en del tillväxt.",
+        "Bokningsökningen på 3 % är måttlig."
+      ],
+      "watch": [
+        "Snöläget och säsongsstarten i november–december.",
+        "Q1 12 dec: tidiga vinterintäkter och bokningsläge.",
+        "Utdelningsbeslut på årsstämman i december."
+      ],
+      "events": [
+        {
+          "date": "2026-12-12",
+          "label": "Delårsrapport Q1 2026/27"
+        }
+      ],
+      "analysts": {
+        "consensus": "Köp",
+        "avgTarget": 205,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
+        "targets": [
+          {
+            "date": "2026-10-12",
+            "bank": "DNB Carnegie",
+            "rating": "Köp",
+            "target": 205
+          },
+          {
+            "date": "2026-05-19",
+            "bank": "Nordea",
+            "rating": "Köp",
+            "target": 195
+          },
+          {
+            "date": "2026-05-18",
+            "bank": "Handelsbanken",
+            "rating": "Köp",
+            "target": 190
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-13",
+          "text": "Första analysen. Utgångsläge positiv: rekordår, höjd utdelning och bokningar uppåt."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – SkiStar",
+          "url": "https://www.borskollen.se/aktie/skistar"
+        },
+        {
+          "title": "SkiStar – investerare",
+          "url": "https://investor.skistar.com/sv"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/skistar"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SkiStar bokslutskommuniké 2025/26 (Inderes)",
+          "url": "https://www.inderes.se/releases/skistar-ab-year-end-report-september-2025-august-2026"
+        },
+        {
+          "title": "Börskollen – SkiStar",
+          "url": "https://www.borskollen.se/aktie/skistar"
+        },
+        {
+          "title": "Börskollen – SkiStar riktkurser",
+          "url": "https://www.borskollen.se/aktie/skistar/riktkurs"
+        }
+      ]
+    }
+  ]
+}

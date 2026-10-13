@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111317">
+<title>AktieAnalysen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a href="#/" class="brand"><b>AKTIE</b>ANALYSEN</a>
+    <nav>
+      <a href="#/" data-nav="list">Bevakning</a>
+      <a href="#/kalender" data-nav="kalender">Kalender</a>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <p class="loading">Laddar…</p>
+  </main>
+
+  <footer class="foot">
+    <p id="stamp"></p>
+    <p>Analyserna skrivs av Claude utifrån publika källor och uppdateras dagligen. Inte finansiell rådgivning.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

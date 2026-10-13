@@ -1,0 +1,35 @@
+name: Uppdatera kurser
+
+on:
+  schedule:
+    # Vardagar: efter Stockholmsbörsens stängning och efter NYSE-stängning (UTC)
+    - cron: "45 15 * * 1-5"
+    - cron: "30 20 * * 1-5"
+  push:
+    paths:
+      - "data/stocks.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Hämta kurser
+        run: python3 scripts/fetch_prices.py
+      - name: Spara
+        run: |
+          git config user.name "kurs-bot"
+          git config user.email "kurs-bot@users.noreply.github.com"
+          git add data/prices.json
+          if git diff --cached --quiet; then echo "Inga ändringar"; exit 0; fi
+          git commit -m "Kurser $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
