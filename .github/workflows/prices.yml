@@ -8,6 +8,8 @@ on:
   push:
     paths:
       - "data/stocks.json"
+      - "scripts/**"
+      - ".github/workflows/prices.yml"
   workflow_dispatch:
 
 permissions:
