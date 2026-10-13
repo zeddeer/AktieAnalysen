@@ -7,13 +7,13 @@ committar och pushar till `main`. Allt innehåll skrivs på svenska.
 ## Filer
 - `data/stocks.json` – analyserna (skrivs av Claude). Källan till allt textinnehåll.
 - `data/prices.json` – kurser och 1 års historik. **Skrivs bara av GitHub Action**
-  (`.github/workflows/prices.yml` + `scripts/fetch_prices.py`, Yahoo Finance).
+  (`.github/workflows/prices.yml` + `scripts/fetch_prices.py`, Avanza → Stooq → Yahoo).
   Redigera inte för hand.
 - `index.html`, `style.css`, `app.js` – appen.
 
 ## Lägga till en aktie
 Lägg till ett objekt i `stocks` med samma fält som befintliga:
-`id` (url-slug), `name`, `shareClass`, `ticker`, `yahoo` (Yahoo-symbol, t.ex. `VOLV-B.ST`, `AAPL`),
+`id` (url-slug), `name`, `shareClass`, `ticker`, `yahoo` (Yahoo-symbol, t.ex. `VOLV-B.ST`, `AAPL` – används som nyckel), `avanzaId` (Avanzas orderbok-id; lämnas tomt så letas det upp automatiskt),
 `currency`, `market`, `sector`, `stance` (`positiv` | `neutral` | `negativ`), `risk`
 (`låg` | `medel` | `hög` | `mycket hög`), `thesis` (1–2 meningar), `summary` (ett stycke),
 `keyFigures[]` ({label, value, note}), `latestReport` ({title, date, highlights[]}),

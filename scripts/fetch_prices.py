@@ -55,7 +55,7 @@ def build(history, currency, market_time=None, price=None):
         "prevClose": round(prev, 4),
         "changePct": round((price / prev - 1) * 100, 2),
         "currency": currency,
-        "marketTime": market_time or f"{history[-1][0]}T17:30:00+00:00",
+        "marketTime": market_time or f"{history[-1][0]}T{'20:00' if currency == 'USD' else '15:30'}:00+00:00",
         "high52": max(vals),
         "low52": min(vals),
         "history": history,

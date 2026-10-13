@@ -8,7 +8,7 @@ Bevakade just nu: Electrolux B, Electrolux Professional B, Tobii, IBM, SkiStar B
 
 ## Så funkar det
 - `data/stocks.json` – analyserna (Claude)
-- `data/prices.json` – kurser och historik (GitHub Action, Yahoo Finance)
+- `data/prices.json` – kurser och historik (GitHub Action, Avanza med Stooq/Yahoo som reserv)
 - `index.html` / `style.css` / `app.js` – statisk app, ingen byggsteg
 
 ## Kör lokalt
