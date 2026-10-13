@@ -118,7 +118,7 @@
     const ev = nextEvent(s);
     const n = ev ? daysUntil(ev.date) : null;
     return `
-      <a class="card" href="#/${esc(s.id)}">
+      <a class="card" href="#${esc(s.id)}">
         <div class="head"><span class="name">${esc(s.name)}</span><span class="tick">${esc(s.ticker)}</span></div>
         <div class="px">
           <div class="p">${q ? nf(q.price) : "—"} <small class="flat">${esc(s.currency)}</small></div>
@@ -141,7 +141,7 @@
     const upside = q && a.avgTarget ? (a.avgTarget / q.price - 1) * 100 : null;
 
     app.innerHTML = `
-      <a class="back" href="#/">← Bevakning</a>
+      <a class="back" href="#bevakning">← Bevakning</a>
       <section class="hero">
         <h1>${esc(s.name)}${s.shareClass ? ` <span class="flat">${esc(s.shareClass)}</span>` : ""}</h1>
         <div class="sub">${esc(s.ticker)} · ${esc(s.market)} · ${esc(s.sector)}</div>
@@ -246,7 +246,7 @@
       <div class="cal">${upcoming.map(({ s, e }) => {
         const n = daysUntil(e.date);
         const d = parseDate(e.date);
-        return `<a href="#/${esc(s.id)}" class="${n < 0 ? "past" : ""}">
+        return `<a href="#${esc(s.id)}" class="${n < 0 ? "past" : ""}">
           <div class="dt"><b>${d.getDate()}</b><span>${d.toLocaleDateString("sv-SE", { month: "short" }).replace(".", "")}</span></div>
           <div class="what"><b>${esc(s.name)}</b><span>${esc(e.label)}</span></div>
           <div class="in ${n >= 0 && n <= 10 ? "soon" : ""}">${inDays(n)}</div></a>`;
@@ -256,7 +256,8 @@
   // ---------- router ----------
   function route() {
     if (!DATA) return;
-    const h = location.hash.replace(/^#\/?/, "");
+    let h = location.hash.replace(/^#\/?/, "");
+    if (h === "bevakning") h = "";
     document.querySelectorAll("[data-nav]").forEach((a) =>
       a.classList.toggle("on", (h === "kalender" && a.dataset.nav === "kalender") || (h === "" && a.dataset.nav === "list"))
     );

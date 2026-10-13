@@ -1,6 +1,8 @@
 # AktieAnalysen – instruktioner för Claude
 
-Statisk sajt (GitHub Pages, ingen byggsteg) som visar Zeddeers bevakade aktier.
+Statisk app som visar Zeddeers bevakade aktier. Den visas som ett claude.ai-Artifact:
+**https://claude.ai/artifact/3dgNnXJDuY7TqRW2op9bFR** (GitHub-repot är källan; GitHub Pages
+fungerar också om det slås på).
 Användaren pratar med Claude i chatten; Claude uppdaterar `data/stocks.json`,
 committar och pushar till `main`. Allt innehåll skrivs på svenska.
 
@@ -43,6 +45,16 @@ För varje aktie:
 5. Lägg till nya källor i `sources` (max ~8, ta bort de äldsta).
 6. Sätt `updated` till dagens datum, validera JSON (`python3 -m json.tool data/stocks.json`),
    commit `Analys YYYY-MM-DD: <kort sammanfattning>` och push till `main`.
+7. Publicera om artifactet (även om inget nytt hänt, så att kurserna blir färska):
+   `git pull` (hämtar senaste `data/prices.json`), kör `python3 scripts/build_artifact.py`,
+   och anropa Artifact-verktyget med `action: "publish"`,
+   `url: "https://claude.ai/artifact/3dgNnXJDuY7TqRW2op9bFR"`, `file_path: dist/artifact.html`
+   och `files: {"data/stocks.json": "data/stocks.json", "data/prices.json": "data/prices.json"}`.
+   Läs artifactet först (`action: "read"`) om verktyget kräver det. Skapa aldrig ett nytt artifact.
+
+## Ändra appen
+Redigera `index.html`/`style.css`/`app.js`, kör `scripts/build_artifact.py` och publicera om
+enligt steg 7 ovan. Länkar inne i appen använder enkla hash-tokens (`#tobii`, `#kalender`).
 
 ## Regler
 - Siffror ska komma från källor, aldrig gissas. Osäkert datum → lämna `""`.

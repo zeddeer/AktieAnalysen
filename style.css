@@ -13,6 +13,7 @@
    small uppercase with wide tracking, used like ledger headings. */
 
 :root {
+  color-scheme: dark;
   --ground: #111317;
   --panel: #191c22;
   --panel2: #1e2229;
