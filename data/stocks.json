@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "stocks": [
     {
       "id": "electrolux",
@@ -97,7 +97,7 @@
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
         "targets": [
           {
-            "date": "",
+            "date": "2026-10-09",
             "bank": "Goldman Sachs",
             "rating": "Neutral",
             "target": 28
@@ -524,6 +524,12 @@
         "avgTargetNote": "",
         "targets": [
           {
+            "date": "2026-10-13",
+            "bank": "RBC Capital",
+            "rating": "Köp (Outperform)",
+            "target": 270
+          },
+          {
             "date": "",
             "bank": "Truist",
             "rating": "Behåll",
@@ -535,6 +541,10 @@
         {
           "date": "2026-10-13",
           "text": "Första analysen. Utgångsläge neutral: trygg utdelare, men tillväxten behöver bevisas i Q3."
+        },
+        {
+          "date": "2026-10-14",
+          "text": "RBC Capital upprepade Outperform med riktkurs 270 USD inför Q3-rapporten den 21 oktober – en tydligt mer positiv röst än Truists Behåll/240. Ändrar inte hållningen; rapporten avgör."
         }
       ],
       "links": [
@@ -563,6 +573,10 @@
         {
           "title": "Börskollen – IBM",
           "url": "https://www.borskollen.se/aktie/ibm"
+        },
+        {
+          "title": "GuruFocus – RBC upprepar Outperform, riktkurs 270 USD (2026-10-13)",
+          "url": "https://gurufocus.com/news/9121105/ibm-reiterates-by-rbc-capital-price-target-maintained-at-270"
         }
       ]
     },
