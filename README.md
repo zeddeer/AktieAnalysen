@@ -4,7 +4,7 @@ Mobilvänlig sida med egna aktieanalyser. Analyserna skrivs och uppdateras av Cl
 via chatten och en daglig schemalagd körning; kurserna hämtas automatiskt av en
 GitHub Action varje vardag.
 
-Bevakade just nu: Electrolux B, Electrolux Professional B, Tobii, IBM, SkiStar B.
+Bevakade just nu: Electrolux B, Electrolux Professional B, Tobii, IBM, SkiStar B, Camurus.
 
 ## Så funkar det
 - `data/stocks.json` – analyserna (Claude)

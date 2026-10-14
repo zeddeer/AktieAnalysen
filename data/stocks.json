@@ -728,6 +728,201 @@
           "url": "https://www.borskollen.se/aktie/skistar/riktkurs"
         }
       ]
+    },
+    {
+      "id": "camurus",
+      "name": "Camurus",
+      "shareClass": "",
+      "ticker": "CAMX",
+      "yahoo": "CAMX.ST",
+      "avanzaId": "",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap",
+      "sector": "Hälsovård · Läkemedel",
+      "stance": "positiv",
+      "risk": "medel",
+      "thesis": "Lönsamt läkemedelsbolag med cirka 4 mdr SEK i kassan, växande produktförsäljning och royalties från USA. Den stora händelsen är FDA:s beslut om Oclaiz den 18 december, efter två avslag på grund av en tillverkare.",
+      "summary": "Camurus gjorde sitt starkaste kvartal på länge i Q2: produktförsäljningen blev rekordhög på 528 MSEK (+13 %) och Brixadi-royaltyn från USA steg 42 % till 127 MSEK. Rörelseresultatet var 293 MSEK, cirka 42 % marginal, och kassan är 4,1 mdr SEK. Helårsprognosen på 2,6–2,9 mdr SEK i intäkter och 0,9–1,2 mdr SEK i rörelseresultat står fast. Första halvåret är ändå svagare än i fjol (rörelseresultat 461 mot 531 MSEK) eftersom milstolpsintäkterna var lägre och första kvartalet var svagt. Den största osäkerheten är Oclaiz (CAM2029) mot akromegali i USA. FDA avslog ansökan i oktober 2024 och igen den 10 juni 2026, båda gångerna på grund av tillverkningen hos en extern kontraktstillverkare och inte på grund av data. Den nya ansökan är godkänd för granskning med måldatum 18 december 2026. Produkten, som heter Oczyesa i Europa, godkändes nyligen i Kanada (12 oktober) och finns redan i EU, Storbritannien och Australien. Aktien har stigit från cirka 497 SEK i maj till cirka 640 SEK, och analytikerna är unisont positiva.",
+      "keyFigures": [
+        {
+          "label": "Intäkter Q2",
+          "value": "702 MSEK",
+          "note": "+4 % (676 i fjol), +32 % mot Q1"
+        },
+        {
+          "label": "Produktförsäljning Q2",
+          "value": "528 MSEK",
+          "note": "Rekord, +13 %"
+        },
+        {
+          "label": "Brixadi-royalty Q2",
+          "value": "127 MSEK",
+          "note": "+42 % (89 i fjol)"
+        },
+        {
+          "label": "Rörelseresultat Q2",
+          "value": "293 MSEK",
+          "note": "≈ 42 % marginal, 292 i fjol"
+        },
+        {
+          "label": "Vinst per aktie Q2",
+          "value": "4,05 SEK",
+          "note": "4,11 i fjol"
+        },
+        {
+          "label": "Kassa",
+          "value": "4,1 mdr SEK",
+          "note": "3,3 mdr för ett år sedan"
+        },
+        {
+          "label": "Prognos 2026",
+          "value": "Intäkter 2,6–2,9 mdr",
+          "note": "Rörelseresultat 0,9–1,2 mdr"
+        },
+        {
+          "label": "Utdelning",
+          "value": "Ingen",
+          "note": ""
+        },
+        {
+          "label": "Blankat",
+          "value": "≈ 4,6–4,8 %",
+          "note": "5,6 % för sex månader sedan"
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q2 2026",
+        "date": "2026-07-15",
+        "highlights": [
+          "Rekordhög produktförsäljning (528 MSEK, +13 %); Buvidal växer igen med cirka 524 MSEK enligt Quartr.",
+          "Brixadi-royalty från USA +42 % till 127 MSEK; marknadsandelen i segmentet ska ligga över 30 %.",
+          "Milstolpsintäkter 46 MSEK (115 i fjol) – därför är rörelseresultatet bara i nivå med fjolåret.",
+          "Lilly utnyttjade sin option och tog med amylin-agonister i samarbetet.",
+          "Prognosen för 2026 bekräftades. Aktien steg 16,8 % på rapportdagen."
+        ]
+      },
+      "bull": [
+        "Hög lönsamhet (≈ 42 % rörelsemarginal) och 4,1 mdr SEK i kassan ger stor frihet.",
+        "Produktförsäljningen och USA-royaltyn växer båda tvåsiffrigt.",
+        "FDA:s avslag har båda gångerna gällt tillverkningen, inte data. Kontraktstillverkaren säger sig ha åtgärdat anmärkningarna.",
+        "Oczyesa har nu godkännanden i EU, Storbritannien, Australien och Kanada.",
+        "Samarbetet med Lilly utvidgades i juni och stärker pipelinen.",
+        "Alla åtta analytiker på Börskollen har köp (snittriktkurs 842,5 SEK)."
+      ],
+      "bear": [
+        "Ett tredje avslag från FDA den 18 december vore ett tungt bakslag (och en tredje försening).",
+        "Resultatet första halvåret ligger 13 % under fjolårets.",
+        "Beroende av få produkter och av royalties från USA.",
+        "Milstolpsintäkterna svänger mycket mellan kvartalen.",
+        "Aktien har stigit cirka 29 % sedan maj, så mycket gott är redan inprisat.",
+        "Blankningen ligger kring 4,6–4,8 %."
+      ],
+      "watch": [
+        "FDA:s beslut om Oclaiz, måldatum 18 december 2026.",
+        "Q3-rapporten 5 november: håller produktförsäljningen och Brixadi-royaltyn tempot?",
+        "SORENTO fas 3-resultat väntas under andra halvåret.",
+        "Start av fas 2b för CAM2056 under andra halvåret.",
+        "Lansering och prissättning av Oczyesa i Kanada (ingen tidpunkt meddelad)."
+      ],
+      "events": [
+        {
+          "date": "2026-11-05",
+          "label": "Delårsrapport Q3 2026"
+        },
+        {
+          "date": "2026-12-18",
+          "label": "FDA:s måldatum för Oclaiz (CAM2029) mot akromegali"
+        }
+      ],
+      "analysts": {
+        "consensus": "Köp",
+        "avgTarget": 842.5,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen. Alla åtta registrerade rekommendationer är köp.",
+        "targets": [
+          {
+            "date": "2026-10-05",
+            "bank": "Nordea",
+            "rating": "Köp",
+            "target": 950
+          },
+          {
+            "date": "2026-07-15",
+            "bank": "DNB Carnegie",
+            "rating": "Köp",
+            "target": 860
+          },
+          {
+            "date": "2026-07-16",
+            "bank": "Pareto Securities",
+            "rating": "Köp",
+            "target": 815
+          },
+          {
+            "date": "2026-05-13",
+            "bank": "SEB",
+            "rating": "Köp",
+            "target": 775
+          },
+          {
+            "date": "2026-07-16",
+            "bank": "Danske Bank",
+            "rating": "Köp",
+            "target": 745
+          },
+          {
+            "date": "2026-05-13",
+            "bank": "Handelsbanken",
+            "rating": "Köp",
+            "target": 680
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-14",
+          "text": "Första analysen. Utgångsläge positiv: stark lönsamhet och kassa, men FDA-beslutet den 18 december är en avgörande engångshändelse. Kanada godkände Oczyesa XR den 12 oktober."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – Camurus",
+          "url": "https://www.borskollen.se/aktie/camurus"
+        },
+        {
+          "title": "Camurus – investerare",
+          "url": "https://www.camurus.com/investors/"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/camurus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Camurus delårsrapport Q2 2026 (Cision)",
+          "url": "https://news.cision.com/camurus-ab/r/camurus--interim-report-second-quarter-2026,c4374701"
+        },
+        {
+          "title": "Camurus Q2 2026 (Quartr)",
+          "url": "https://quartr.com/events/camurus-camx-q2-2026_33f9y83w"
+        },
+        {
+          "title": "FDA accepterar ny ansökan för CAM2029 (HCPLive)",
+          "url": "https://www.hcplive.com/view/fda-accepts-resubmitted-cam2029-nda-for-acromegaly"
+        },
+        {
+          "title": "Oczyesa godkänt i Kanada, USA-besked i december (Hurbra)",
+          "url": "https://hurbra.se/camurus-oczyesa-godkant-kanada-2026/"
+        },
+        {
+          "title": "Camurus får godkännande i Kanada (Placera)",
+          "url": "https://www.placera.se/telegram/camurus-camurus-far-godkannande-for-oczyesa-xr-i-kanada-20261012"
+        },
+        {
+          "title": "Börskollen – Camurus riktkurser",
+          "url": "https://www.borskollen.se/aktie/camurus/riktkurs"
+        }
+      ]
     }
   ]
 }
