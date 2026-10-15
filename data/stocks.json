@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "stocks": [
     {
       "id": "electrolux",
@@ -264,6 +264,12 @@
         "avgTargetNote": "",
         "targets": [
           {
+            "date": "2026-10-12",
+            "bank": "Danske Bank",
+            "rating": "Köp",
+            "target": 71
+          },
+          {
             "date": "2026-09-22",
             "bank": "Handelsbanken",
             "rating": "Köp",
@@ -272,6 +278,10 @@
         ]
       },
       "log": [
+        {
+          "date": "2026-10-15",
+          "text": "Danske Bank sänkte riktkursen från 75 till 71 kr (cirka 12 okt) men behåller köp. Försiktigare förväntningar inför Q3 den 28 oktober, men analytikerna ser fortfarande uppsida."
+        },
         {
           "date": "2026-10-13",
           "text": "Första analysen. Utgångsläge positiv: marginalerna håller trots fallande försäljning och aktien har kommit ner kraftigt. Q3-orderomvandlingen avgör."
@@ -354,8 +364,8 @@
         },
         {
           "label": "Blankat",
-          "value": "4,45 %",
-          "note": "4,9 % för en månad sedan"
+          "value": "4,32 %",
+          "note": "4,91 % för en månad sedan"
         }
       ],
       "latestReport": {
@@ -786,8 +796,8 @@
         },
         {
           "label": "Blankat",
-          "value": "≈ 4,6–4,8 %",
-          "note": "5,6 % för sex månader sedan"
+          "value": "4,82 %",
+          "note": "4,72 % vid förra uppdateringen, 5,78 % för sex månader sedan"
         }
       ],
       "latestReport": {
@@ -836,7 +846,7 @@
       ],
       "analysts": {
         "consensus": "Köp",
-        "avgTarget": 842.5,
+        "avgTarget": 844.5,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen. Alla åtta registrerade rekommendationer är köp.",
         "targets": [
           {
@@ -846,10 +856,10 @@
             "target": 950
           },
           {
-            "date": "2026-07-15",
+            "date": "2026-10-14",
             "bank": "DNB Carnegie",
             "rating": "Köp",
-            "target": 860
+            "target": 863
           },
           {
             "date": "2026-07-16",
@@ -864,10 +874,10 @@
             "target": 775
           },
           {
-            "date": "2026-07-16",
+            "date": "2026-10-15",
             "bank": "Danske Bank",
             "rating": "Köp",
-            "target": 745
+            "target": 750
           },
           {
             "date": "2026-05-13",
@@ -878,6 +888,10 @@
         ]
       },
       "log": [
+        {
+          "date": "2026-10-15",
+          "text": "Två små riktkurshöjningar: DNB Carnegie 860 → 863 kr (14 okt) och Danske Bank 745 → 750 kr (15 okt), båda köp. Snittet enligt Börskollen är nu 844,50 kr. Blankningen har stigit något till 4,82 %. Bekräftar den positiva synen men ändrar inget inför Q3 och FDA-beslutet."
+        },
         {
           "date": "2026-10-14",
           "text": "Första analysen. Utgångsläge positiv: stark lönsamhet och kassa, men FDA-beslutet den 18 december är en avgörande engångshändelse. Kanada godkände Oczyesa XR den 12 oktober."
@@ -919,7 +933,7 @@
           "url": "https://www.placera.se/telegram/camurus-camurus-far-godkannande-for-oczyesa-xr-i-kanada-20261012"
         },
         {
-          "title": "Börskollen – Camurus riktkurser",
+          "title": "Börskollen – Camurus riktkurser (okt 2026)",
           "url": "https://www.borskollen.se/aktie/camurus/riktkurs"
         }
       ]
