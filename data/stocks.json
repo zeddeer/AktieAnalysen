@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "stocks": [
     {
       "id": "electrolux",
@@ -93,9 +93,21 @@
       ],
       "analysts": {
         "consensus": "Neutral",
-        "avgTarget": 36.22,
+        "avgTarget": 30.89,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
         "targets": [
+          {
+            "date": "2026-10-15",
+            "bank": "Handelsbanken",
+            "rating": "Behåll",
+            "target": 29
+          },
+          {
+            "date": "2026-10-14",
+            "bank": "DNB Carnegie",
+            "rating": "Behåll",
+            "target": 26
+          },
           {
             "date": "2026-10-09",
             "bank": "Goldman Sachs",
@@ -125,12 +137,6 @@
             "bank": "Danske Bank",
             "rating": "Köp",
             "target": 38
-          },
-          {
-            "date": "2026-07-30",
-            "bank": "Handelsbanken",
-            "rating": "Behåll",
-            "target": 32
           }
         ]
       },
@@ -138,6 +144,10 @@
         {
           "date": "2026-10-13",
           "text": "Första analysen. Utgångsläge neutral: bättre balansräkning, men Nordamerika och hög blankning väger tungt inför Q3."
+        },
+        {
+          "date": "2026-10-16",
+          "text": "Två riktkurssänkningar inför Q3: DNB Carnegie 30 → 26 kr (14 okt) och Handelsbanken 32 → 29 kr (15 okt), båda behåll. Snittet enligt Börskollen har fallit till 30,89 kr. Analytikerna sänker förväntningarna inför rapporten 23 oktober – bekräftar den neutrala hållningen; ribban är låg men pressen på Nordamerika kvarstår."
         }
       ],
       "links": [
@@ -166,6 +176,10 @@
         {
           "title": "Börskollen – Electrolux riktkurser",
           "url": "https://www.borskollen.se/aktie/electrolux/riktkurs"
+        },
+        {
+          "title": "Börskollen – analytikerrekar 15 okt 2026",
+          "url": "https://www.borskollen.se/nyheter/27/analytikerna-aktierna-vi-satter-kop-respektive-salj-pa-idag-1792069201"
         }
       ]
     },
@@ -264,7 +278,7 @@
         "avgTargetNote": "",
         "targets": [
           {
-            "date": "2026-10-12",
+            "date": "2026-10-13",
             "bank": "Danske Bank",
             "rating": "Köp",
             "target": 71
@@ -280,7 +294,7 @@
       "log": [
         {
           "date": "2026-10-15",
-          "text": "Danske Bank sänkte riktkursen från 75 till 71 kr (cirka 12 okt) men behåller köp. Försiktigare förväntningar inför Q3 den 28 oktober, men analytikerna ser fortfarande uppsida."
+          "text": "Danske Bank sänkte riktkursen från 75 till 71 kr (13 okt) men behåller köp. Försiktigare förväntningar inför Q3 den 28 oktober, men analytikerna ser fortfarande uppsida."
         },
         {
           "date": "2026-10-13",
@@ -309,6 +323,10 @@
         {
           "title": "Börskollen – Electrolux Professional",
           "url": "https://www.borskollen.se/aktie/electrolux-professional-b"
+        },
+        {
+          "title": "Placera – Danske Bank sänker riktkursen till 71 kr (13 okt 2026)",
+          "url": "https://www.placera.se/telegram/danske-bank-sanker-riktkursen-for-electrolux-professional-till-71-kronor-75-upprepar-kop-bn-20261013"
         }
       ]
     },
@@ -518,7 +536,7 @@
         "Konsultverksamheten står still."
       ],
       "watch": [
-        "Q3 21 okt: mjukvarutillväxt och om helårsmålen står fast.",
+        "Q3 21 okt: mjukvarutillväxt och om helårsmålen står fast. BofA väntar intäkter ≈ 16,8 mdr USD och vinst per aktie ≈ 2,82 USD.",
         "Utvecklingen inom infrastruktur efter z17.",
         "Truist inledde bevakning med behåll och riktkurs 240 USD."
       ],
@@ -533,6 +551,18 @@
         "avgTarget": null,
         "avgTargetNote": "",
         "targets": [
+          {
+            "date": "2026-10-15",
+            "bank": "Morgan Stanley",
+            "rating": "Neutral (Equal-Weight)",
+            "target": 238
+          },
+          {
+            "date": "2026-10-15",
+            "bank": "Bank of America",
+            "rating": "Köp",
+            "target": 280
+          },
           {
             "date": "2026-10-13",
             "bank": "RBC Capital",
@@ -555,6 +585,10 @@
         {
           "date": "2026-10-14",
           "text": "RBC Capital upprepade Outperform med riktkurs 270 USD inför Q3-rapporten den 21 oktober – en tydligt mer positiv röst än Truists Behåll/240. Ändrar inte hållningen; rapporten avgör."
+        },
+        {
+          "date": "2026-10-16",
+          "text": "Morgan Stanley höjde riktkursen från 190 till 238 USD men behåller neutral (Equal-Weight). Bank of America upprepade köp med 280 USD och väntar sig en blygsam överraskning i Q3 (intäkter ≈ 16,8 mdr USD, vinst per aktie ≈ 2,82 USD), men sänkte helårsprognosen något och kallar 2026 ett övergångsår. Spannet bland analytikerna (238–280 USD) visar att rapporten 21 oktober avgör; hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -587,6 +621,14 @@
         {
           "title": "GuruFocus – RBC upprepar Outperform, riktkurs 270 USD (2026-10-13)",
           "url": "https://gurufocus.com/news/9121105/ibm-reiterates-by-rbc-capital-price-target-maintained-at-270"
+        },
+        {
+          "title": "GuruFocus – Morgan Stanley höjer riktkursen till 238 USD (2026-10-15)",
+          "url": "https://gurufocus.com/news/9126149/ibm-maintained-by-morgan-stanley-price-target-raised-to-238"
+        },
+        {
+          "title": "Yahoo Finance/Proactive – BofA inför IBM:s Q3 (2026-10-15)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-poised-modest-third-quarter-170900651.html"
         }
       ]
     },
@@ -796,8 +838,8 @@
         },
         {
           "label": "Blankat",
-          "value": "4,82 %",
-          "note": "4,72 % vid förra uppdateringen, 5,78 % för sex månader sedan"
+          "value": "4,95 %",
+          "note": "4,82 % vid förra uppdateringen, 4,57 % för en månad sedan"
         }
       ],
       "latestReport": {
