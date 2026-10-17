@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "stocks": [
     {
       "id": "electrolux",
@@ -371,6 +371,11 @@
           "note": "+ kredit 25 MSEK (14 utnyttjat)"
         },
         {
+          "label": "Skatteanstånd (covid)",
+          "value": "134 MSEK",
+          "note": "31 mars: 95 förfaller Q1 2027, 39 Q3 2027"
+        },
+        {
           "label": "Autosense-försäljning",
           "value": "40 MSEK",
           "note": "12 året innan"
@@ -405,12 +410,14 @@
       ],
       "bear": [
         "Mycket liten kassa – risk för otillräcklig finansiering de närmaste 12 månaderna.",
+        "Covid-skatteanståndet på 134 MSEK (31 mars) förfaller 2027 – 95 MSEK redan i Q1, mer än dubbla kassan.",
         "Trolig utspädning om kapital tas in.",
         "Ingen prognos för andra halvåret.",
         "Byte av CFO och styrelseledamöter under hösten skapar osäkerhet."
       ],
       "watch": [
         "Q3 22 okt: finansieringsbesked och utfall av strategisk översyn.",
+        "Hur skatteanståndet (95 MSEK i Q1 2027) ska betalas – i Q3-rapporten eller i ett finansieringsbesked.",
         "Kassan och utnyttjandet av krediten.",
         "Blankningstrenden (har fallit från 5,25 % för ett halvår sedan)."
       ],
@@ -430,6 +437,10 @@
         {
           "date": "2026-10-13",
           "text": "Första analysen. Utgångsläge negativ på grund av likviditetsrisken; ses över efter finansieringsbeskedet."
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Genomgång av covid-skatteanståndet: enligt Q1-rapporten återstod 134 MSEK inkl. ränta och avgift, varav 95 MSEK förfaller i Q1 2027 och 39 MSEK i Q3 2027. Löpande kostnad är cirka 3,7 % per år (2,5 % ränta + 1,2 % anståndsavgift), alltså billig finansiering – problemet är förfallet, inte räntan. Mot 37 MSEK i kassa och en 25 MSEK-kredit på 6 månader går beloppet inte att betala ur egna medel, vilket stärker den negativa hållningen: en kapitalanskaffning eller avyttring före Q1 2027 ser nödvändig ut."
         }
       ],
       "links": [
@@ -458,6 +469,14 @@
         {
           "title": "Börskollen – Tobii",
           "url": "https://www.borskollen.se/aktie/tobii"
+        },
+        {
+          "title": "Tobii delårsrapport Q1 2026 (PDF)",
+          "url": "https://storage.mfn.se/1b59b6de-1c85-46d3-bd96-0382af666537/tobii-ab-interim-report-q1-2026.pdf"
+        },
+        {
+          "title": "Skatteverket – tillfälligt anstånd med skattebetalning",
+          "url": "https://www.skatteverket.se/foretag/skatterochavdrag/skattekontobetalaochfatillbaka/tillfalligtanstandmedskattebetalning.4.1c68351d170ce55452710af.html"
         }
       ]
     },
