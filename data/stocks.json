@@ -998,6 +998,203 @@
           "url": "https://www.borskollen.se/aktie/camurus/riktkurs"
         }
       ]
+    },
+    {
+      "id": "ssab",
+      "name": "SSAB",
+      "shareClass": "B",
+      "ticker": "SSAB B",
+      "yahoo": "SSAB-B.ST",
+      "avanzaId": "",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap",
+      "sector": "Material · Stål",
+      "stance": "neutral",
+      "risk": "medel",
+      "thesis": "Stålbolag med nettokassa, starka specialstål och stöd av nya EU-skyddsåtgärder. Vinsten stiger, men Q3 är säsongssvagt, Europa-efterfrågan är svag och den stora fossilfria omställningen i Luleå binder kapital i flera år.",
+      "summary": "Q2 2026 gav intäkter på 27,5 mdr SEK (+7 %) och ett rörelseresultat på 2,7 mdr SEK (+26 %), drivet av högre priser och leveranser – men resultatet blev cirka 5 % under förväntan och aktien föll runt 6 % på rapportdagen. Special Steels är fortsatt motorn med 19 % marginal, Europa har vänt från nästan noll till 6 % och Americas ligger på 13 %. Kassaflödet var starkt (3,7 mdr SEK) och nettokassan 8,6 mdr SEK efter utdelningen på 2 kr per aktie. EU:s nya handelsåtgärder mot global överkapacitet gäller sedan 1 juli och väntas förbättra balansen i Europa. Inför Q3 räknar bolaget med lägre leveranser (över 10 % ned i Special Steels och Europa, 5–10 % i Americas), 0–5 % högre priser och cirka 800 MSEK i underhållskostnader. Oxelösunds ombyggnad ska starta produktion Q2 2027 och Luleå i slutet av 2029. Analytikerna är spridda (78–145 kr) men övervägande positiva.",
+      "keyFigures": [
+        {
+          "label": "Intäkter Q2",
+          "value": "27 489 MSEK",
+          "note": "25 631 året innan"
+        },
+        {
+          "label": "EBITDA Q2",
+          "value": "3 778 MSEK",
+          "note": "3 157 året innan"
+        },
+        {
+          "label": "Rörelseresultat Q2",
+          "value": "2 695 MSEK",
+          "note": "10 % marginal; 2 140 året innan"
+        },
+        {
+          "label": "Vinst per aktie Q2",
+          "value": "2,09 SEK",
+          "note": "1,86 året innan"
+        },
+        {
+          "label": "Kassaflöde från rörelsen Q2",
+          "value": "3 733 MSEK",
+          "note": "1 753 året innan"
+        },
+        {
+          "label": "Nettokassa",
+          "value": "8,6 mdr SEK",
+          "note": "30 juni 2026; 10,9 mdr året innan"
+        },
+        {
+          "label": "Utdelning 2025",
+          "value": "2,00 SEK",
+          "note": "Utbetald i maj 2026"
+        },
+        {
+          "label": "Blankat",
+          "value": "2,71 %",
+          "note": "2,73 % för en månad sedan"
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q2 2026",
+        "date": "2026-07-22",
+        "highlights": [
+          "Rörelseresultat 2 695 MSEK (2 140), främst tack vare högre priser och leveranser; cirka 5 % under förväntan.",
+          "Divisioner: Special Steels 1 446 MSEK (19 % marginal), Europe 624 MSEK (6 %), Americas 714 MSEK (13 %).",
+          "Stålleveranser 1 760 kt (1 708). Högre logistik- och energikostnader kopplat till konflikten i Persiska viken.",
+          "Utsikter Q3: säsongsmässigt lägre leveranser, priser 0–5 % högre, planerat underhåll för cirka 800 MSEK.",
+          "Luleå enligt plan och budget med produktionsstart i slutet av 2029; Oxelösund startar Q2 2027.",
+          "Aktien föll runt 6 % på rapportdagen."
+        ]
+      },
+      "bull": [
+        "Nettokassa på 8,6 mdr SEK trots stora investeringar i omställningen.",
+        "Special Steels (Hardox, Strenx, Armox) ger höga marginaler och byggs ut med en ny härdlinje i Oxelösund (3,3 mdr SEK).",
+        "EU:s nya skyddsåtgärder från 1 juli minskar importtrycket i Europa.",
+        "Fortsatt höga grovplåtspriser i USA enligt SB1 Markets.",
+        "Fossilfritt stål kan ge en tydlig konkurrensfördel när Luleå och Oxelösund är klara."
+      ],
+      "bear": [
+        "Q3 är säsongssvagt med lägre leveranser och cirka 800 MSEK i underhållskostnader.",
+        "Svag efterfrågan från bygg och fordon i Europa; Worldsteel har sänkt prognosen för global stålefterfrågan 2026–2027.",
+        "Luleå-projektet binder kapital i flera år – risk för förseningar och kostnadsökningar.",
+        "Höga energi- och logistikkostnader pressar marginalerna.",
+        "Stor spridning bland analytikerna (78–145 kr) visar osäkerheten i cykeln."
+      ],
+      "watch": [
+        "Q3 28 okt: håller marginalerna trots lägre volymer och underhåll? Handelsbanken väntar sig EBITDA runt 3,5 mdr SEK.",
+        "Prisutvecklingen på grovplåt i USA och effekten av EU:s skyddsåtgärder.",
+        "Status för Oxelösund (start Q2 2027) och Luleå (slutet av 2029)."
+      ],
+      "events": [
+        {
+          "date": "2026-10-28",
+          "label": "Delårsrapport Q3 2026"
+        }
+      ],
+      "analysts": {
+        "consensus": "Köp",
+        "avgTarget": 120,
+        "avgTargetNote": "Medianriktkurs enligt Targetwatch (spann 78–145 kr)",
+        "targets": [
+          {
+            "date": "2026-10-19",
+            "bank": "Handelsbanken",
+            "rating": "Köp",
+            "target": 125
+          },
+          {
+            "date": "2026-10-15",
+            "bank": "Danske Bank",
+            "rating": "–",
+            "target": 145
+          },
+          {
+            "date": "2026-10-14",
+            "bank": "Jefferies",
+            "rating": "–",
+            "target": 117
+          },
+          {
+            "date": "2026-10-12",
+            "bank": "SEB",
+            "rating": "–",
+            "target": 78
+          },
+          {
+            "date": "2026-10-09",
+            "bank": "SB1 Markets",
+            "rating": "Köp",
+            "target": 132
+          },
+          {
+            "date": "2026-10-06",
+            "bank": "DNB Carnegie",
+            "rating": "Behåll",
+            "target": 110
+          },
+          {
+            "date": "2026-09-21",
+            "bank": "Bank of America",
+            "rating": "Neutral",
+            "target": 122
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-19",
+          "text": "Första analysen. Utgångsläge neutral: vinsten växer, balansräkningen är stark och EU-skyddet hjälper, men Q3 är säsongssvagt, Europa-efterfrågan är svag och analytikerna spretar kraftigt (78–145 kr). Handelsbanken höjde idag riktkursen 120 → 125 kr (köp). Rapporten 28 oktober avgör nästa steg."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – SSAB",
+          "url": "https://www.borskollen.se/aktie/ssab-b"
+        },
+        {
+          "title": "SSAB – investerare",
+          "url": "https://www.ssab.com/en/company/investors"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/ssab"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SSAB – Rapport för andra kvartalet 2026 (Cision)",
+          "url": "https://news.cision.com/se/ssab/r/rapport-for-andra-kvartalet-2026,c4376671"
+        },
+        {
+          "title": "SSAB – Q2 2026 report (PDF)",
+          "url": "https://www.ssab.com/-/media/files/company/investors/interim-reports/2026/ssab-q2-2026-report_eng_f.pdf?m=20260722051929"
+        },
+        {
+          "title": "Hurbra – SSAB rapport Q2 2026",
+          "url": "https://hurbra.se/ssab-rapport-q2-2026/"
+        },
+        {
+          "title": "Börsvärlden – SHB förväntar sig motståndskraftigt SSAB i Q3",
+          "url": "https://borsvarlden.com/artiklar/shb-forvantar-sig-motstandskraftigt-ssab-i-q3-hojer-riktkursen"
+        },
+        {
+          "title": "Börsvärlden – SB1 höjer riktkursen till 132 kronor",
+          "url": "https://borsvarlden.com/artiklar/sb1-upprepar-kop-for-ssab-och-hojer-riktkursen-till-132-kronor"
+        },
+        {
+          "title": "Placera – Höjd riktkurs för SSAB (DNB Carnegie)",
+          "url": "https://www.placera.se/nyheter/hojd-riktkurs-for-ssab-2026-10-06"
+        },
+        {
+          "title": "Targetwatch – riktkurser SSAB",
+          "url": "https://www.targetwatch.io/ssab"
+        },
+        {
+          "title": "Börsvärlden – nyhetsflöde SSAB",
+          "url": "https://borsvarlden.com/Foretagsinfo/ssab"
+        }
+      ]
     }
   ]
 }
