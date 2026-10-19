@@ -1203,6 +1203,7 @@
       "ticker": "SBB B",
       "yahoo": "SBB-B.ST",
       "avanzaId": "",
+      "avanzaQuery": "SBB B",
       "currency": "SEK",
       "market": "Stockholm · Large Cap",
       "sector": "Fastigheter · Samhälls- och bostadsfastigheter",
