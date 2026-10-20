@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "stocks": [
     {
       "id": "electrolux",
@@ -769,6 +769,10 @@
         {
           "date": "2026-10-13",
           "text": "Första analysen. Utgångsläge positiv: rekordår, höjd utdelning och bokningar uppåt."
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Insynsköp: styrelseledamoten Gunilla Rudebjer köpte 1 000 B-aktier till i snitt 171,40 kr (cirka 0,17 MSEK) den 15–16 oktober och har därmed ungefär 2 900 aktier. Beloppet är litet men är en signal om förtroende inför säsongen; hållningen står kvar som positiv."
         }
       ],
       "links": [
@@ -797,6 +801,10 @@
         {
           "title": "Börskollen – SkiStar riktkurser",
           "url": "https://www.borskollen.se/aktie/skistar/riktkurs"
+        },
+        {
+          "title": "Placera – Skistars styrelseledamot Gunilla Rudebjer köper aktier",
+          "url": "https://www.placera.se/telegram/skistar-skistars-styrelseledamot-gunilla-rudebjer-koper-aktier-for-knappt-0-2-miljoner-kronor-20261016"
         }
       ]
     },
