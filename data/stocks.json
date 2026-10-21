@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "stocks": [
     {
       "id": "electrolux",
@@ -273,9 +273,9 @@
         }
       ],
       "analysts": {
-        "consensus": "",
-        "avgTarget": null,
-        "avgTargetNote": "",
+        "consensus": "Köp",
+        "avgTarget": 63.67,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
         "targets": [
           {
             "date": "2026-10-13",
@@ -583,6 +583,12 @@
             "target": 280
           },
           {
+            "date": "2026-10-19",
+            "bank": "Evercore ISI",
+            "rating": "Köp (Outperform)",
+            "target": 250
+          },
+          {
             "date": "2026-10-13",
             "bank": "RBC Capital",
             "rating": "Köp (Outperform)",
@@ -608,6 +614,10 @@
         {
           "date": "2026-10-16",
           "text": "Morgan Stanley höjde riktkursen från 190 till 238 USD men behåller neutral (Equal-Weight). Bank of America upprepade köp med 280 USD och väntar sig en blygsam överraskning i Q3 (intäkter ≈ 16,8 mdr USD, vinst per aktie ≈ 2,82 USD), men sänkte helårsprognosen något och kallar 2026 ett övergångsår. Spannet bland analytikerna (238–280 USD) visar att rapporten 21 oktober avgör; hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Evercore ISI upprepade Outperform med riktkurs 250 USD (19 okt). Banken väntar sig ett Q3 i linje med eller något över konsensus (intäkter ≈ 16,8 mdr USD, vinst per aktie ≈ 2,86 USD) och att helårsmålet om 4–5 % tillväxt står fast; nyckelfrågan är om de uppskjutna mjukvaruaffärerna från Q2 kommer tillbaka. Rapporten kommer ikväll efter stängning; hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -648,6 +658,10 @@
         {
           "title": "Yahoo Finance/Proactive – BofA inför IBM:s Q3 (2026-10-15)",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-poised-modest-third-quarter-170900651.html"
+        },
+        {
+          "title": "Investing.com – Evercore ISI upprepar IBM inför Q3 (2026-10-19)",
+          "url": "https://uk.investing.com/news/stock-market-news/evercore-isi-reiterates-ibm-stock-rating-ahead-of-q3-results-93CH-4918448"
         }
       ]
     },
@@ -915,7 +929,7 @@
       ],
       "analysts": {
         "consensus": "Köp",
-        "avgTarget": 844.5,
+        "avgTarget": 855.6,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen. Alla åtta registrerade rekommendationer är köp.",
         "targets": [
           {
@@ -931,10 +945,10 @@
             "target": 863
           },
           {
-            "date": "2026-07-16",
+            "date": "2026-10-20",
             "bank": "Pareto Securities",
             "rating": "Köp",
-            "target": 815
+            "target": 850
           },
           {
             "date": "2026-05-13",
@@ -964,6 +978,10 @@
         {
           "date": "2026-10-14",
           "text": "Första analysen. Utgångsläge positiv: stark lönsamhet och kassa, men FDA-beslutet den 18 december är en avgörande engångshändelse. Kanada godkände Oczyesa XR den 12 oktober."
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Pareto Securities höjde riktkursen från 815 till 850 kr (20 okt) och upprepar köp. Snittet enligt Börskollen har stigit till 855,60 kr. Ytterligare en höjning inför Q3-rapporten 5 november; bekräftar den positiva hållningen men ändrar inte riskbilden kring FDA-beslutet i december."
         }
       ],
       "links": [
@@ -1004,6 +1022,10 @@
         {
           "title": "Börskollen – Camurus riktkurser (okt 2026)",
           "url": "https://www.borskollen.se/aktie/camurus/riktkurs"
+        },
+        {
+          "title": "Börskollen – Analytikerna: köp och sälj (2026-10-20)",
+          "url": "https://www.borskollen.se/nyheter/27/analytikerkaren-har-ar-aktierna-vi-satter-kop-och-salj-pa-idag-1792501204"
         }
       ]
     },
