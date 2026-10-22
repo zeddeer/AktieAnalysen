@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "stocks": [
     {
       "id": "electrolux",
@@ -53,8 +53,8 @@
         },
         {
           "label": "Blankat",
-          "value": "10,67 %",
-          "note": "8,92 % för en månad sedan"
+          "value": "10,53 %",
+          "note": "9,44 % för en månad sedan"
         }
       ],
       "latestReport": {
@@ -342,33 +342,33 @@
       "sector": "IT · Ögonstyrning & biometri",
       "stance": "negativ",
       "risk": "mycket hög",
-      "thesis": "Spännande teknik men ansträngd likviditet. Med 37 MSEK i kassan och en pågående strategisk översyn är risken för en utspädande kapitalanskaffning eller avyttring hög.",
-      "summary": "Tobii har levererat på kostnadssidan – besparingarna är 163 MSEK på rullande tolv månader mot målet 100 MSEK – men försäljningen föll 46 % i Q2 mot ett jämförelsekvartal med stora engångsaffärer. Justerat var tillväxten 7 %. Rörelseresultatet på 15 MSEK lyftes av en icke kassapåverkande justering på 51 MSEK. Kassan var bara 37 MSEK och bolaget ger ingen prognos för andra halvåret. Styrelsen diskuterar avyttringar, partnerskap och kapitalanskaffning. Efter rapporten har en tillförordnad CFO utsetts och styrelsen förändrats. Q3 den 22 oktober kan bli avgörande för hur finansieringen löses.",
+      "thesis": "Kärnverksamheten går åt rätt håll, men likviditeten är akut. Med 29 MSEK i kassan, skatteanstånd som förfaller i Q1 2027 och en köpeskilling till Xperi i Q2 2027 krävs en finansiering som sannolikt blir utspädande.",
+      "summary": "Q3 bekräftade att Tobii har ett finansieringsproblem snarare än ett driftproblem. Omsättningen föll 11 % till 140 MSEK, men justerat för en förköpsaffär med Dynavox och engångsintäkter året innan växte den 16 %. EBITDA förbättrades till 18 MSEK (11) och Products & Solutions och Integrations gick tillsammans med vinst på rörelsenivå. Rörelseresultatet blev ändå −217 MSEK efter en nedskrivning på 180 MSEK i Autosense, främst av äldre förarövervakningsteknik (DMS), och resultatet blev −235 MSEK. Kassan sjönk till 29 MSEK. Bolaget beskriver läget som ansträngt: styrelse, ledning och huvudägare arbetar med externa rådgivare på eget och lånat kapital, villkoren beror på förhandlingar med Xperi, och det finns ingen garanti för en transaktion. Målet är fortsatt positivt operativt kassaflöde 2027.",
       "keyFigures": [
         {
-          "label": "Omsättning Q2",
-          "value": "154 MSEK",
-          "note": "−46 %; justerat +7 %"
+          "label": "Omsättning Q3",
+          "value": "140 MSEK",
+          "note": "−11 %; justerat +16 %"
         },
         {
           "label": "Bruttomarginal",
-          "value": "82 %",
-          "note": "83 % året innan"
+          "value": "79 %",
+          "note": "82 % året innan"
         },
         {
-          "label": "Rörelseresultat Q2",
-          "value": "15 MSEK",
-          "note": "Inkl. +51 MSEK ej kassapåverkande"
+          "label": "Rörelseresultat Q3",
+          "value": "−217 MSEK",
+          "note": "Inkl. nedskrivning 180 MSEK; EBITDA 18 MSEK"
         },
         {
-          "label": "Fritt kassaflöde Q2",
-          "value": "−10 MSEK",
-          "note": "+35 MSEK rullande 12 mån"
+          "label": "Fritt kassaflöde Q3",
+          "value": "−6 MSEK",
+          "note": "−29 MSEK året innan"
         },
         {
           "label": "Kassa",
-          "value": "37 MSEK",
-          "note": "+ kredit 25 MSEK (14 utnyttjat)"
+          "value": "29 MSEK",
+          "note": "30 sep; 37 MSEK 30 jun"
         },
         {
           "label": "Skatteanstånd (covid)",
@@ -376,9 +376,9 @@
           "note": "31 mars: 95 förfaller Q1 2027, 39 Q3 2027"
         },
         {
-          "label": "Autosense-försäljning",
-          "value": "40 MSEK",
-          "note": "12 året innan"
+          "label": "Nedskrivning Autosense",
+          "value": "180 MSEK",
+          "note": "Främst äldre DMS-teknik"
         },
         {
           "label": "Utdelning",
@@ -387,46 +387,43 @@
         },
         {
           "label": "Blankat",
-          "value": "4,32 %",
-          "note": "4,91 % för en månad sedan"
+          "value": "4,44 %",
+          "note": "5,03 % för en månad sedan"
         }
       ],
       "latestReport": {
-        "title": "Delårsrapport Q2 2026 – \"Handlingskraft i ett utmanande läge\"",
-        "date": "2026-08-28",
+        "title": "Delårsrapport Q3 2026 – \"Stärkt kärnverksamhet och fokus på finansiering\"",
+        "date": "2026-10-22",
         "highlights": [
-          "Products & Solutions 76 MSEK (93), Integration 37 MSEK (178), Autosense 40 MSEK (12).",
-          "Kostnadsbesparingar på 43 MSEK i kvartalet.",
-          "Strategisk översyn: avyttringar, partnerskap och kapitalanskaffning diskuteras.",
-          "Mål: positivt operativt kassaflöde under 2027.",
-          "Lenovo Legion Y900 är första konsumentprodukten med Tobii Nexus."
+          "Omsättning 140 MSEK (158), −11 %; justerat för Dynavox-förköp och engångsintäkter +16 %.",
+          "EBITDA 18 MSEK (11), marginal 13 %; Products & Solutions och Integrations tillsammans positivt rörelseresultat.",
+          "Nedskrivning 180 MSEK i Autosense; rörelseresultat −217 MSEK (−33), resultat per aktie −1,0 kr.",
+          "Fritt kassaflöde −6 MSEK (−29), kassa 29 MSEK.",
+          "Finansiering: eget och lånat kapital utreds med rådgivare, beroende av förhandlingar med Xperi – ingen garanti.",
+          "Martin Johansson tillförordnad CFO; Carl Mellander och Charlotta Falvin har lämnat styrelsen."
         ]
       },
       "bull": [
-        "Kostnadsprogrammet har överlevererat kraftigt.",
-        "Autosense växer och vinner nya förarövervakningsprogram.",
-        "Hög bruttomarginal (≈ 82 %) ger hävstång om försäljningen vänder.",
-        "En avyttring eller partner kan frigöra värde snabbt."
+        "Underliggande tillväxt (+16 % justerat) och positiv EBITDA i Q3.",
+        "Products & Solutions växer organiskt igen när Kina normaliseras.",
+        "Kostnadsprogrammet har överlevererat; Autosense-åtgärder sänker kostnaderna med över 50 MSEK per år.",
+        "Hög bruttomarginal (≈ 79–82 %) ger hävstång om försäljningen vänder.",
+        "En avyttring eller partner för Autosense kan frigöra kapital snabbt."
       ],
       "bear": [
-        "Mycket liten kassa – risk för otillräcklig finansiering de närmaste 12 månaderna.",
-        "Covid-skatteanståndet på 134 MSEK (31 mars) förfaller 2027 – 95 MSEK redan i Q1, mer än dubbla kassan.",
-        "Trolig utspädning om kapital tas in.",
-        "Ingen prognos för andra halvåret.",
-        "Byte av CFO och styrelseledamöter under hösten skapar osäkerhet."
+        "Kassa på bara 29 MSEK – bolaget kallar själv läget ansträngt.",
+        "Skatteanståndet (95 MSEK i Q1 2027) och första köpeskillingen till Xperi (Q2 2027) förfaller inom ett halvår.",
+        "En kapitalanskaffning blir sannolikt kraftigt utspädande vid nuvarande kurs.",
+        "Ny nedskrivning på 180 MSEK visar att Autosense-förvärvet inte infriat förväntningarna.",
+        "Byte av CFO och flera styrelseledamöter under hösten."
       ],
       "watch": [
-        "Q3 22 okt: finansieringsbesked och utfall av strategisk översyn.",
-        "Hur skatteanståndet (95 MSEK i Q1 2027) ska betalas – i Q3-rapporten eller i ett finansieringsbesked.",
-        "Kassan och utnyttjandet av krediten.",
-        "Blankningstrenden (har fallit från 5,25 % för ett halvår sedan)."
+        "Finansieringsbesked: nyemission, lån eller avyttring – och villkoren.",
+        "Utfallet av förhandlingarna med Xperi om köpeskillingen för Autosense.",
+        "Kassan och kreditutnyttjandet fram till Q1 2027.",
+        "Bokslutskommunikén (datum ej bekräftat): om positivt operativt kassaflöde 2027 fortfarande är rimligt."
       ],
-      "events": [
-        {
-          "date": "2026-10-22",
-          "label": "Delårsrapport Q3 2026"
-        }
-      ],
+      "events": [],
       "analysts": {
         "consensus": "",
         "avgTarget": null,
@@ -441,6 +438,10 @@
         {
           "date": "2026-10-17",
           "text": "Genomgång av covid-skatteanståndet: enligt Q1-rapporten återstod 134 MSEK inkl. ränta och avgift, varav 95 MSEK förfaller i Q1 2027 och 39 MSEK i Q3 2027. Löpande kostnad är cirka 3,7 % per år (2,5 % ränta + 1,2 % anståndsavgift), alltså billig finansiering – problemet är förfallet, inte räntan. Mot 37 MSEK i kassa och en 25 MSEK-kredit på 6 månader går beloppet inte att betala ur egna medel, vilket stärker den negativa hållningen: en kapitalanskaffning eller avyttring före Q1 2027 ser nödvändig ut."
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Q3-rapporten: omsättning 140 MSEK (−11 %, justerat +16 %), EBITDA 18 MSEK och kärnverksamheten gick med vinst, men en nedskrivning på 180 MSEK i Autosense gav rörelseresultat −217 MSEK. Kassan föll till 29 MSEK och bolaget kallar läget ansträngt; finansiering via eget eller lånat kapital utreds med rådgivare och hänger på förhandlingar med Xperi, utan garanti för en affär. Driften förbättras, men inget finansieringsbesked kom – den negativa hållningen och mycket hög risk står kvar."
         }
       ],
       "links": [
@@ -477,6 +478,10 @@
         {
           "title": "Skatteverket – tillfälligt anstånd med skattebetalning",
           "url": "https://www.skatteverket.se/foretag/skatterochavdrag/skattekontobetalaochfatillbaka/tillfalligtanstandmedskattebetalning.4.1c68351d170ce55452710af.html"
+        },
+        {
+          "title": "Tobii delårsrapport Q3 2026 (Inderes)",
+          "url": "https://www.inderes.fi/en/releases/interim-report-third-quarter-2026-strengthened-core-business-and-focus-on-financing"
         }
       ]
     },
@@ -492,79 +497,79 @@
       "sector": "IT · Mjukvara, konsult & infrastruktur",
       "stance": "neutral",
       "risk": "låg",
-      "thesis": "Stabil utdelare som blir allt mer ett mjukvarubolag. Mjukvara växer, men stordatorcykeln (z17) gick sämre än väntat och tillväxten är fortfarande låg.",
-      "summary": "IBM varnade redan den 14 juli för ett svagare Q2: stordatorerna och tillhörande mjukvara gick sämre efter z17-lanseringen och kunderna flyttade investeringar mot servrar, lagring och minne. Omsättningen landade på 17,2 mdr USD (+1 %), där mjukvara växte 5 % med en ARR på 24,6 mdr USD (+8 %), infrastruktur minskade 7 % och konsult var oförändrat. Justerad vinst per aktie steg 5 %. Utdelningen på cirka 6,7 USD per år ger runt 3 % direktavkastning. Nettoskulden är hög (62 mdr USD i skuld) efter förvärv som HashiCorp och Confluent. Q3 den 21 oktober visar om mjukvarutillväxten accelererar som bolaget sagt.",
+      "thesis": "Stabil utdelare som blir allt mer ett mjukvarubolag. Q3 visade att mjukvarutillväxten tog fart igen, men helårsmålet för tillväxt är oförändrat lågt (4–5 %).",
+      "summary": "Efter ett svagt Q2 levererade IBM ett Q3 över förväntan. Omsättningen steg 5 % till 17,1 mdr USD (konsensus ≈ 16,8) och justerad vinst per aktie 11 % till 2,95 USD (≈ 2,86 väntat). Mjukvara växte 8 % (9 % i fast valuta) till 7,8 mdr USD med Red Hat +11 % och Data +20 %; ungefär en fjärdedel av accelerationen kom från affärer som sköts upp i Q2. Infrastruktur vände till +4 % och konsult var oförändrat. Helårsmålet om 4–5 % tillväxt i fast valuta står fast, medan prognosen för fritt kassaflöde höjdes till en ökning på mer än 1 mdr USD. Skulden har stigit till 63,8 mdr USD efter förvärv, och kvartalsutdelningen är 1,69 USD. Mål för 2027 presenteras i januari.",
       "keyFigures": [
         {
-          "label": "Omsättning Q2",
-          "value": "17,2 mdr USD",
-          "note": "+1 %"
+          "label": "Omsättning Q3",
+          "value": "17,1 mdr USD",
+          "note": "+5 % (+6 % i fast valuta)"
         },
         {
           "label": "Mjukvara",
-          "value": "+5 %",
-          "note": "ARR 24,6 mdr USD (+8 %)"
+          "value": "+8 %",
+          "note": "7,8 mdr USD; ARR 24,9 mdr (+8 %)"
         },
         {
           "label": "Infrastruktur",
-          "value": "−7 %",
-          "note": "Svagare z17-cykel"
+          "value": "+4 %",
+          "note": "3,7 mdr USD; uppskjutna affärer stängda"
         },
         {
-          "label": "Justerad vinst per aktie Q2",
-          "value": "2,93 USD",
-          "note": "+5 %"
+          "label": "Konsult",
+          "value": "0 %",
+          "note": "5,3 mdr USD; +2 % i fast valuta"
         },
         {
-          "label": "Fritt kassaflöde H1",
-          "value": "4,8 mdr USD",
-          "note": "Oförändrat"
+          "label": "Justerad vinst per aktie Q3",
+          "value": "2,95 USD",
+          "note": "+11 %"
+        },
+        {
+          "label": "Fritt kassaflöde jan–sep",
+          "value": "7,8 mdr USD",
+          "note": "+0,6 mdr USD"
         },
         {
           "label": "Skuld",
-          "value": "62,0 mdr USD",
-          "note": "Kassa 8,2 mdr USD"
+          "value": "63,8 mdr USD",
+          "note": "Kassa och placeringar 11,1 mdr USD"
         },
         {
           "label": "Utdelning",
-          "value": "≈ 6,73 USD/år",
-          "note": "≈ 3,0 % direktavkastning"
+          "value": "1,69 USD/kvartal",
+          "note": "Utbetalning 10 dec"
         }
       ],
       "latestReport": {
-        "title": "Q2 2026",
-        "date": "2026-07-22",
+        "title": "Q3 2026",
+        "date": "2026-10-21",
         "highlights": [
-          "Vinstvarning 14 juli: svagare stordatorer (Z) och Transaction Processing.",
-          "Mjukvara +5 %, 80 % återkommande intäkter.",
-          "Konsult oförändrat, infrastruktur −7 %.",
-          "Justerad EBITDA 4,8 mdr USD, marginal 27,8 %.",
-          "3,2 mdr USD återfört till aktieägare via utdelning under H1."
+          "Omsättning 17,1 mdr USD (+5 %), över konsensus ≈ 16,8 mdr.",
+          "Mjukvara +8 % (Red Hat +11 %, Data +20 %); ungefär en fjärdedel av lyftet var uppskjutna Q2-affärer.",
+          "Infrastruktur +4 %, konsult oförändrat (+2 % i fast valuta).",
+          "Justerad vinst per aktie 2,95 USD (+11 %).",
+          "Helårsmål 4–5 % tillväxt oförändrat; fritt kassaflöde väntas nu öka med mer än 1 mdr USD."
         ]
       },
       "bull": [
-        "Mjukvara med hög andel återkommande intäkter växer.",
+        "Mjukvarutillväxten accelererade till 8–9 %, med Red Hat och Data som draglok.",
+        "Höjd prognos för fritt kassaflöde stöder utdelningen.",
         "Stabil och lång utdelningshistorik.",
-        "Satsningar inom AI och kvantdatorer kan ge långsiktig optionalitet.",
-        "HashiCorp och Confluent stärker hybridmoln-erbjudandet."
+        "Confluent och HashiCorp stärker hybridmoln- och dataerbjudandet; AI står för en växande del av konsultorderboken."
       ],
       "bear": [
-        "Låg total tillväxt (+1 % i Q2).",
-        "Stordatorcykeln (z17) har redan toppat.",
-        "Hög skuldsättning efter förvärv.",
-        "Konsultverksamheten står still."
+        "Total tillväxt fortsatt måttlig – helårsmålet på 4–5 % höjdes inte.",
+        "En del av Q3-lyftet var engångsartat (uppskjutna affärer från Q2).",
+        "Hög skuldsättning (63,8 mdr USD) efter förvärv.",
+        "Konsultverksamheten står still och marginalen pressas."
       ],
       "watch": [
-        "Q3 21 okt: mjukvarutillväxt och om helårsmålen står fast. BofA väntar intäkter ≈ 16,8 mdr USD och vinst per aktie ≈ 2,82 USD.",
-        "Utvecklingen inom infrastruktur efter z17.",
-        "Truist inledde bevakning med behåll och riktkurs 240 USD."
+        "Q4-rapporten i januari (datum ej bekräftat) med mål för 2027.",
+        "Om mjukvara håller 7–8 % helårstillväxt utan hjälp av uppskjutna affärer.",
+        "Riktkursändringar efter rapporten."
       ],
-      "events": [
-        {
-          "date": "2026-10-21",
-          "label": "Rapport Q3 2026 (efter stängning, 23:00 svensk tid)"
-        }
-      ],
+      "events": [],
       "analysts": {
         "consensus": "",
         "avgTarget": null,
@@ -618,6 +623,10 @@
         {
           "date": "2026-10-21",
           "text": "Evercore ISI upprepade Outperform med riktkurs 250 USD (19 okt). Banken väntar sig ett Q3 i linje med eller något över konsensus (intäkter ≈ 16,8 mdr USD, vinst per aktie ≈ 2,86 USD) och att helårsmålet om 4–5 % tillväxt står fast; nyckelfrågan är om de uppskjutna mjukvaruaffärerna från Q2 kommer tillbaka. Rapporten kommer ikväll efter stängning; hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Q3-rapporten (21 okt) slog förväntningarna: omsättning 17,1 mdr USD (+5 %) och justerad vinst per aktie 2,95 USD mot ≈ 16,8 mdr och 2,86 väntat. Mjukvara växte 8 % efter 5 % i Q2, infrastruktur vände upp och prognosen för fritt kassaflöde höjdes, medan tillväxtmålet 4–5 % lämnades oförändrat. Aktien steg efterbörsen. Rapporten minskar oron från Q2, men eftersom en del av lyftet var uppskjutna affärer och tillväxtmålet inte höjdes står hållningen kvar som neutral."
         }
       ],
       "links": [
@@ -631,18 +640,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "IBM Q2 2026 (Quartr)",
-          "url": "https://quartr.com/events/international-business-machines-corp-ibm-q2-2026_3PPXZLbu"
-        },
-        {
-          "title": "IBM-vd varnar för Q2 (Fierce Network)",
-          "url": "https://www.fierce-network.com/newswire/ibm-ceo-arvind-krishna-warns-2q-earnings"
-        },
-        {
-          "title": "IBM Q3 2026-datum (Pluang)",
-          "url": "https://pluang.com/en/news-feed/ibm-umumkan-hasil-keuangan-kuartal-tiga-2026"
-        },
         {
           "title": "Börskollen – IBM",
           "url": "https://www.borskollen.se/aktie/ibm"
@@ -662,6 +659,18 @@
         {
           "title": "Investing.com – Evercore ISI upprepar IBM inför Q3 (2026-10-19)",
           "url": "https://uk.investing.com/news/stock-market-news/evercore-isi-reiterates-ibm-stock-rating-ahead-of-q3-results-93CH-4918448"
+        },
+        {
+          "title": "IBM Q3 2026 – pressmeddelande (SEC 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm"
+        },
+        {
+          "title": "Yahoo Finance – IBM Q3 över förväntan (2026-10-21)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-stock-rises-hours-tops-221258293.html"
+        },
+        {
+          "title": "Yahoo Finance – IBM:s Q3-telefonkonferens",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-said-010259012.html"
         }
       ]
     },
@@ -879,8 +888,8 @@
         },
         {
           "label": "Blankat",
-          "value": "4,95 %",
-          "note": "4,82 % vid förra uppdateringen, 4,57 % för en månad sedan"
+          "value": "4,66 %",
+          "note": "4,82 % vid förra mätningen, 4,57 % för en månad sedan"
         }
       ],
       "latestReport": {
