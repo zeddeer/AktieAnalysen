@@ -1448,6 +1448,176 @@
           "url": "https://mfn.se/all/a/samhallsbyggnadsbolaget-i-norden"
         }
       ]
+    },
+    {
+      "id": "volvo-cars",
+      "name": "Volvo Cars",
+      "shareClass": "B",
+      "ticker": "VOLCAR B",
+      "yahoo": "VOLCAR-B.ST",
+      "avanzaId": "",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap",
+      "sector": "Sällanköp · Personbilar",
+      "stance": "negativ",
+      "risk": "hög",
+      "thesis": "Starkt varumärke och en efterfrågad EX60, men Q3 gav förlust och Kina rasar, kassan förbrukas snabbt och prognosen är struken. En vändning kräver att sparpaketet och EX60-uppskalningen levererar under 2027.",
+      "summary": "Volvo Cars gick med förlust i Q3 2026 för första gången sedan pandemin. Omsättningen föll 23 % till 66,9 mdr SEK och rörelseresultatet blev −5,6 mdr SEK (+6,4 mdr året innan), −3,7 mdr justerat. Bruttomarginalen sjönk från 20,4 % till 13,0 %. Kina är huvudproblemet: försäljningen till kund föll 41 % och intäkterna nästan halverades, medan tullar och slopade elbilsstöd pressar USA. Europa är den enda region som bidrar positivt. Kassaflödet var −8,9 mdr SEK i kvartalet och −24,1 mdr på nio månader, och nettokassan har krympt från 26,9 mdr vid årsskiftet till 1,0 mdr. Likviditeten inklusive outnyttjade krediter är dock 55 mdr SEK och Geely äger cirka 79 %. Bolaget strök sin prognos den 2 oktober och svarar nu med ytterligare 5 mdr SEK i besparingar, cirka 2 500 färre tjänster (varav 2 000 i Sverige) och lägre investeringar. EX60 har över 50 000 ordrar, men produktionen kommer igång långsammare än planerat.",
+      "keyFigures": [
+        {
+          "label": "Omsättning Q3",
+          "value": "66 896 MSEK",
+          "note": "−23 %; 86 439 året innan"
+        },
+        {
+          "label": "Rörelseresultat Q3",
+          "value": "−5 592 MSEK",
+          "note": "Justerat −3 744; +6 433 året innan"
+        },
+        {
+          "label": "Bruttomarginal Q3",
+          "value": "13,0 %",
+          "note": "20,4 % året innan"
+        },
+        {
+          "label": "Vinst per aktie Q3",
+          "value": "−1,63 SEK",
+          "note": "1,75 året innan"
+        },
+        {
+          "label": "Kassaflöde Q3",
+          "value": "−8,9 mdr SEK",
+          "note": "−24,1 mdr jan–sep"
+        },
+        {
+          "label": "Nettokassa",
+          "value": "1,0 mdr SEK",
+          "note": "26,9 mdr vid årsskiftet"
+        },
+        {
+          "label": "Likviditet",
+          "value": "55 mdr SEK",
+          "note": "Inkl. 22,7 mdr outnyttjade krediter"
+        },
+        {
+          "label": "Elbilsandel",
+          "value": "32 %",
+          "note": "22 % året innan; Europa 45 %"
+        },
+        {
+          "label": "Utdelning",
+          "value": "Ingen",
+          "note": "Ingen utdelning för 2025"
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q3 2026",
+        "date": "2026-10-23",
+        "highlights": [
+          "Omsättning 66,9 mdr SEK (86,4), rörelseresultat −5,6 mdr (6,4), justerat −3,7 mdr (5,8).",
+          "Försäljning till kund −11 %: Kina −41 %, Amerika −14 %, Europa och övriga +2 %.",
+          "Engångsposter: omvärdering av amerikanska utsläppskrediter −1,1 mdr, litiumsäkringar −0,5 mdr, Polestar −0,9 mdr.",
+          "Kassaflöde −8,9 mdr SEK; nettokassa 1,0 mdr, likviditet 55 mdr inkl. krediter.",
+          "Nytt sparpaket på 5 mdr SEK med full effekt i slutet av 2027; cirka 2 500 tjänster bort, omstruktureringskostnad cirka 600 MSEK i Q4.",
+          "EX60 över 50 000 ordrar men bara cirka 1 300 sålda i Q3; XC60-produktion till Charleston från Q1 2027."
+        ]
+      },
+      "bull": [
+        "EX60 har över 50 000 ordrar – stor potential när produktionen kommer igång.",
+        "Europa växer och elbilsandelen ökar (45 % i Europa).",
+        "Kraftfulla besparingar: indirekta kostnader cirka 25 % under 2024 års nivå i slutet av 2027.",
+        "God likviditet (55 mdr SEK inkl. krediter) och Geely som huvudägare med cirka 79 %.",
+        "Lokal produktion av XC60 i USA från 2027 minskar tullexponeringen."
+      ],
+      "bear": [
+        "Förlust och kraftigt negativt kassaflöde – nettokassan nästan borta på nio månader.",
+        "Kina väntas vara mycket svårt i två år till enligt bolaget.",
+        "Tullar och slopade elbilsstöd i USA pressar marginalerna.",
+        "Prognosen är struken och EX60-uppskalningen går långsammare än planerat.",
+        "Polestar fortsätter att belasta resultatet.",
+        "Ingen utdelning."
+      ],
+      "watch": [
+        "Kassaflödet i Q4 – vänder det när lagret och EX60-produktionen normaliseras?",
+        "EX60-leveranser per kvartal mot orderboken på över 50 000 bilar.",
+        "Effekten av sparpaketet och omstruktureringskostnaden på cirka 600 MSEK i Q4.",
+        "Försäljningssiffror per månad, särskilt Kina och USA."
+      ],
+      "events": [
+        {
+          "date": "2027-02-04",
+          "label": "Bokslutskommuniké 2026"
+        }
+      ],
+      "analysts": {
+        "consensus": "",
+        "avgTarget": null,
+        "avgTargetNote": "Övervägande behåll inför Q3; snittriktkurs ej verifierad",
+        "targets": [
+          {
+            "date": "2026-10-13",
+            "bank": "Nordea",
+            "rating": "Behåll",
+            "target": 15.5
+          },
+          {
+            "date": "2026-10-05",
+            "bank": "Deutsche Bank",
+            "rating": "Behåll",
+            "target": 13
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-23",
+          "text": "Första analysen, samma dag som Q3-rapporten. Utgångsläge negativ med hög risk: förlust på 5,6 mdr SEK, Kina-försäljningen −41 %, kassaflöde −24 mdr på nio månader och en nettokassa som krympt till 1 mdr. Det nya sparpaketet (5 mdr, cirka 2 500 tjänster) och EX60-orderboken ger en möjlig vändning 2027, men det behöver synas i kassaflödet först."
+        }
+      ],
+      "links": [
+        {
+          "title": "Volvo Cars – investerare",
+          "url": "https://investors.volvocars.com/sv"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/volvo-car"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Volvo Cars Q3 2026 – pressmeddelande (Cision)",
+          "url": "https://news.cision.com/se/volvo-car-ab--publ-/r/volvo-cars-q3-2026--vidtar-atgarder-for-att-navigera-i-en-mycket-utmanande-omvarld,c4414241"
+        },
+        {
+          "title": "Volvo Cars Q3 2026 – rapport (PDF)",
+          "url": "https://mb.cision.com/Main/20685/4414241/4335537.pdf"
+        },
+        {
+          "title": "Placera – Volvo Cars vänder till förlust (2026-10-23)",
+          "url": "https://www.placera.se/nyheter/volvo-cars-vander-till-forlust-omsattningen-rasar-2026-10-23"
+        },
+        {
+          "title": "HurBra – Volvo Cars rapport Q3 2026",
+          "url": "https://hurbra.se/volvo-cars-rapport-q3-2026/"
+        },
+        {
+          "title": "HurBra – Volvo Cars stryker prognosen (2026-10-02)",
+          "url": "https://hurbra.se/volvo-cars-aktie-2-oktober-2026/"
+        },
+        {
+          "title": "Börsvärlden – Deutsche Bank sänker till 13 kr",
+          "url": "https://borsvarlden.com/artiklar/deutsche-bank-sanker-riktkursen-for-volvo-cars-till-13-kronor-upprepar-behall"
+        },
+        {
+          "title": "Placera – Nordea sänker prognoserna för Volvo Cars",
+          "url": "https://www.placera.se/nyheter/nordea-sanker-prognoserna-rejalt-for-volvo-cars-2026-10-13"
+        },
+        {
+          "title": "Volvo Cars – beslut vid årsstämman 2026",
+          "url": "https://www.inderes.se/releases/volvo-car-ab-publ-beslut-vid-volvo-cars-arsstamma-2026"
+        }
+      ]
     }
   ]
 }
