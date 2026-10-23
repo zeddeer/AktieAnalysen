@@ -1456,6 +1456,7 @@
       "ticker": "VOLCAR B",
       "yahoo": "VOLCAR-B.ST",
       "avanzaId": "",
+      "avanzaQuery": "Volvo Car B",
       "currency": "SEK",
       "market": "Stockholm · Large Cap",
       "sector": "Sällanköp · Personbilar",
