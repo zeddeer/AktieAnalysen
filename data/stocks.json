@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "stocks": [
     {
       "id": "electrolux",
@@ -13,37 +13,37 @@
       "sector": "Sällanköpsvaror · Hushållsapparater",
       "stance": "neutral",
       "risk": "hög",
-      "thesis": "Turnaround med nyemitterat kapital i ryggen. Midea-samarbetet och kostnadsprogrammet kan lyfta marginalen, men Nordamerika och tullarna håller tillbaka och blankarna är många.",
-      "summary": "Nyemissionen på cirka 9,1 mdr SEK (juni 2026) har stärkt balansräkningen och skuldsättningen har fallit till 2,6x nettoskuld/EBITDA. Underliggande rörelsemarginal var 3,8 % i Q2 – bättre, men fortfarande tunn för ett bolag av den här storleken. Nordamerika (cirka en tredjedel av försäljningen) är svagt med tullar och fallande marknad, medan Europa/APAC och Latinamerika växer över 4 % organiskt. Q3 den 23 oktober blir första kvartalet med Midea-JV:na igång och försäljningen av Juárez-tillgångarna (väntat kassaflöde cirka 1 mdr SEK). Blankningen har stigit till runt 10,7 % och analytikerna är i snitt neutrala.",
+      "thesis": "Turnaround med nyemitterat kapital i ryggen. Kostnadsprogrammet och Midea-samarbetet lyfter resultatet, men marginalen är tunn och Nordamerika, tullar och råvarukostnader håller tillbaka.",
+      "summary": "Q3 (23 okt) blev bättre än väntat i driften: omsättningen 33,9 mdr SEK med 3,5 % organisk tillväxt och ett justerat rörelseresultat på 912 MSEK (2,7 % marginal), strax över analytikernas snitt. Engångsposter på −305 MSEK för omstruktureringen i Nordamerika och fabriksnätet gav dock ett nettoresultat på −340 MSEK. Kassaflödet var starkt (3,6 mdr SEK) tack vare rörelsekapital och återbetalda amerikanska tullar, och nettoskuld/EBITDA föll till 2,2x efter nyemissionen i juni. Kostnadsprogrammet levererar (målet för 2026 höjt till cirka 4 mdr SEK), men bolaget räknar nu med att volym, pris och mix inte längre bidrar positivt i år och att högre råvaru- och logistikkostnader samt tullar fortsätter att tynga. Nordamerikas tillväxt kom främst från prishöjningar och efterfrågan glider mot billigare produkter. Blankningen ligger runt 10,7 % och analytikerna är i snitt neutrala.",
       "keyFigures": [
         {
-          "label": "Omsättning Q2",
-          "value": "31 569 MSEK",
-          "note": "+2,0 % organiskt"
+          "label": "Omsättning Q3",
+          "value": "33 919 MSEK",
+          "note": "+3,5 % organiskt"
         },
         {
-          "label": "Rörelsemarginal exkl. engångsposter",
-          "value": "3,8 %",
-          "note": "2,5 % året innan"
+          "label": "Rörelseresultat exkl. engångsposter",
+          "value": "912 MSEK",
+          "note": "Marginal 2,7 % (2,8 % året innan)"
         },
         {
           "label": "Rapporterat rörelseresultat",
-          "value": "−1 005 MSEK",
-          "note": "Engångsposter ≈ −2,2 mdr"
+          "value": "607 MSEK",
+          "note": "Engångsposter −305 MSEK"
         },
         {
-          "label": "Vinst per aktie Q2",
-          "value": "−3,16 SEK",
-          "note": "0,36 året innan"
+          "label": "Vinst per aktie Q3",
+          "value": "−0,46 SEK",
+          "note": "Nettoresultat −340 MSEK"
         },
         {
           "label": "Kassaflöde efter investeringar",
-          "value": "1 607 MSEK",
-          "note": "−741 året innan"
+          "value": "3 608 MSEK",
+          "note": "624 året innan"
         },
         {
           "label": "Nettoskuld / EBITDA",
-          "value": "2,6x",
+          "value": "2,2x",
           "note": "3,5x året innan"
         },
         {
@@ -53,44 +53,41 @@
         },
         {
           "label": "Blankat",
-          "value": "10,53 %",
+          "value": "10,74 %",
           "note": "9,44 % för en månad sedan"
         }
       ],
       "latestReport": {
-        "title": "Delårsrapport Q2 2026",
-        "date": "2026-07-29",
+        "title": "Delårsrapport Q3 2026",
+        "date": "2026-10-23",
         "highlights": [
-          "Organisk tillväxt 2,0 %; EMEA/APAC och Latinamerika över 4 %, Nordamerika minskade i linje med marknaden (≈ −3 %).",
-          "Kostnadseffektivitet bidrog med 1,4 mdr SEK till rörelseresultatet.",
-          "Prishöjningar 5–20 % i Nordamerika för att motverka tullkostnader.",
-          "Investeringsprognosen sänkt från 4,0 till 3,0–3,5 mdr SEK.",
-          "Aktien steg 22 % på rapportdagen."
+          "Omsättning 33 919 MSEK (32 318) och organisk tillväxt 3,5 % – över analytikernas väntade 1,3 %.",
+          "Justerat rörelseresultat 912 MSEK mot väntat ≈ 867 MSEK; rapporterat 607 MSEK efter engångsposter på −305 MSEK.",
+          "Nettoresultat −340 MSEK mot väntad vinst ≈ 64 MSEK, främst på grund av engångsposterna.",
+          "Kostnadseffektivitet bidrog med 1,4 mdr SEK; målet för helåret höjt till cirka 4,0 mdr SEK.",
+          "Kassaflöde efter investeringar 3,6 mdr SEK, lyft av rörelsekapital och återbetalda tullar.",
+          "Utsikter: volym/pris/mix väntas nu ge neutralt bidrag 2026 (tidigare positivt); externa kostnader fortsätter att tynga."
         ]
       },
       "bull": [
-        "Balansräkningen reparerad efter nyemissionen – mindre finansiell risk.",
-        "Midea-samarbetet i Nordamerika väntas ge cirka 0,6 mdr SEK i årliga besparingar år tre.",
-        "Europa, APAC och Latinamerika växer och förbättrar resultatet.",
-        "Ansökt om återbetalning av IEEPA-tullar på cirka 88 MUSD."
+        "Balansräkningen reparerad – nettoskuld/EBITDA nere i 2,2x.",
+        "Kostnadsprogrammet levererar; helårsmålet höjt till cirka 4 mdr SEK.",
+        "Alla tre Midea-JV:na i Nordamerika är igång och Anderson-nedläggningen bidrar redan positivt.",
+        "Starkt kassaflöde i Q3, delvis från återbetalda tullar."
       ],
       "bear": [
-        "Nordamerika är svagt och tullkostnaderna väntas fortsätta tynga.",
-        "Låga marginaler ger liten buffert om efterfrågan viker.",
-        "Hög och stigande blankning (≈ 10,7 %).",
-        "Höga räntor och inflation i Brasilien pressar konsumentfinansieringen."
+        "Volym/pris/mix väntas inte längre bidra positivt i år – efterfrågan och konkurrens pressar.",
+        "Högre råvaru- och logistikkostnader (Mellanöstern) och amerikanska tullar väntas fortsätta.",
+        "Tunn marginal (2,7 %) och fortsatta omstruktureringskostnader gav förlust på sista raden.",
+        "Hög blankning (≈ 10,7 %) och avmattning i Brasilien."
       ],
       "watch": [
-        "Q3 23 okt: tar Nordamerika-marginalen fart när JV:na startat?",
-        "Kassaflödet från Juárez-affären (≈ 1 mdr SEK) ska synas i Q3.",
-        "Utvecklingen i blankningen efter rapporten."
+        "Bokslutet i januari (datum ej bekräftat): marginalutveckling i Nordamerika när JV:na verkar fullt ut.",
+        "Om kostnadsbesparingarna räcker för att möta råvaru- och tullkostnaderna.",
+        "Riktkursändringar och blankning efter Q3-rapporten.",
+        "Fortsatta engångsposter från omstruktureringen (bl.a. Italien)."
       ],
-      "events": [
-        {
-          "date": "2026-10-23",
-          "label": "Delårsrapport Q3 2026"
-        }
-      ],
+      "events": [],
       "analysts": {
         "consensus": "Neutral",
         "avgTarget": 30.89,
@@ -148,6 +145,10 @@
         {
           "date": "2026-10-16",
           "text": "Två riktkurssänkningar inför Q3: DNB Carnegie 30 → 26 kr (14 okt) och Handelsbanken 32 → 29 kr (15 okt), båda behåll. Snittet enligt Börskollen har fallit till 30,89 kr. Analytikerna sänker förväntningarna inför rapporten 23 oktober – bekräftar den neutrala hållningen; ribban är låg men pressen på Nordamerika kvarstår."
+        },
+        {
+          "date": "2026-10-23",
+          "text": "Q3-rapporten: justerat rörelseresultat 912 MSEK (2,7 %) och 3,5 % organisk tillväxt, båda något över förväntan, samt starkt kassaflöde (3,6 mdr SEK) och lägre skuldsättning (2,2x). Engångsposter på −305 MSEK gav dock nettoförlust, och bolaget räknar inte längre med positivt bidrag från volym/pris/mix i år medan råvaror, logistik och tullar fortsätter att tynga. Driften och balansräkningen går åt rätt håll men marginalen är fortsatt tunn – hållningen står kvar som neutral och risken som hög."
         }
       ],
       "links": [
@@ -180,6 +181,18 @@
         {
           "title": "Börskollen – analytikerrekar 15 okt 2026",
           "url": "https://www.borskollen.se/nyheter/27/analytikerna-aktierna-vi-satter-kop-respektive-salj-pa-idag-1792069201"
+        },
+        {
+          "title": "Electrolux Group – delårsrapport Q3 2026 (PR Newswire)",
+          "url": "https://www.prnewswire.com/news-releases/electrolux-group-interim-report-q3-2026-302917824.html"
+        },
+        {
+          "title": "Placera – Electrolux resultat högre än väntat (2026-10-23)",
+          "url": "https://www.placera.se/nyheter/electrolux-resultat-hogre-an-vantat-2026-10-23"
+        },
+        {
+          "title": "Börskollen – Electrolux (blankning)",
+          "url": "https://www.borskollen.se/aktie/electrolux"
         }
       ]
     },
@@ -567,14 +580,44 @@
       "watch": [
         "Q4-rapporten i januari (datum ej bekräftat) med mål för 2027.",
         "Om mjukvara håller 7–8 % helårstillväxt utan hjälp av uppskjutna affärer.",
-        "Riktkursändringar efter rapporten."
+        "Om aktien hittar stöd efter att rapportlyftet vände ned – bruttomarginalen och det oförändrade tillväxtmålet."
       ],
       "events": [],
       "analysts": {
-        "consensus": "",
-        "avgTarget": null,
-        "avgTargetNote": "",
+        "consensus": "Måttligt köp",
+        "avgTarget": 258.36,
+        "avgTargetNote": "Snitt enligt MarketBeat (20 köp, 12 behåll, 2 sälj)",
         "targets": [
+          {
+            "date": "2026-10-22",
+            "bank": "JPMorgan",
+            "rating": "",
+            "target": 269
+          },
+          {
+            "date": "2026-10-22",
+            "bank": "Stifel",
+            "rating": "Köp",
+            "target": 260
+          },
+          {
+            "date": "2026-10-22",
+            "bank": "Baird",
+            "rating": "Neutral",
+            "target": 260
+          },
+          {
+            "date": "2026-10-22",
+            "bank": "BMO",
+            "rating": "Neutral (Market Perform)",
+            "target": 265
+          },
+          {
+            "date": "2026-10-22",
+            "bank": "Jefferies",
+            "rating": "Köp",
+            "target": 280
+          },
           {
             "date": "2026-10-15",
             "bank": "Morgan Stanley",
@@ -627,6 +670,10 @@
         {
           "date": "2026-10-22",
           "text": "Q3-rapporten (21 okt) slog förväntningarna: omsättning 17,1 mdr USD (+5 %) och justerad vinst per aktie 2,95 USD mot ≈ 16,8 mdr och 2,86 väntat. Mjukvara växte 8 % efter 5 % i Q2, infrastruktur vände upp och prognosen för fritt kassaflöde höjdes, medan tillväxtmålet 4–5 % lämnades oförändrat. Aktien steg efterbörsen. Rapporten minskar oron från Q2, men eftersom en del av lyftet var uppskjutna affärer och tillväxtmålet inte höjdes står hållningen kvar som neutral."
+        },
+        {
+          "date": "2026-10-23",
+          "text": "Riktkurshöjningar efter Q3 (22 okt): JPMorgan 250 → 269 USD, Stifel 235 → 260 (köp), Baird 230 → 260 (neutral), BMO 230 → 265 (market perform) och Jefferies 280 (köp). MarketBeats snitt ligger på 258 USD. Aktien steg först efterbörsen men vände ned dagen efter, då tillväxtmålet 4–5 % lämnades oförändrat och bruttomarginalerna krympte. Analytikerna höjer, men marknaden tvivlar på uthålligheten – hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -640,18 +687,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Börskollen – IBM",
-          "url": "https://www.borskollen.se/aktie/ibm"
-        },
-        {
-          "title": "GuruFocus – RBC upprepar Outperform, riktkurs 270 USD (2026-10-13)",
-          "url": "https://gurufocus.com/news/9121105/ibm-reiterates-by-rbc-capital-price-target-maintained-at-270"
-        },
-        {
-          "title": "GuruFocus – Morgan Stanley höjer riktkursen till 238 USD (2026-10-15)",
-          "url": "https://gurufocus.com/news/9126149/ibm-maintained-by-morgan-stanley-price-target-raised-to-238"
-        },
         {
           "title": "Yahoo Finance/Proactive – BofA inför IBM:s Q3 (2026-10-15)",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-poised-modest-third-quarter-170900651.html"
@@ -671,6 +706,18 @@
         {
           "title": "Yahoo Finance – IBM:s Q3-telefonkonferens",
           "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-said-010259012.html"
+        },
+        {
+          "title": "MarketBeat – Baird höjer IBM till 260 USD (2026-10-22)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-international-business-machines-nyse-ibm-given-new-26000-price-target-at-robert-w-baird-2026-10-22/"
+        },
+        {
+          "title": "GuruFocus – JPMorgan höjer IBM till 269 USD",
+          "url": "https://www.gurufocus.com/news/9135940/ibm-stock-target-price-raised-to-269-by-jpmorgan"
+        },
+        {
+          "title": "Investing.com – BMO höjer IBM till 265 USD",
+          "url": "https://www.investing.com/news/analyst-ratings/bmo-raises-ibm-stock-price-target-to-265-on-software-outlook-93CH-4966820"
         }
       ]
     },
