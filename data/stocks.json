@@ -1455,7 +1455,7 @@
       "shareClass": "B",
       "ticker": "VOLCAR B",
       "yahoo": "VOLCAR-B.ST",
-      "avanzaId": "",
+      "avanzaId": "1296604",
       "avanzaQuery": "Volvo Car B",
       "currency": "SEK",
       "market": "Stockholm · Large Cap",
@@ -1520,7 +1520,8 @@
           "Engångsposter: omvärdering av amerikanska utsläppskrediter −1,1 mdr, litiumsäkringar −0,5 mdr, Polestar −0,9 mdr.",
           "Kassaflöde −8,9 mdr SEK; nettokassa 1,0 mdr, likviditet 55 mdr inkl. krediter.",
           "Nytt sparpaket på 5 mdr SEK med full effekt i slutet av 2027; cirka 2 500 tjänster bort, omstruktureringskostnad cirka 600 MSEK i Q4.",
-          "EX60 över 50 000 ordrar men bara cirka 1 300 sålda i Q3; XC60-produktion till Charleston från Q1 2027."
+          "EX60 över 50 000 ordrar men bara cirka 1 300 sålda i Q3; XC60-produktion till Charleston från Q1 2027.",
+          "Aktien föll cirka 28 % på rapportdagens förmiddag."
         ]
       },
       "bull": [
@@ -1572,7 +1573,7 @@
       "log": [
         {
           "date": "2026-10-23",
-          "text": "Första analysen, samma dag som Q3-rapporten. Utgångsläge negativ med hög risk: förlust på 5,6 mdr SEK, Kina-försäljningen −41 %, kassaflöde −24 mdr på nio månader och en nettokassa som krympt till 1 mdr. Det nya sparpaketet (5 mdr, cirka 2 500 tjänster) och EX60-orderboken ger en möjlig vändning 2027, men det behöver synas i kassaflödet först."
+          "text": "Första analysen, samma dag som Q3-rapporten. Utgångsläge negativ med hög risk: förlust på 5,6 mdr SEK, Kina-försäljningen −41 %, kassaflöde −24 mdr på nio månader och en nettokassa som krympt till 1 mdr. Det nya sparpaketet (5 mdr, cirka 2 500 tjänster) och EX60-orderboken ger en möjlig vändning 2027, men det behöver synas i kassaflödet först. Aktien föll cirka 28 % till runt 10,20 kr under rapportdagens förmiddag, under både Deutsche Banks (13 kr) och Nordeas (15,50 kr) riktkurser."
         }
       ],
       "links": [
