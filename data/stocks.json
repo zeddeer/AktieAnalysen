@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-26",
   "stocks": [
     {
       "id": "electrolux",
@@ -1296,7 +1296,7 @@
       "stance": "negativ",
       "risk": "mycket hög",
       "thesis": "SBB har blivit ett holdingbolag med tre kärninnehav (Sveafastigheter, Nordiqus och PPI) och handlas långt under substansvärdet. Men belåningen är hög, räntetäckningen svag och stora obligationsförfall väntar 2027, och aktien är börsens mest blankade.",
-      "summary": "Efter flera års krishantering består SBB i dag främst av andelar i Sveafastigheter (bostäder), Nordiqus (utbildningsfastigheter) och Public Property Invest (samhällsfastigheter); kärninnehaven utgör cirka 81 % av tillgångarna efter fusionen mellan Sveafastigheter och KlaraBo, som slutfördes 30 september. Det långsiktiga substansvärdet var 7,94 kr per aktie i juni, men belåningsgraden steg till 54 % och räntetäckningen föll till 1,9x. Likviditeten är cirka 6 mdr SEK, vilket täcker årets förfall på 4,1 mdr, men 2027 förfaller cirka 6 mdr i obligationer som ska lösas med försäljningar eller lån från innehaven. Bolaget har sålt fastigheter för 7 mdr till KlaraBo och sex samhällsfastigheter för 1,35 mdr till PPI, fått ny vd (Andreas Morfiadakis) och vill lösa in alla D-aktier för 7,94 kr styck – ett förslag som flera större D-ägare säger att de röstar emot på extrastämman 23 oktober. Q3-rapporten har skjutits upp till 24 november för att hinna bedöma redovisningen av KlaraBo-fusionen. Blankningen är cirka 16,6 %, högst på börsen.",
+      "summary": "Efter flera års krishantering består SBB i dag främst av andelar i Sveafastigheter (bostäder), Nordiqus (utbildningsfastigheter) och Public Property Invest (samhällsfastigheter); kärninnehaven utgör cirka 81 % av tillgångarna efter fusionen mellan Sveafastigheter och KlaraBo, som slutfördes 30 september. Det långsiktiga substansvärdet var 7,94 kr per aktie i juni, men belåningsgraden steg till 54 % och räntetäckningen föll till 1,9x. Likviditeten är cirka 6 mdr SEK, vilket täcker årets förfall på 4,1 mdr, men 2027 förfaller cirka 6 mdr i obligationer som ska lösas med försäljningar eller lån från innehaven. Bolaget har sålt fastigheter för 7 mdr till KlaraBo och sex samhällsfastigheter för 1,35 mdr till PPI, fått ny vd (Andreas Morfiadakis) och ville lösa in alla D-aktier för 7,94 kr styck – men förslaget föll på extrastämman 23 oktober, där D-ägarna i praktiken hade veto. En ny extrastämma med samma erbjudande ska hållas efter Q3-rapporten, senast 10 december. Q3-rapporten har skjutits upp till 24 november för att hinna bedöma redovisningen av KlaraBo-fusionen. Blankningen är cirka 16,6 %, högst på börsen.",
       "keyFigures": [
         {
           "label": "Hyresintäkter jan–jun",
@@ -1366,19 +1366,19 @@
         "Börsens mest blankade aktie (≈ 16,6 %) – marknaden tvivlar på balansräkningen."
       ],
       "watch": [
-        "Extrastämman 23 okt: godkänns inlösen av D-aktierna och PPI-affären?",
+        "Ny extrastämma (senast 10 dec): går D-ägarna med på inlösen, eller tvingas SBB höja budet?",
         "Q3-rapporten 24 nov: belåning, räntetäckning och redovisningen av KlaraBo-fusionen.",
         "Plan för obligationsförfallen 2027 och eventuella nya försäljningar.",
         "Förändringar i blankningen och kreditbetyget."
       ],
       "events": [
         {
-          "date": "2026-10-23",
-          "label": "Extra bolagsstämma (inlösen av D-aktier, PPI-affär)"
-        },
-        {
           "date": "2026-11-24",
           "label": "Delårsrapport januari–september 2026"
+        },
+        {
+          "date": "",
+          "label": "Ny extra bolagsstämma om inlösen av D-aktier (senast 10 december)"
         }
       ],
       "analysts": {
@@ -1398,6 +1398,10 @@
         {
           "date": "2026-10-19",
           "text": "Första analysen. Utgångsläge negativ med mycket hög risk: stor rabatt mot substansvärdet, men belåning på 54 %, räntetäckning 1,9x, stora förfall 2027 och börsens högsta blankning. Extrastämman 23 oktober (D-aktierna) och den uppskjutna Q3-rapporten 24 november avgör nästa steg."
+        },
+        {
+          "date": "2026-10-26",
+          "text": "Extrastämman 23 oktober sa nej till återköp och inlösen av D-aktierna: förslaget fick cirka 92 % av rösterna men krävde även två tredjedelar av de företrädda D-aktierna, och bara 23 % av D-ägarna röstade ja. De anser att 7,94 kr är för lite jämfört med den upplupna utdelningen (cirka 5 kr per D-aktie). Styrelsen kallar till en ny stämma med samma vederlag efter Q3-rapporten, senast 10 december. Förenklingen av kapitalstrukturen drar ut på tiden – hållningen står kvar som negativ och risken som mycket hög."
         }
       ],
       "links": [
@@ -1415,10 +1419,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Inderes – SBB:s delårsrapport januari–juni 2026",
-          "url": "https://www.inderes.fi/sv/releases/sbbs-delarsrapport-januari-juni-2026"
-        },
         {
           "title": "Investing.com – SBB Q2 2026 slides",
           "url": "https://www.investing.com/news/company-news/sbb-q2-2026-slides-portfolio-shift-advances-as-nav-slips-25-93CH-4794946"
@@ -1446,6 +1446,10 @@
         {
           "title": "MFN – SBB pressmeddelanden",
           "url": "https://mfn.se/all/a/samhallsbyggnadsbolaget-i-norden"
+        },
+        {
+          "title": "Placera – Bakslag för SBB: ägarna röstar nej till inlösen (23 okt)",
+          "url": "https://www.placera.se/nyheter/bakslag-for-sbb-agarna-rostar-nej-till-inlosen-2026-10-23"
         }
       ]
     },
