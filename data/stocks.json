@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "stocks": [
     {
       "id": "electrolux",
@@ -53,8 +53,8 @@
         },
         {
           "label": "Blankat",
-          "value": "10,74 %",
-          "note": "9,44 % för en månad sedan"
+          "value": "10,93 %",
+          "note": "9,36 % för en månad sedan"
         }
       ],
       "latestReport": {
@@ -82,17 +82,46 @@
         "Hög blankning (≈ 10,7 %) och avmattning i Brasilien."
       ],
       "watch": [
-        "Bokslutet i januari (datum ej bekräftat): marginalutveckling i Nordamerika när JV:na verkar fullt ut.",
+        "Bokslutet 29 januari 2027: marginalutveckling i Nordamerika när JV:na verkar fullt ut.",
         "Om kostnadsbesparingarna räcker för att möta råvaru- och tullkostnaderna.",
-        "Riktkursändringar och blankning efter Q3-rapporten.",
+        "Om fler analytiker följer DNB Carnegie och höjer till köp, och om blankningen (nära 11 %) börjar minska.",
         "Fortsatta engångsposter från omstruktureringen (bl.a. Italien)."
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "2027-01-29",
+          "label": "Bokslutskommuniké 2026"
+        }
+      ],
       "analysts": {
         "consensus": "Neutral",
-        "avgTarget": 30.89,
-        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
+        "avgTarget": 30.46,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (före DNB Carnegies och Deutsche Banks ändringar 27 okt)",
         "targets": [
+          {
+            "date": "2026-10-27",
+            "bank": "DNB Carnegie",
+            "rating": "Köp",
+            "target": 50
+          },
+          {
+            "date": "2026-10-27",
+            "bank": "Deutsche Bank",
+            "rating": "Behåll",
+            "target": 31
+          },
+          {
+            "date": "2026-10-26",
+            "bank": "JPMorgan",
+            "rating": "Neutral",
+            "target": 34
+          },
+          {
+            "date": "2026-10-23",
+            "bank": "Barclays",
+            "rating": "Undervikt",
+            "target": 23.1
+          },
           {
             "date": "2026-10-15",
             "bank": "Handelsbanken",
@@ -100,22 +129,10 @@
             "target": 29
           },
           {
-            "date": "2026-10-14",
-            "bank": "DNB Carnegie",
-            "rating": "Behåll",
-            "target": 26
-          },
-          {
             "date": "2026-10-09",
             "bank": "Goldman Sachs",
             "rating": "Neutral",
             "target": 28
-          },
-          {
-            "date": "2026-10-01",
-            "bank": "Barclays",
-            "rating": "Undervikt",
-            "target": 25
           },
           {
             "date": "2026-08-31",
@@ -149,6 +166,10 @@
         {
           "date": "2026-10-23",
           "text": "Q3-rapporten: justerat rörelseresultat 912 MSEK (2,7 %) och 3,5 % organisk tillväxt, båda något över förväntan, samt starkt kassaflöde (3,6 mdr SEK) och lägre skuldsättning (2,2x). Engångsposter på −305 MSEK gav dock nettoförlust, och bolaget räknar inte längre med positivt bidrag från volym/pris/mix i år medan råvaror, logistik och tullar fortsätter att tynga. Driften och balansräkningen går åt rätt håll men marginalen är fortsatt tunn – hållningen står kvar som neutral och risken som hög."
+        },
+        {
+          "date": "2026-10-27",
+          "text": "Spretiga analytikerreaktioner efter Q3: DNB Carnegie höjer till köp (från behåll) – enligt Börskollens flash med riktkurs 50 kr (från 26), en ovanligt stor höjning som bör bekräftas. Samtidigt sänker Deutsche Bank 33 → 31 kr (behåll), JPMorgan 36 → 34 kr (neutral) och Barclays 25 → 23,10 kr (undervikt). Blankningen har stigit till 10,93 %. Ett köpråd från en stor bank är ett plus, men konsensus är fortsatt neutral och blankarna ökar – hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -175,10 +196,6 @@
           "url": "https://mfn.se/cis/a/electrolux/electrolux-group-och-midea-group-ingar-ett-starkt-kompletterande-langsiktigt-strategiskt-partnerskap-i-nordamerika-i-syfte-att-accelerera-lonsam-tillvaxt-och-starka-innovation-62c3f5a6"
         },
         {
-          "title": "Börskollen – Electrolux riktkurser",
-          "url": "https://www.borskollen.se/aktie/electrolux/riktkurs"
-        },
-        {
           "title": "Börskollen – analytikerrekar 15 okt 2026",
           "url": "https://www.borskollen.se/nyheter/27/analytikerna-aktierna-vi-satter-kop-respektive-salj-pa-idag-1792069201"
         },
@@ -193,6 +210,10 @@
         {
           "title": "Börskollen – Electrolux (blankning)",
           "url": "https://www.borskollen.se/aktie/electrolux"
+        },
+        {
+          "title": "Börskollen – Electrolux riktkurser (okt 2026)",
+          "url": "https://www.borskollen.se/aktie/electrolux/riktkurs"
         }
       ]
     },
@@ -591,7 +612,7 @@
           {
             "date": "2026-10-22",
             "bank": "JPMorgan",
-            "rating": "",
+            "rating": "Köp (Overweight)",
             "target": 269
           },
           {
@@ -619,10 +640,22 @@
             "target": 280
           },
           {
-            "date": "2026-10-15",
+            "date": "2026-10-22",
+            "bank": "Barclays",
+            "rating": "Köp (Overweight)",
+            "target": 277
+          },
+          {
+            "date": "2026-10-22",
+            "bank": "Susquehanna",
+            "rating": "Neutral",
+            "target": 256
+          },
+          {
+            "date": "2026-10-22",
             "bank": "Morgan Stanley",
             "rating": "Neutral (Equal-Weight)",
-            "target": 238
+            "target": 240
           },
           {
             "date": "2026-10-15",
@@ -688,10 +721,6 @@
       ],
       "sources": [
         {
-          "title": "Yahoo Finance/Proactive – BofA inför IBM:s Q3 (2026-10-15)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-poised-modest-third-quarter-170900651.html"
-        },
-        {
           "title": "Investing.com – Evercore ISI upprepar IBM inför Q3 (2026-10-19)",
           "url": "https://uk.investing.com/news/stock-market-news/evercore-isi-reiterates-ibm-stock-rating-ahead-of-q3-results-93CH-4918448"
         },
@@ -718,6 +747,10 @@
         {
           "title": "Investing.com – BMO höjer IBM till 265 USD",
           "url": "https://www.investing.com/news/analyst-ratings/bmo-raises-ibm-stock-price-target-to-265-on-software-outlook-93CH-4966820"
+        },
+        {
+          "title": "Benzinga – analytiker höjer IBM efter Q3 (2026-10-22)",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62541796/these-analysts-boost-their-forecasts-on-ibm-following-upbeat-q3-results"
         }
       ]
     },
@@ -935,8 +968,8 @@
         },
         {
           "label": "Blankat",
-          "value": "4,66 %",
-          "note": "4,82 % vid förra mätningen, 4,57 % för en månad sedan"
+          "value": "4,64 %",
+          "note": "4,65 % vid förra mätningen, 4,37 % för en månad sedan"
         }
       ],
       "latestReport": {
@@ -993,6 +1026,12 @@
             "bank": "Nordea",
             "rating": "Köp",
             "target": 950
+          },
+          {
+            "date": "",
+            "bank": "Jefferies",
+            "rating": "Köp",
+            "target": 865
           },
           {
             "date": "2026-10-14",
@@ -1137,8 +1176,8 @@
         },
         {
           "label": "Blankat",
-          "value": "2,71 %",
-          "note": "2,73 % för en månad sedan"
+          "value": "2,82 %",
+          "note": "2,71 % vid förra mätningen, 2,66 % för en månad sedan"
         }
       ],
       "latestReport": {
@@ -1556,21 +1595,39 @@
         }
       ],
       "analysts": {
-        "consensus": "",
-        "avgTarget": null,
-        "avgTargetNote": "Övervägande behåll inför Q3; snittriktkurs ej verifierad",
+        "consensus": "Neutral",
+        "avgTarget": 13.58,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (inkluderar äldre riktkurser före Q3)",
         "targets": [
           {
-            "date": "2026-10-13",
+            "date": "2026-10-27",
             "bank": "Nordea",
             "rating": "Behåll",
-            "target": 15.5
+            "target": 12
           },
           {
-            "date": "2026-10-05",
+            "date": "2026-10-26",
+            "bank": "Kepler Cheuvreux",
+            "rating": "Behåll",
+            "target": 11
+          },
+          {
+            "date": "2026-10-26",
+            "bank": "DNB Carnegie",
+            "rating": "Behåll",
+            "target": 11
+          },
+          {
+            "date": "2026-10-26",
+            "bank": "JPMorgan",
+            "rating": "Neutral",
+            "target": 10
+          },
+          {
+            "date": "2026-10-26",
             "bank": "Deutsche Bank",
             "rating": "Behåll",
-            "target": 13
+            "target": 9
           }
         ]
       },
@@ -1578,6 +1635,10 @@
         {
           "date": "2026-10-23",
           "text": "Första analysen, samma dag som Q3-rapporten. Utgångsläge negativ med hög risk: förlust på 5,6 mdr SEK, Kina-försäljningen −41 %, kassaflöde −24 mdr på nio månader och en nettokassa som krympt till 1 mdr. Det nya sparpaketet (5 mdr, cirka 2 500 tjänster) och EX60-orderboken ger en möjlig vändning 2027, men det behöver synas i kassaflödet först. Aktien föll cirka 28 % till runt 10,20 kr under rapportdagens förmiddag, under både Deutsche Banks (13 kr) och Nordeas (15,50 kr) riktkurser."
+        },
+        {
+          "date": "2026-10-27",
+          "text": "Kraftiga riktkurssänkningar efter Q3-förlusten: Deutsche Bank 13 → 9 kr, JPMorgan 18 → 10, Kepler Cheuvreux 20 → 11, DNB Carnegie 18 → 11 (26 okt) och Nordea 15,50 → 12 kr (27 okt), alla behåll/neutral. Nordea väntar sig förlust även i Q4 och en svag start på 2027 och sänker rörelseresultatprognoserna för 2027–28 med 25–36 %. De nya riktkurserna ligger runt dagens kurs (cirka 11 kr), så analytikerna ser ingen tydlig uppsida förrän vändningen syns – bekräftar den negativa hållningen."
         }
       ],
       "links": [
@@ -1591,14 +1652,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Volvo Cars Q3 2026 – pressmeddelande (Cision)",
-          "url": "https://news.cision.com/se/volvo-car-ab--publ-/r/volvo-cars-q3-2026--vidtar-atgarder-for-att-navigera-i-en-mycket-utmanande-omvarld,c4414241"
-        },
-        {
-          "title": "Volvo Cars Q3 2026 – rapport (PDF)",
-          "url": "https://mb.cision.com/Main/20685/4414241/4335537.pdf"
-        },
         {
           "title": "Placera – Volvo Cars vänder till förlust (2026-10-23)",
           "url": "https://www.placera.se/nyheter/volvo-cars-vander-till-forlust-omsattningen-rasar-2026-10-23"
@@ -1622,6 +1675,14 @@
         {
           "title": "Volvo Cars – beslut vid årsstämman 2026",
           "url": "https://www.inderes.se/releases/volvo-car-ab-publ-beslut-vid-volvo-cars-arsstamma-2026"
+        },
+        {
+          "title": "Börsvärlden – Nordea sänker Volvo Cars till 12 kr (2026-10-27)",
+          "url": "https://borsvarlden.com/artiklar/nordea-sanker-riktkursen-for-volvo-cars-till-12-kronor-upprepar-behall"
+        },
+        {
+          "title": "Börskollen – Volvo Car riktkurser",
+          "url": "https://www.borskollen.se/aktie/volvo-cars/riktkurs"
         }
       ]
     }
