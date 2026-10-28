@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "stocks": [
     {
       "id": "electrolux",
@@ -230,32 +230,37 @@
       "stance": "positiv",
       "risk": "medel",
       "thesis": "Kvalitetsbolag med stabila marginaler runt 12 % som handlas långt under fjolårets nivåer. Svag försäljning just nu, men en växande orderstock och ny vd kan vända trenden.",
-      "summary": "Aktien har fallit från runt 67 SEK i november 2025 till mitten av 40-talet, bland annat efter ett svagt Q1 (−11 % på rapportdagen). Försäljningen minskade 3,8 % organiskt i Q2, främst inom Food & Beverage där projektleveranser i USA och APAC-MEA sköts fram. Samtidigt höll EBITA-marginalen på 12,4 % och Laundry levererade 17,2 %. Orderstocken ökade, och nya vd:n Paolo Schira räknar med att priser och tillägg ska kompensera för valuta, tullar och logistik under andra halvåret. Kassaflödet var svagt i kvartalet. Q3 den 28 oktober visar om orderstocken omvandlas till försäljning.",
+      "summary": "Aktien föll från runt 67 SEK i november 2025 till mitten av 40-talet efter flera kvartal med fallande försäljning. Q3 2026 bröt trenden: försäljningen ökade 4,6 % till 2 947 MSEK (organiskt +3,4 %) med bidrag från alla regioner, och EBITA blev 372 MSEK – nästan 9 % över förväntan (342 MSEK). Marginalen på 12,6 % fick hjälp av en tullåterbetalning i USA på 26 MSEK; utan den låg den på 11,8 % mot 11,6 % året innan. Laundry växte 5,2 % organiskt med högre orderingång, medan Food & Beverage växte 2,2 % delvis tack vare framflyttade leveranser i APAC-MEA och hade oförändrad orderingång. Kassaflödet efter investeringar var starkt (407 MSEK). Vd Paolo Schira pekar på besparingar, orderingång och priser som stöd framåt, men högre logistikkostnader och kostnader för strategiska satsningar håller tillbaka marginalen.",
       "keyFigures": [
         {
-          "label": "Omsättning Q2",
-          "value": "3 036 MSEK",
-          "note": "−3,8 % organiskt"
+          "label": "Omsättning Q3",
+          "value": "2 947 MSEK",
+          "note": "+4,6 %, organiskt +3,4 %"
+        },
+        {
+          "label": "EBITA Q3",
+          "value": "372 MSEK",
+          "note": "Förväntan 342 MSEK"
         },
         {
           "label": "EBITA-marginal",
-          "value": "12,4 %",
-          "note": "12,3 % året innan"
+          "value": "12,6 %",
+          "note": "11,8 % exkl. tullåterbetalning (11,6 % året innan)"
         },
         {
-          "label": "Laundry EBITA-marginal",
-          "value": "17,2 %",
-          "note": "Inkl. tullåterbetalning"
+          "label": "Rörelseresultat Q3",
+          "value": "317 MSEK",
+          "note": "37 året innan (jämförelsestörande poster)"
         },
         {
-          "label": "Vinst per aktie Q2",
-          "value": "0,80 SEK",
-          "note": "0,75 året innan"
+          "label": "Vinst per aktie Q3",
+          "value": "0,74 SEK",
+          "note": "0,14 året innan"
         },
         {
           "label": "Kassaflöde efter investeringar",
-          "value": "125 MSEK",
-          "note": "305 året innan"
+          "value": "407 MSEK",
+          "note": "402 året innan"
         },
         {
           "label": "Utdelning",
@@ -269,38 +274,37 @@
         }
       ],
       "latestReport": {
-        "title": "Delårsrapport Q2 2026",
-        "date": "2026-07-22",
+        "title": "Delårsrapport Q3 2026",
+        "date": "2026-10-28",
         "highlights": [
-          "Försäljningen minskade 5,0 % (organiskt −3,8 %, valuta −1,9 %, förvärv +0,6 %).",
-          "Food & Beverage −5,8 % organiskt; orderstocken ökade trots lägre orderingång.",
-          "Laundry organiskt stabilt, ökad orderingång och TOSEI i Japan växte igen.",
-          "EBITA fick stöd av en tullåterbetalning på 21 MSEK i USA.",
-          "Aktien steg 6,7 % på rapportdagen."
+          "Försäljningen ökade 4,6 % till 2 947 MSEK (organiskt +3,4 %, valuta +0,3 %, förvärv +0,9 %) – över förväntan på 2 848 MSEK.",
+          "EBITA 372 MSEK (92 året innan, då med −235 MSEK i jämförelsestörande poster) mot förväntade 342 MSEK.",
+          "Tullåterbetalning i USA på 26 MSEK lyfte marginalen; exklusive den 11,8 % (11,6 %).",
+          "Food & Beverage +2,2 % organiskt, oförändrad orderingång; Americas minskade men långsammare.",
+          "Laundry +5,2 % organiskt, drivet av USA och APAC-MEA, med högre orderingång.",
+          "Effektiviseringsprogrammet slutförs, bl.a. flytt av produktion från Schweiz till Italien."
         ]
       },
       "bull": [
-        "Stabila marginaler i en svag marknad – prissättningsmakt.",
-        "Laundry är en högmarginal-motor (≈ 17 % EBITA).",
-        "Växande orderstock inför andra halvåret.",
-        "Handelsbanken har köp med riktkurs 60 SEK (22 sep)."
+        "Organisk tillväxt igen efter flera kvartal med minus – alla regioner bidrog i Q3.",
+        "Laundry är en högmarginal-motor med växande orderingång.",
+        "Starkt kassaflöde i Q3 (407 MSEK efter investeringar).",
+        "Besparingar från effektiviseringsprogrammet ska ge stöd framåt.",
+        "Analytikerna har köp (Danske Bank 71 kr, Handelsbanken 60 kr)."
       ],
       "bear": [
-        "Negativ organisk tillväxt flera kvartal i rad.",
-        "Svagt kassaflöde och högre rörelsekapital.",
-        "Exponering mot USA-tullar och svag krona/valuta.",
-        "Ny vd sedan maj – strategin kan justeras."
+        "Marginalen lyftes av engångsåterbetalning av tullar; underliggande förbättring är liten.",
+        "Food & Beverage har oförändrad orderingång och en del av tillväxten var framflyttade leveranser.",
+        "Högre logistikkostnader och kostnader för strategiska satsningar.",
+        "Exponering mot USA-tullar och valuta."
       ],
       "watch": [
-        "Q3 28 okt: omvandlas orderstocken till försäljning?",
-        "Kassaflödet och rörelsekapitalet.",
-        "Mottagandet av tvätteriserien Generation 7000 (lanserad 23 sep)."
+        "Bokslutet 28 jan: håller den organiska tillväxten utan tullåterbetalningar?",
+        "Orderingången inom Food & Beverage, särskilt i Americas.",
+        "Mottagandet av tvätteriserien Generation 7000.",
+        "Analytikernas riktkursjusteringar efter Q3."
       ],
       "events": [
-        {
-          "date": "2026-10-28",
-          "label": "Delårsrapport Q3 2026"
-        },
         {
           "date": "2027-01-28",
           "label": "Bokslutskommuniké 2026"
@@ -327,6 +331,10 @@
       },
       "log": [
         {
+          "date": "2026-10-28",
+          "text": "Q3-rapporten slog förväntningarna: försäljning 2 947 MSEK (organiskt +3,4 %) och EBITA 372 MSEK mot väntade 342 MSEK. Marginalen 12,6 % fick hjälp av 26 MSEK i tullåterbetalning – underliggande 11,8 % (11,6 %). Laundry växte med högre orderingång medan Food & Beverage hade oförändrad orderingång. Försäljningen vänder uppåt som tesen förutsåg; hållningen står kvar som positiv."
+        },
+        {
           "date": "2026-10-15",
           "text": "Danske Bank sänkte riktkursen från 75 till 71 kr (13 okt) men behåller köp. Försiktigare förväntningar inför Q3 den 28 oktober, men analytikerna ser fortfarande uppsida."
         },
@@ -350,6 +358,18 @@
         }
       ],
       "sources": [
+        {
+          "title": "Electrolux Professional – delårsrapport Q3 2026 (Inderes)",
+          "url": "https://www.inderes.fi/en/releases/electrolux-professional-ab-interim-report-q3-2026"
+        },
+        {
+          "title": "Affärsvärlden – Storköksbolaget slår förväntningarna",
+          "url": "https://www.affarsvarlden.se/artikel/storkoksbolaget-slar-forvantningarna"
+        },
+        {
+          "title": "Börsvärlden – väntat justerat EBITA 342 MSEK (Modular Finance)",
+          "url": "https://borsvarlden.com/artiklar/electrolux-professional-vantas-redovisa-ett-justerat-ebita-resultat-pa-342-miljoner-kronor-modular"
+        },
         {
           "title": "Electrolux Professional delårsrapport Q2 2026 (MFN)",
           "url": "https://mfn.se/a/electrolux-professional/electrolux-professional-ab-interim-report-q2-2026"
@@ -1137,37 +1157,37 @@
       "stance": "neutral",
       "risk": "medel",
       "thesis": "Stålbolag med nettokassa, starka specialstål och stöd av nya EU-skyddsåtgärder. Vinsten stiger, men Q3 är säsongssvagt, Europa-efterfrågan är svag och den stora fossilfria omställningen i Luleå binder kapital i flera år.",
-      "summary": "Q2 2026 gav intäkter på 27,5 mdr SEK (+7 %) och ett rörelseresultat på 2,7 mdr SEK (+26 %), drivet av högre priser och leveranser – men resultatet blev cirka 5 % under förväntan och aktien föll runt 6 % på rapportdagen. Special Steels är fortsatt motorn med 19 % marginal, Europa har vänt från nästan noll till 6 % och Americas ligger på 13 %. Kassaflödet var starkt (3,7 mdr SEK) och nettokassan 8,6 mdr SEK efter utdelningen på 2 kr per aktie. EU:s nya handelsåtgärder mot global överkapacitet gäller sedan 1 juli och väntas förbättra balansen i Europa. Inför Q3 räknar bolaget med lägre leveranser (över 10 % ned i Special Steels och Europa, 5–10 % i Americas), 0–5 % högre priser och cirka 800 MSEK i underhållskostnader. Oxelösunds ombyggnad ska starta produktion Q2 2027 och Luleå i slutet av 2029. Analytikerna är spridda (78–145 kr) men övervägande positiva.",
+      "summary": "Q3 2026 landade i linje med förväntan: intäkter 25,6 mdr SEK (+12 %), EBITDA 3 259 MSEK (2,4 % över konsensus) och rörelseresultat 2 157 MSEK (+15 %), trots underhållskostnader på 810 MSEK (390 året innan). Högre stålpriser, särskilt i Europa, och högre leveranser drev resultatet. Europe ökade leveranserna i de flesta premiumsegment, Special Steels ökade leveranserna och Americas gynnades av den starka grovplåtsmarknaden i USA. EU:s handelsåtgärder från 1 juli har börjat förbättra balansen i Europa och priserna där steg. Nettokassan var 8,4 mdr SEK och Moody's gav SSAB ett första kreditbetyg, Baa2 (investment grade). Inför Q4 väntas något högre priser i alla stålavdelningar, något lägre leveranser i Special Steels, högre i Europe och stabila i Americas, men även något högre råvarukostnader. Investeringsramen för 2026 sänktes till cirka 11,2 mdr SEK (från 13,5) på grund av ändrad betalningstidpunkt. Oxelösund startar Q2 2027 och Luleå i slutet av 2029, båda enligt plan.",
       "keyFigures": [
         {
-          "label": "Intäkter Q2",
-          "value": "27 489 MSEK",
-          "note": "25 631 året innan"
+          "label": "Intäkter Q3",
+          "value": "25 632 MSEK",
+          "note": "22 960 året innan"
         },
         {
-          "label": "EBITDA Q2",
-          "value": "3 778 MSEK",
-          "note": "3 157 året innan"
+          "label": "EBITDA Q3",
+          "value": "3 259 MSEK",
+          "note": "13 % marginal; konsensus 3 184"
         },
         {
-          "label": "Rörelseresultat Q2",
-          "value": "2 695 MSEK",
-          "note": "10 % marginal; 2 140 året innan"
+          "label": "Rörelseresultat Q3",
+          "value": "2 157 MSEK",
+          "note": "8 % marginal; 1 869 året innan"
         },
         {
-          "label": "Vinst per aktie Q2",
-          "value": "2,09 SEK",
-          "note": "1,86 året innan"
+          "label": "Vinst per aktie Q3",
+          "value": "1,56 SEK",
+          "note": "1,49 året innan"
         },
         {
-          "label": "Kassaflöde från rörelsen Q2",
-          "value": "3 733 MSEK",
-          "note": "1 753 året innan"
+          "label": "Underhållskostnader Q3",
+          "value": "810 MSEK",
+          "note": "390 året innan; helår 1 450 MSEK"
         },
         {
           "label": "Nettokassa",
-          "value": "8,6 mdr SEK",
-          "note": "30 juni 2026; 10,9 mdr året innan"
+          "value": "8,4 mdr SEK",
+          "note": "30 sep 2026; 10,8 mdr året innan"
         },
         {
           "label": "Utdelning 2025",
@@ -1181,42 +1201,37 @@
         }
       ],
       "latestReport": {
-        "title": "Delårsrapport Q2 2026",
-        "date": "2026-07-22",
+        "title": "Delårsrapport Q3 2026",
+        "date": "2026-10-28",
         "highlights": [
-          "Rörelseresultat 2 695 MSEK (2 140), främst tack vare högre priser och leveranser; cirka 5 % under förväntan.",
-          "Divisioner: Special Steels 1 446 MSEK (19 % marginal), Europe 624 MSEK (6 %), Americas 714 MSEK (13 %).",
-          "Stålleveranser 1 760 kt (1 708). Högre logistik- och energikostnader kopplat till konflikten i Persiska viken.",
-          "Utsikter Q3: säsongsmässigt lägre leveranser, priser 0–5 % högre, planerat underhåll för cirka 800 MSEK.",
-          "Luleå enligt plan och budget med produktionsstart i slutet av 2029; Oxelösund startar Q2 2027.",
-          "Aktien föll runt 6 % på rapportdagen."
+          "Rörelseresultat 2 157 MSEK (1 869), i linje med konsensus 2 148; EBITDA 3 259 MSEK något över förväntan.",
+          "Högre stålpriser – främst i Europa – och högre leveranser drev resultatet, trots 810 MSEK i underhåll.",
+          "EU:s handelsåtgärder har börjat förbättra balansen i Europa; priserna där steg under kvartalet.",
+          "Utsikter Q4: något högre priser, leveranser något lägre i Special Steels, högre i Europe, stabila i Americas; något högre råvarukostnader.",
+          "Investeringar 2026 sänks till cirka 11,2 mdr SEK (13,5) p.g.a. ändrad betalningstidpunkt; Oxelösund Q2 2027 och Luleå slutet av 2029 enligt plan.",
+          "Moody's gav ett första kreditbetyg: Baa2 med stabila utsikter."
         ]
       },
       "bull": [
-        "Nettokassa på 8,6 mdr SEK trots stora investeringar i omställningen.",
-        "Special Steels (Hardox, Strenx, Armox) ger höga marginaler och byggs ut med en ny härdlinje i Oxelösund (3,3 mdr SEK).",
-        "EU:s nya skyddsåtgärder från 1 juli minskar importtrycket i Europa.",
-        "Fortsatt höga grovplåtspriser i USA enligt SB1 Markets.",
+        "Nettokassa på 8,4 mdr SEK och nytt investment grade-betyg (Baa2) från Moody's.",
+        "EU:s skyddsåtgärder ger effekt – europeiska priser steg i Q3 och väntas stiga igen i Q4.",
+        "Special Steels (Hardox, Strenx, Armox) ger höga marginaler och byggs ut med en ny härdlinje i Oxelösund.",
+        "Stark grovplåtsmarknad i USA gynnar Americas.",
         "Fossilfritt stål kan ge en tydlig konkurrensfördel när Luleå och Oxelösund är klara."
       ],
       "bear": [
-        "Q3 är säsongssvagt med lägre leveranser och cirka 800 MSEK i underhållskostnader.",
+        "Stigande kostnader, bl.a. något högre råvarukostnader i Q4.",
         "Svag efterfrågan från bygg och fordon i Europa; Worldsteel har sänkt prognosen för global stålefterfrågan 2026–2027.",
         "Luleå-projektet binder kapital i flera år – risk för förseningar och kostnadsökningar.",
-        "Höga energi- och logistikkostnader pressar marginalerna.",
+        "Nettokassan krymper (8,4 mdr mot 10,8 året innan) när investeringarna ökar.",
         "Stor spridning bland analytikerna (78–145 kr) visar osäkerheten i cykeln."
       ],
       "watch": [
-        "Q3 28 okt: håller marginalerna trots lägre volymer och underhåll? Handelsbanken väntar sig EBITDA runt 3,5 mdr SEK.",
-        "Prisutvecklingen på grovplåt i USA och effekten av EU:s skyddsåtgärder.",
+        "Analytikernas riktkursjusteringar efter Q3-rapporten.",
+        "Prisutvecklingen i Europa och USA under Q4 och effekten av EU:s skyddsåtgärder.",
         "Status för Oxelösund (start Q2 2027) och Luleå (slutet av 2029)."
       ],
-      "events": [
-        {
-          "date": "2026-10-28",
-          "label": "Delårsrapport Q3 2026"
-        }
-      ],
+      "events": [],
       "analysts": {
         "consensus": "Köp",
         "avgTarget": 120,
@@ -1268,6 +1283,10 @@
       },
       "log": [
         {
+          "date": "2026-10-28",
+          "text": "Q3-rapporten i linje med förväntan: rörelseresultat 2 157 MSEK (konsensus 2 148) och EBITDA 3 259 MSEK (3 184), trots 810 MSEK i underhåll. Högre priser i Europa visar att EU:s skyddsåtgärder biter, och för Q4 väntas något högre priser men också högre råvarukostnader. Moody's gav investment grade (Baa2) och årets investeringar sänks till 11,2 mdr på grund av betalningstidpunkter. Stabilt men utan överraskning – hållningen står kvar som neutral. Nästa rapportdatum är inte känt ännu."
+        },
+        {
           "date": "2026-10-19",
           "text": "Första analysen. Utgångsläge neutral: vinsten växer, balansräkningen är stark och EU-skyddet hjälper, men Q3 är säsongssvagt, Europa-efterfrågan är svag och analytikerna spretar kraftigt (78–145 kr). Handelsbanken höjde idag riktkursen 120 → 125 kr (köp). Rapporten 28 oktober avgör nästa steg."
         }
@@ -1287,6 +1306,14 @@
         }
       ],
       "sources": [
+        {
+          "title": "SSAB – Report for Q3 2026 (Inderes)",
+          "url": "https://www.inderes.fi/en/releases/ssab-report-for-q3-2026"
+        },
+        {
+          "title": "Placera – SSAB:s rörelseresultat i linje med konsensus",
+          "url": "https://www.placera.se/nyheter/ssab-s-rorelseresultat-i-linje-med-konsensus-2026-10-28"
+        },
         {
           "title": "SSAB – Rapport för andra kvartalet 2026 (Cision)",
           "url": "https://news.cision.com/se/ssab/r/rapport-for-andra-kvartalet-2026,c4376671"
@@ -1310,14 +1337,6 @@
         {
           "title": "Placera – Höjd riktkurs för SSAB (DNB Carnegie)",
           "url": "https://www.placera.se/nyheter/hojd-riktkurs-for-ssab-2026-10-06"
-        },
-        {
-          "title": "Targetwatch – riktkurser SSAB",
-          "url": "https://www.targetwatch.io/ssab"
-        },
-        {
-          "title": "Börsvärlden – nyhetsflöde SSAB",
-          "url": "https://borsvarlden.com/Foretagsinfo/ssab"
         }
       ]
     },
