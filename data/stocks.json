@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "stocks": [
     {
       "id": "electrolux",
@@ -95,9 +95,15 @@
       ],
       "analysts": {
         "consensus": "Neutral",
-        "avgTarget": 30.46,
-        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (före DNB Carnegies och Deutsche Banks ändringar 27 okt)",
+        "avgTarget": 32.68,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (29 okt, inkl. DNB Carnegies 50 kr)",
         "targets": [
+          {
+            "date": "2026-10-28",
+            "bank": "UBS",
+            "rating": "Neutral",
+            "target": 31
+          },
           {
             "date": "2026-10-27",
             "bank": "DNB Carnegie",
@@ -141,12 +147,6 @@
             "target": 30
           },
           {
-            "date": "2026-07-31",
-            "bank": "UBS",
-            "rating": "Neutral",
-            "target": 33
-          },
-          {
             "date": "2026-07-30",
             "bank": "Danske Bank",
             "rating": "Köp",
@@ -170,6 +170,10 @@
         {
           "date": "2026-10-27",
           "text": "Spretiga analytikerreaktioner efter Q3: DNB Carnegie höjer till köp (från behåll) – enligt Börskollens flash med riktkurs 50 kr (från 26), en ovanligt stor höjning som bör bekräftas. Samtidigt sänker Deutsche Bank 33 → 31 kr (behåll), JPMorgan 36 → 34 kr (neutral) och Barclays 25 → 23,10 kr (undervikt). Blankningen har stigit till 10,93 %. Ett köpråd från en stor bank är ett plus, men konsensus är fortsatt neutral och blankarna ökar – hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-10-29",
+          "text": "UBS sänkte riktkursen 33 → 31 kr (neutral) den 28 oktober. Börskollen listar nu DNB Carnegies uppgradering till köp med 50 kr (från 26) i riktkurstabellen, vilket lyfter snittet till 32,68 kr; konsensus är fortsatt neutral. Ännu en försiktig röst efter Q3 – hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -214,6 +218,10 @@
         {
           "title": "Börskollen – Electrolux riktkurser (okt 2026)",
           "url": "https://www.borskollen.se/aktie/electrolux/riktkurs"
+        },
+        {
+          "title": "Börskollen – analytikerrekar 28 okt 2026",
+          "url": "https://borskollen.se/nyheter/27/analytikerna-aktierna-vi-satter-kop-respektive-salj-pa-idag-1793192401"
         }
       ]
     },
@@ -896,6 +904,10 @@
         {
           "date": "2026-10-20",
           "text": "Insynsköp: styrelseledamoten Gunilla Rudebjer köpte 1 000 B-aktier till i snitt 171,40 kr (cirka 0,17 MSEK) den 15–16 oktober och har därmed ungefär 2 900 aktier. Beloppet är litet men är en signal om förtroende inför säsongen; hållningen står kvar som positiv."
+        },
+        {
+          "date": "2026-10-29",
+          "text": "Fler insynsköp: finanschefen Sara Jinnerot Uggelberg köpte 1 496 aktier till 176,40 kr (26 okt), och två andra ledande befattningshavare – Sofie Arnell (1 400 aktier till cirka 178,90 kr) och Lina Gabrielson (2 220 aktier till 180,20 kr) – köpte de följande dagarna. Totalt cirka 0,9 MSEK. Beloppen är små men att flera i ledningen köper inför vintersäsongen är en tydlig förtroendesignal; hållningen står kvar som positiv."
         }
       ],
       "links": [
@@ -928,6 +940,10 @@
         {
           "title": "Placera – Skistars styrelseledamot Gunilla Rudebjer köper aktier",
           "url": "https://www.placera.se/telegram/skistar-skistars-styrelseledamot-gunilla-rudebjer-koper-aktier-for-knappt-0-2-miljoner-kronor-20261016"
+        },
+        {
+          "title": "Börskollen – SkiStar insynshandel",
+          "url": "https://www.borskollen.se/aktie/skistar/insynshandel"
         }
       ]
     },
