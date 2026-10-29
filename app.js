@@ -214,7 +214,7 @@
         <table class="targets">${a.targets.map((t) => `
           <tr><td class="d">${t.date ? fmtDate(t.date, { day: "numeric", month: "short" }) : "–"}</td><td>${esc(t.bank)} <span class="flat">· ${esc(t.rating)}</span></td><td class="r">${nf(t.target, t.target % 1 ? 1 : 0)}</td></tr>`).join("")}
         </table>` : `<p class="flat" style="margin:0">${esc(a.avgTargetNote || "Inga riktkurser registrerade.")}</p>`}
-        ${a.avgTarget && a.avgTargetNote ? `<p class="flat" style="font-size:12px;margin:8px 0 0">${esc(a.avgTargetNote)}</p>` : ""}
+        ${a.avgTargetNote && (a.avgTarget || (a.targets || []).length) ? `<p class="flat" style="font-size:12px;margin:8px 0 0">${esc(a.avgTargetNote)}</p>` : ""}
       </section>
 
       <section class="panel">

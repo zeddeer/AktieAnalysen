@@ -1720,6 +1720,366 @@
           "url": "https://www.borskollen.se/aktie/volvo-cars/riktkurs"
         }
       ]
+    },
+    {
+      "id": "plejd",
+      "name": "Plejd",
+      "shareClass": "",
+      "ticker": "PLEJD",
+      "yahoo": "PLEJD.ST",
+      "avanzaId": "",
+      "currency": "SEK",
+      "market": "Stockholm · Spotlight",
+      "sector": "Industri · Smart belysning och hemstyrning",
+      "stance": "positiv",
+      "risk": "medel",
+      "thesis": "Snabbväxande och mycket lönsamt bolag inom smart belysningsstyrning, med 31 % tillväxt och 25 % rörelsemarginal i Q3. Norge går starkt och nya produkter och Europa ska driva tillväxten från 2027, men Sverige växer långsammare och kassaflödet var svagt i kvartalet.",
+      "summary": "Q3 2026 (16 okt) gav nettoomsättning på 282,8 MSEK (+31 %) och rörelseresultat på 72,1 MSEK (+60 %), vilket motsvarar 25,5 % marginal (20,9 %). Bruttomarginalen steg till 56,0 % (52,6 %) och låg klart över analytikernas väntan, medan försäljningen var något lägre än Pareto räknat med. Norge växte kraftigt till 124,3 MSEK (77,6), delvis tack vare lageruppbyggnad hos kunder, och närmar sig Sverige (132,1 MSEK, +14 %). Kassaflödet från den löpande verksamheten var bara 8,2 MSEK (53,6) eftersom lager och kundfordringar ökade, men för årets nio månader är det 184 MSEK och kassan uppgår till 200 MSEK. LED-panelen LPN-01 tar sig långsamt in i projekt, och skenspotten TRL-01 och närvarosensorn CMS-01 ska lanseras i början av 2027. Bolaget säger att Europaexpansionen blir en viktigare tillväxtmotor från 2027. Plejd ger ingen utdelning.",
+      "keyFigures": [
+        {
+          "label": "Nettoomsättning Q3",
+          "value": "282,8 MSEK",
+          "note": "+31 % (215,3 året innan)"
+        },
+        {
+          "label": "Rörelseresultat Q3",
+          "value": "72,1 MSEK",
+          "note": "Marginal 25,5 % (20,9 %)"
+        },
+        {
+          "label": "Bruttomarginal Q3",
+          "value": "56,0 %",
+          "note": "52,6 % året innan"
+        },
+        {
+          "label": "Vinst per aktie Q3",
+          "value": "4,98 SEK",
+          "note": "3,15 året innan; 16,74 jan–sep"
+        },
+        {
+          "label": "Kassaflöde löpande verksamhet Q3",
+          "value": "8,2 MSEK",
+          "note": "53,6 året innan – högre lager och fordringar"
+        },
+        {
+          "label": "Likvida medel",
+          "value": "200 MSEK",
+          "note": "30 sep 2026; 95 året innan"
+        },
+        {
+          "label": "Utdelning",
+          "value": "Ingen",
+          "note": ""
+        },
+        {
+          "label": "Blankat",
+          "value": "1,04 %",
+          "note": "0,23 % för en månad sedan"
+        }
+      ],
+      "latestReport": {
+        "title": "Delårsrapport Q3 2026",
+        "date": "2026-10-16",
+        "highlights": [
+          "Nettoomsättning 282,8 MSEK (+31,3 %); jan–sep 865,3 MSEK (+33,9 %).",
+          "Rörelseresultat 72,1 MSEK (45,1), marginal 25,5 %; bruttomarginal 56,0 % klart över förväntan.",
+          "Norge 124,3 MSEK (77,6) – delvis lageruppbyggnad hos kunder; Sverige 132,1 MSEK (116,4), något svagare än väntat.",
+          "Kassaflöde från löpande verksamhet 8,2 MSEK (53,6) p.g.a. högre lager och kundfordringar.",
+          "TRL-01 (skenspot) och CMS-01 (närvarosensor) lanseras i början av 2027; Europa väntas bli en viktigare tillväxtmotor från 2027.",
+          "284 anställda (238 året innan)."
+        ]
+      },
+      "bull": [
+        "Hög tillväxt (+34 % jan–sep) med stigande marginaler – rörelsemarginal 27,8 % för årets nio månader.",
+        "Norge växer kraftigt och fler marknader (Nederländerna, Finland, Tyskland, Spanien) byggs upp.",
+        "Bred produktpipeline: LED-paneler, skenspotar, sensorer och smarta solskyddsmotorer.",
+        "Nettokassa på 200 MSEK och ingen skuld att tala om.",
+        "Alla tre analytiker som följer aktien har köp, med snittriktkurs omkring 1 277 kr."
+      ],
+      "bear": [
+        "Svagt kassaflöde i Q3 när lager och fordringar växte.",
+        "Sverige, den största marknaden, växer långsammare – och en del av Norges tillväxt var engångsartad lageruppbyggnad.",
+        "Beroende av bostadsbyggande och renoveringar, som är konjunkturkänsliga.",
+        "Europaexpansionen är fortfarande liten och kostar pengar innan den ger intäkter.",
+        "Hög värdering kräver att tillväxten håller i sig; litet bolag på Spotlight med begränsad likviditet."
+      ],
+      "watch": [
+        "Bokslutet 28 januari 2027: om tillväxten i Sverige tar fart igen och om Norge håller uppe efter lageruppbyggnaden.",
+        "Kassaflödet och lagernivån – vänder de i Q4?",
+        "Lanseringarna av TRL-01 och CMS-01 i början av 2027 och de smarta solskyddsmotorerna i Europa.",
+        "Blankningen, som har stigit från 0,2 % till cirka 1 % på en månad."
+      ],
+      "events": [
+        {
+          "date": "2027-01-28",
+          "label": "Bokslutskommuniké 2026"
+        },
+        {
+          "date": "2027-04-08",
+          "label": "Delårsrapport Q1 2027"
+        }
+      ],
+      "analysts": {
+        "consensus": "Köp",
+        "avgTarget": 1276.67,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen",
+        "targets": [
+          {
+            "date": "2026-10-19",
+            "bank": "SEB",
+            "rating": "Köp",
+            "target": 1380
+          },
+          {
+            "date": "2026-10-09",
+            "bank": "Pareto Securities",
+            "rating": "Köp",
+            "target": 1250
+          },
+          {
+            "date": "2026-06-30",
+            "bank": "Nordea",
+            "rating": "Köp",
+            "target": 1200
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-29",
+          "text": "Första analysen. Utgångsläge positiv med medelrisk: Q3 visade 31 % tillväxt och 25,5 % rörelsemarginal, och bruttomarginalen slog förväntan. Kassaflödet var svagt och en del av Norges tillväxt var lageruppbyggnad, så det är värt att följa. Ordföranden Ylwa Karlgren köpte 290 aktier (cirka 0,25 MSEK) den 21 oktober. SEB sänkte riktkursen något, från 1 400 till 1 380 kr (köp), den 19 oktober."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – Plejd",
+          "url": "https://www.borskollen.se/aktie/plejd"
+        },
+        {
+          "title": "Plejd – pressmeddelanden (Cision)",
+          "url": "https://news.cision.com/se/plejd"
+        },
+        {
+          "title": "Pressmeddelanden (MFN)",
+          "url": "https://mfn.se/all/a/plejd"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Plejd – Delårsrapport Q3 2026 (PDF)",
+          "url": "https://mb.cision.com/Main/13880/4409396/4320195.pdf"
+        },
+        {
+          "title": "Placera – Plejd: stark lönsamhet enligt analytiker (16 okt)",
+          "url": "https://www.placera.se/telegram/plejd-stark-lonsamhet-enligt-analytiker-aktien-6-6-20261016"
+        },
+        {
+          "title": "Redeye – Plejd Q3 initial take",
+          "url": "https://placera.se/externa-analyser/plejd-plejd-q3-initial-take-above-expectations-but-less-than-headline-figures-suggest-20261016"
+        },
+        {
+          "title": "Börskollen – Plejd riktkurser",
+          "url": "https://www.borskollen.se/aktie/plejd/riktkurs"
+        },
+        {
+          "title": "Börskollen – Plejd (blankning, insyn)",
+          "url": "https://www.borskollen.se/aktie/plejd"
+        }
+      ]
+    },
+    {
+      "id": "stora-enso",
+      "name": "Stora Enso",
+      "shareClass": "R",
+      "ticker": "STE R",
+      "yahoo": "STE-R.ST",
+      "avanzaId": "",
+      "currency": "SEK",
+      "market": "Stockholm · Large Cap (även Helsingfors)",
+      "sector": "Material · Skog, massa och förpackning",
+      "stance": "neutral",
+      "risk": "medel",
+      "thesis": "Skogs- och förpackningsjätte i en förbättringsfas: resultatet växer från låga nivåer och skuldsättningen har fallit kraftigt. Avknoppningen av de svenska skogarna (Bergslagets Skogar) kan frigöra värde under 2027, men svag förpackningsmarknad och Q2-missen gör att Q3-rapporten 30 oktober avgör tempot.",
+      "summary": "Q2 2026 (23 juli) gav försäljning på 2 423 MEUR (oförändrat) och justerat rörelseresultat på 160 MEUR (+27 %, marginal 6,6 %), men det var 8 % under konsensus och aktien föll cirka 11 % på rapportdagen. Nettoresultatet blev −11 MEUR. Nettoskulden har minskat till 2 619 MEUR (3 988) och skuldsättningen till 2,2x justerat EBITDA (3,3x). Skogstillgångarna värderas till 8,5 mdr EUR, cirka 10,80 EUR per aktie. De svenska skogarna, över 1,2 miljoner hektar, ska knoppas av och noteras som Bergslagets Skogar under första halvåret 2027. Kartongmaskinen i Uleåborg (Oulu) körs upp mot full kapacitet 2027, och sågverken i Centraleuropa är under strategisk översyn. Inför Q3 väntades underhållskostnaderna öka med 40–50 MEUR jämfört med Q2. Konsensus för Q3 är 156 MEUR i justerat rörelseresultat (126 året innan) på en försäljning om cirka 2 380 MEUR. Utdelningen för 2025 var 0,25 EUR.",
+      "keyFigures": [
+        {
+          "label": "Försäljning Q2",
+          "value": "2 423 MEUR",
+          "note": "2 426 året innan"
+        },
+        {
+          "label": "Justerat rörelseresultat Q2",
+          "value": "160 MEUR",
+          "note": "Marginal 6,6 %; konsensus 174"
+        },
+        {
+          "label": "Justerat EBITDA Q2",
+          "value": "320 MEUR",
+          "note": "279 året innan"
+        },
+        {
+          "label": "Vinst per aktie Q2",
+          "value": "−0,03 EUR",
+          "note": "0,03 exkl. verkligt värde-poster"
+        },
+        {
+          "label": "Nettoskuld / justerat EBITDA",
+          "value": "2,2x",
+          "note": "Nettoskuld 2 619 MEUR (3 988)"
+        },
+        {
+          "label": "Skogstillgångar",
+          "value": "8 518 MEUR",
+          "note": "≈ 10,80 EUR per aktie"
+        },
+        {
+          "label": "Utdelning 2025",
+          "value": "0,25 EUR",
+          "note": "I två delar: 0,13 (apr) + 0,12 (okt)"
+        },
+        {
+          "label": "Snittriktkurs",
+          "value": "11,49 EUR",
+          "note": "Börskollen, 4 mån; riktkurser anges i euro"
+        }
+      ],
+      "latestReport": {
+        "title": "Halvårsrapport 2026 (Q2)",
+        "date": "2026-07-23",
+        "highlights": [
+          "Justerat rörelseresultat 160 MEUR (126) – 8 % under konsensus 174; aktien föll cirka 11 %.",
+          "Försäljning 2 423 MEUR, oförändrad; nettoresultat −11 MEUR (15).",
+          "Nettoskuld 2 619 MEUR och 2,2x justerat EBITDA (3,3x året innan).",
+          "Avknoppningen av svenska skogarna (Bergslagets Skogar) väntas bli klar under H1 2027.",
+          "Q3-utsikt: underhållet ökar med 40–50 MEUR mot Q2; Oulu-uppstarten tynger i samma storlek.",
+          "Svag efterfrågan och fortsatt höga kostnader; lägre vedkostnader och egna besparingar hjälper."
+        ]
+      },
+      "bull": [
+        "Avknoppningen av Bergslagets Skogar kan synliggöra skogsvärdet (cirka 10,80 EUR per aktie).",
+        "Skuldsättningen har fallit kraftigt (2,2x mot 3,3x).",
+        "Resultatet växer från låga nivåer tack vare besparingar och lägre vedkostnader.",
+        "Oulu-maskinen ger volymtillväxt i konsumentkartong när den når full kapacitet 2027.",
+        "Analytikerna höjer riktkurserna (DNB Carnegie, JPMorgan och OP i oktober); konsensus är köp."
+      ],
+      "bear": [
+        "Svag efterfrågan och överkapacitet på förpackningsmarknaden pressar priserna.",
+        "Q2 missade förväntningarna med 8 % och bolaget ger ingen resultatvägledning.",
+        "Uppstartskostnader i Oulu och tunga underhållsstopp tynger Q3.",
+        "Lägre intäkter från utsläppsrätter (10–20 MEUR i år mot cirka 72 MEUR 2025).",
+        "Svaga sågverk och träprodukter i Centraleuropa."
+      ],
+      "watch": [
+        "Q3-rapporten 30 oktober: justerat rörelseresultat mot konsensus 156 MEUR.",
+        "Besked om den strategiska översynen av sågverken i Centraleuropa.",
+        "Tidplanen och villkoren för noteringen av Bergslagets Skogar (H1 2027).",
+        "Efterfrågan och priser på kartong och massa samt Oulus uppkörning."
+      ],
+      "events": [
+        {
+          "date": "2026-10-30",
+          "label": "Delårsrapport Q3 2026"
+        }
+      ],
+      "analysts": {
+        "consensus": "Köp",
+        "avgTarget": null,
+        "avgTargetNote": "Snittriktkurs 11,49 EUR (4 mån, Börskollen) – riktkurserna anges i euro och jämförs därför inte med kursen i SEK",
+        "targets": [
+          {
+            "date": "2026-10-23",
+            "bank": "OP Corporate Bank",
+            "rating": "Öka (från minska)",
+            "target": 10.75
+          },
+          {
+            "date": "2026-10-16",
+            "bank": "JPMorgan",
+            "rating": "Neutral",
+            "target": 11.7
+          },
+          {
+            "date": "2026-10-02",
+            "bank": "DNB Carnegie",
+            "rating": "Köp",
+            "target": 12.4
+          },
+          {
+            "date": "2026-09-22",
+            "bank": "Jefferies",
+            "rating": "Köp",
+            "target": 12.5
+          },
+          {
+            "date": "2026-09-15",
+            "bank": "SB1 Markets",
+            "rating": "Neutral",
+            "target": 10.6
+          },
+          {
+            "date": "2026-07-24",
+            "bank": "Handelsbanken",
+            "rating": "Köp",
+            "target": 11
+          },
+          {
+            "date": "2026-06-10",
+            "bank": "BNP Paribas",
+            "rating": "Neutral",
+            "target": 10.5
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-29",
+          "text": "Första analysen, dagen före Q3-rapporten. Utgångsläge neutral med medelrisk: skuldsättningen har fallit och skogsavknoppningen kan frigöra värde, men förpackningsmarknaden är svag och Q2 missade förväntningarna. Analytikerna har höjt riktkurserna i oktober, och OP Corporate Bank höjde till öka den 23 oktober. Konsensus för Q3 är 156 MEUR i justerat rörelseresultat."
+        }
+      ],
+      "links": [
+        {
+          "title": "Börskollen – Stora Enso R",
+          "url": "https://www.borskollen.se/aktie/stora-enso"
+        },
+        {
+          "title": "Stora Enso – rapporter och presentationer",
+          "url": "https://www.storaenso.com/en/investors/reports-and-presentations"
+        },
+        {
+          "title": "Pressmeddelanden (Cision)",
+          "url": "https://news.cision.com/se/stora-enso--oyj"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stora Enso – Interim Report Q2 2026 (PDF)",
+          "url": "https://www.storaenso.com/-/media/documents/download-center/documents/interim-reports/2026/storaenso_results_q226_eng.pdf"
+        },
+        {
+          "title": "Placera – Stora Enso sämre än väntat (23 jul)",
+          "url": "https://www.placera.se/nyheter/stora-enso-samre-an-vantat-2026-07-23"
+        },
+        {
+          "title": "Placera – Stora Enso rasar tvåsiffrigt (23 jul)",
+          "url": "https://www.placera.se/nyheter/stora-enso-rasar-tvasiffrigt-2026-07-23"
+        },
+        {
+          "title": "Inderes – Stora Enso Q3'26 förhandsanalys",
+          "url": "https://www.inderes.fi/analyst-comments/stora-enso-q326-ennakko-suunta-on-pysynyt-ylamaessa-mutta-askel-on-raskas"
+        },
+        {
+          "title": "Stora Enso – rapportdatum 2026",
+          "url": "https://www.storaenso.com/en/newsroom/regulatory-and-investor-releases/2025/4/stora-ensos-financial-reports-and-agm-in-2026"
+        },
+        {
+          "title": "Papnews – Bergslagets Skogar",
+          "url": "https://www.papnews.com/stora-enso-names-future-forest-company-bergslagets-skogar/"
+        },
+        {
+          "title": "Börskollen – Stora Enso riktkurser",
+          "url": "https://www.borskollen.se/aktie/stora-enso/riktkurs"
+        }
+      ]
     }
   ]
 }
