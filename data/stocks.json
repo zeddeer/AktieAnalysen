@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "stocks": [
     {
       "id": "electrolux",
@@ -1899,38 +1899,43 @@
       "sector": "Material · Skog, massa och förpackning",
       "stance": "neutral",
       "risk": "medel",
-      "thesis": "Skogs- och förpackningsjätte i en förbättringsfas: resultatet växer från låga nivåer och skuldsättningen har fallit kraftigt. Avknoppningen av de svenska skogarna (Bergslagets Skogar) kan frigöra värde under 2027, men svag förpackningsmarknad och Q2-missen gör att Q3-rapporten 30 oktober avgör tempot.",
-      "summary": "Q2 2026 (23 juli) gav försäljning på 2 423 MEUR (oförändrat) och justerat rörelseresultat på 160 MEUR (+27 %, marginal 6,6 %), men det var 8 % under konsensus och aktien föll cirka 11 % på rapportdagen. Nettoresultatet blev −11 MEUR. Nettoskulden har minskat till 2 619 MEUR (3 988) och skuldsättningen till 2,2x justerat EBITDA (3,3x). Skogstillgångarna värderas till 8,5 mdr EUR, cirka 10,80 EUR per aktie. De svenska skogarna, över 1,2 miljoner hektar, ska knoppas av och noteras som Bergslagets Skogar under första halvåret 2027. Kartongmaskinen i Uleåborg (Oulu) körs upp mot full kapacitet 2027, och sågverken i Centraleuropa är under strategisk översyn. Inför Q3 väntades underhållskostnaderna öka med 40–50 MEUR jämfört med Q2. Konsensus för Q3 är 156 MEUR i justerat rörelseresultat (126 året innan) på en försäljning om cirka 2 380 MEUR. Utdelningen för 2025 var 0,25 EUR.",
+      "thesis": "Skogs- och förpackningsjätte i en förbättringsfas: resultatet växer från låga nivåer och skuldsättningen har fallit kraftigt. Styrelsen har nu formellt beslutat att knoppa av de svenska skogarna (Bergslagets Skogar) under H1 2027, vilket kan frigöra värde, men förpackningsmarknaden är fortsatt svag och Q4 väntas tyngas av underhåll och stigande kostnader.",
+      "summary": "Q3 2026 (30 oktober) gav försäljning på 2 240 MEUR (2 283; organiskt +2 %) och justerat rörelseresultat på 161 MEUR (126), marginal 7,2 % – något över konsensus 156 MEUR trots tungt underhåll och högre kostnader kopplade till Iran-konflikten. Kassaflödet efter investeringar blev 132 MEUR (57). Det rapporterade rörelseresultatet var bara 47 MEUR på grund av jämförelsestörande poster (−63 MEUR) och värderingsposter på biologiska tillgångar (−51 MEUR). Skuldsättningen sjönk till 2,1x justerat EBITDA, främst eftersom hybridobligationen (räknas som eget kapital) använts till att betala av skuld. Skogstillgångarna värderas till 8,4 mdr EUR, cirka 10,66 EUR per aktie. Styrelsen har godkänt en delningsplan för Bergslagets Skogar, som ska noteras under första halvåret 2027; översynen av sågverken i Centraleuropa pågår fortfarande. Inför Q4 väntas stigande energi-, logistik- och kemikaliekostnader, något dyrare ved samt stora planerade underhållsstopp och säsongssvag efterfrågan i konsumentkartong. Årets investeringar sänks till cirka 500 MEUR. Utdelningen för 2025 var 0,25 EUR.",
       "keyFigures": [
         {
-          "label": "Försäljning Q2",
-          "value": "2 423 MEUR",
-          "note": "2 426 året innan"
+          "label": "Försäljning Q3",
+          "value": "2 240 MEUR",
+          "note": "2 283 året innan; organiskt +2 %"
         },
         {
-          "label": "Justerat rörelseresultat Q2",
-          "value": "160 MEUR",
-          "note": "Marginal 6,6 %; konsensus 174"
+          "label": "Justerat rörelseresultat Q3",
+          "value": "161 MEUR",
+          "note": "Marginal 7,2 % (5,5 %); konsensus 156"
         },
         {
-          "label": "Justerat EBITDA Q2",
+          "label": "Justerat EBITDA Q3",
           "value": "320 MEUR",
-          "note": "279 året innan"
+          "note": "291 året innan"
         },
         {
-          "label": "Vinst per aktie Q2",
-          "value": "−0,03 EUR",
-          "note": "0,03 exkl. verkligt värde-poster"
+          "label": "Vinst per aktie Q3",
+          "value": "0,01 EUR",
+          "note": "0,06 exkl. verkligt värde-poster (0,26)"
+        },
+        {
+          "label": "Kassaflöde efter investeringar Q3",
+          "value": "132 MEUR",
+          "note": "57 året innan"
         },
         {
           "label": "Nettoskuld / justerat EBITDA",
-          "value": "2,2x",
-          "note": "Nettoskuld 2 619 MEUR (3 988)"
+          "value": "2,1x",
+          "note": "2,7x året innan; hybridlån användes till amortering"
         },
         {
           "label": "Skogstillgångar",
-          "value": "8 518 MEUR",
-          "note": "≈ 10,80 EUR per aktie"
+          "value": "8,4 mdr EUR",
+          "note": "≈ 10,66 EUR per aktie"
         },
         {
           "label": "Utdelning 2025",
@@ -1940,47 +1945,45 @@
         {
           "label": "Snittriktkurs",
           "value": "11,49 EUR",
-          "note": "Börskollen, 4 mån; riktkurser anges i euro"
+          "note": "Börskollen, 4 mån (före Q3); riktkurser anges i euro"
         }
       ],
       "latestReport": {
-        "title": "Halvårsrapport 2026 (Q2)",
-        "date": "2026-07-23",
+        "title": "Delårsrapport Q3 2026 – \"Introducing Bergslagets Skogar while building a stronger Stora Enso\"",
+        "date": "2026-10-30",
         "highlights": [
-          "Justerat rörelseresultat 160 MEUR (126) – 8 % under konsensus 174; aktien föll cirka 11 %.",
-          "Försäljning 2 423 MEUR, oförändrad; nettoresultat −11 MEUR (15).",
-          "Nettoskuld 2 619 MEUR och 2,2x justerat EBITDA (3,3x året innan).",
-          "Avknoppningen av svenska skogarna (Bergslagets Skogar) väntas bli klar under H1 2027.",
-          "Q3-utsikt: underhållet ökar med 40–50 MEUR mot Q2; Oulu-uppstarten tynger i samma storlek.",
-          "Svag efterfrågan och fortsatt höga kostnader; lägre vedkostnader och egna besparingar hjälper."
+          "Justerat rörelseresultat 161 MEUR (126), marginal 7,2 % – något över konsensus 156 MEUR.",
+          "Försäljning 2 240 MEUR (2 283), organiskt +2 %; justerat EBITDA 320 MEUR (291).",
+          "Rapporterat rörelseresultat 47 MEUR (231) efter jämförelsestörande poster och värdering av biologiska tillgångar; vinst per aktie 0,01 EUR.",
+          "Kassaflöde efter investeringar 132 MEUR (57); skuldsättning 2,1x justerat EBITDA (2,7x).",
+          "Formellt beslut och godkänd delningsplan för Bergslagets Skogar – notering väntas under H1 2027.",
+          "Q4-utsikt: stigande energi-, logistik- och kemikaliekostnader, stora underhållsstopp i konsumentkartong; investeringar 2026 sänks till cirka 500 MEUR.",
+          "Strukturåtgärder: Veitsiluoto sågverk stängt, CLT-enheten i Gruvön stängs vid årsskiftet och wellpapp i Finland samlas i Lahtis."
         ]
       },
       "bull": [
-        "Avknoppningen av Bergslagets Skogar kan synliggöra skogsvärdet (cirka 10,80 EUR per aktie).",
-        "Skuldsättningen har fallit kraftigt (2,2x mot 3,3x).",
-        "Resultatet växer från låga nivåer tack vare besparingar och lägre vedkostnader.",
+        "Bergslagets Skogar är nu formellt beslutad och kan synliggöra skogsvärdet (cirka 10,66 EUR per aktie).",
+        "Skuldsättningen fortsätter ned (2,1x mot 2,7x året innan).",
+        "Q3 slog förväntan och marginalen steg till 7,2 % trots tunga underhållsstopp.",
+        "Starkare kassaflöde och lägre investeringar (cirka 500 MEUR 2026).",
         "Oulu-maskinen ger volymtillväxt i konsumentkartong när den når full kapacitet 2027.",
-        "Analytikerna höjer riktkurserna (DNB Carnegie, JPMorgan och OP i oktober); konsensus är köp."
+        "Analytikerna höjde riktkurserna i oktober; konsensus är köp."
       ],
       "bear": [
-        "Svag efterfrågan och överkapacitet på förpackningsmarknaden pressar priserna.",
-        "Q2 missade förväntningarna med 8 % och bolaget ger ingen resultatvägledning.",
-        "Uppstartskostnader i Oulu och tunga underhållsstopp tynger Q3.",
-        "Lägre intäkter från utsläppsrätter (10–20 MEUR i år mot cirka 72 MEUR 2025).",
-        "Svaga sågverk och träprodukter i Centraleuropa."
+        "Svag efterfrågan i flera slutmarknader; bolaget beskriver läget som blandat och osäkert.",
+        "Stigande energi-, logistik-, kemikalie- och vedkostnader in i Q4.",
+        "Stora planerade underhållsstopp och sämre mix i konsumentkartong tynger Q4.",
+        "Lägre intäkter från utsläppsrätter (10–20 MEUR i år mot cirka 72 MEUR 2025) och skogsförsäljningen kostar cirka 5 MEUR per kvartal.",
+        "Stora engångsposter gör att det rapporterade resultatet ligger långt under det justerade."
       ],
       "watch": [
-        "Q3-rapporten 30 oktober: justerat rörelseresultat mot konsensus 156 MEUR.",
+        "Kapitalmarknadsdagen och villkoren/tidplanen för noteringen av Bergslagets Skogar (H1 2027).",
+        "Analytikernas riktkursjusteringar efter Q3.",
         "Besked om den strategiska översynen av sågverken i Centraleuropa.",
-        "Tidplanen och villkoren för noteringen av Bergslagets Skogar (H1 2027).",
-        "Efterfrågan och priser på kartong och massa samt Oulus uppkörning."
+        "Prisutvecklingen i förpackningskvaliteter och Oulus uppkörning.",
+        "Bokslutskommunikén (datum ej bekräftat i källorna)."
       ],
-      "events": [
-        {
-          "date": "2026-10-30",
-          "label": "Delårsrapport Q3 2026"
-        }
-      ],
+      "events": [],
       "analysts": {
         "consensus": "Köp",
         "avgTarget": null,
@@ -2034,6 +2037,10 @@
         {
           "date": "2026-10-29",
           "text": "Första analysen, dagen före Q3-rapporten. Utgångsläge neutral med medelrisk: skuldsättningen har fallit och skogsavknoppningen kan frigöra värde, men förpackningsmarknaden är svag och Q2 missade förväntningarna. Analytikerna har höjt riktkurserna i oktober, och OP Corporate Bank höjde till öka den 23 oktober. Konsensus för Q3 är 156 MEUR i justerat rörelseresultat."
+        },
+        {
+          "date": "2026-10-30",
+          "text": "Q3-rapporten något bättre än väntat: justerat rörelseresultat 161 MEUR mot konsensus 156 (126 året innan), marginal 7,2 % och organisk tillväxt på 2 %, trots tunga underhållsstopp. Kassaflödet efter investeringar steg till 132 MEUR och skuldsättningen sjönk till 2,1x. Styrelsen har nu formellt beslutat om avknoppningen av Bergslagets Skogar (notering H1 2027). Q4 ser tyngre ut med stigande kostnader och stora underhållsstopp, så hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -2052,16 +2059,12 @@
       ],
       "sources": [
         {
-          "title": "Stora Enso – Interim Report Q2 2026 (PDF)",
-          "url": "https://www.storaenso.com/-/media/documents/download-center/documents/interim-reports/2026/storaenso_results_q226_eng.pdf"
+          "title": "Stora Enso – delårsrapport januari–september 2026 (Inderes)",
+          "url": "https://www.inderes.fi/en/releases/stora-enso-interim-report-january-september-2026-introducing-bergslagets-skogar-while-building-a-stronger-stora-enso"
         },
         {
           "title": "Placera – Stora Enso sämre än väntat (23 jul)",
           "url": "https://www.placera.se/nyheter/stora-enso-samre-an-vantat-2026-07-23"
-        },
-        {
-          "title": "Placera – Stora Enso rasar tvåsiffrigt (23 jul)",
-          "url": "https://www.placera.se/nyheter/stora-enso-rasar-tvasiffrigt-2026-07-23"
         },
         {
           "title": "Inderes – Stora Enso Q3'26 förhandsanalys",
