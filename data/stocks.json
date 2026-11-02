@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "stocks": [
     {
       "id": "electrolux",
@@ -1641,6 +1641,12 @@
             "target": 12
           },
           {
+            "date": "2026-10-27",
+            "bank": "SEB",
+            "rating": "–",
+            "target": 11
+          },
+          {
             "date": "2026-10-26",
             "bank": "Kepler Cheuvreux",
             "rating": "Behåll",
@@ -1674,6 +1680,10 @@
         {
           "date": "2026-10-27",
           "text": "Kraftiga riktkurssänkningar efter Q3-förlusten: Deutsche Bank 13 → 9 kr, JPMorgan 18 → 10, Kepler Cheuvreux 20 → 11, DNB Carnegie 18 → 11 (26 okt) och Nordea 15,50 → 12 kr (27 okt), alla behåll/neutral. Nordea väntar sig förlust även i Q4 och en svag start på 2027 och sänker rörelseresultatprognoserna för 2027–28 med 25–36 %. De nya riktkurserna ligger runt dagens kurs (cirka 11 kr), så analytikerna ser ingen tydlig uppsida förrän vändningen syns – bekräftar den negativa hållningen."
+        },
+        {
+          "date": "2026-11-02",
+          "text": "Komplettering: SEB sänkte också riktkursen från 15 till 11 kr den 27 oktober. Därmed ligger samtliga sex nya riktkurser efter Q3 mellan 9 och 12 kr, i nivå med aktiekursen – analytikerna ser ingen tydlig uppsida förrän vändningen syns. Hållningen står kvar som negativ."
         }
       ],
       "links": [
@@ -1687,6 +1697,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Placera – SEB sänker Volvo Cars till 11 kr (2026-10-27)",
+          "url": "https://www.placera.se/telegram"
+        },
         {
           "title": "Placera – Volvo Cars vänder till förlust (2026-10-23)",
           "url": "https://www.placera.se/nyheter/volvo-cars-vander-till-forlust-omsattningen-rasar-2026-10-23"
@@ -1714,10 +1728,6 @@
         {
           "title": "Börsvärlden – Nordea sänker Volvo Cars till 12 kr (2026-10-27)",
           "url": "https://borsvarlden.com/artiklar/nordea-sanker-riktkursen-for-volvo-cars-till-12-kronor-upprepar-behall"
-        },
-        {
-          "title": "Börskollen – Volvo Car riktkurser",
-          "url": "https://www.borskollen.se/aktie/volvo-cars/riktkurs"
         }
       ]
     },
