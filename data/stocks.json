@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "stocks": [
     {
       "id": "electrolux",
@@ -908,6 +908,10 @@
         {
           "date": "2026-10-29",
           "text": "Fler insynsköp: finanschefen Sara Jinnerot Uggelberg köpte 1 496 aktier till 176,40 kr (26 okt), och två andra ledande befattningshavare – Sofie Arnell (1 400 aktier till cirka 178,90 kr) och Lina Gabrielson (2 220 aktier till 180,20 kr) – köpte de följande dagarna. Totalt cirka 0,9 MSEK. Beloppen är små men att flera i ledningen köper inför vintersäsongen är en tydlig förtroendesignal; hållningen står kvar som positiv."
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Ännu ett insynsköp: ledande befattningshavaren Henrik Lundmark köpte 1 078 aktier till cirka 185,40 kr (knappt 0,2 MSEK), enligt Börskollen. Det är den fjärde personen i ledningen som köper sedan slutet av oktober – fortsatt en förtroendesignal inför vintersäsongen. Hållningen står kvar som positiv."
         }
       ],
       "links": [
@@ -1250,9 +1254,33 @@
       "events": [],
       "analysts": {
         "consensus": "Köp",
-        "avgTarget": 120,
-        "avgTargetNote": "Medianriktkurs enligt Targetwatch (spann 78–145 kr)",
+        "avgTarget": 113.71,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (spann 78–145 kr)",
         "targets": [
+          {
+            "date": "2026-10-29",
+            "bank": "DNB Carnegie",
+            "rating": "Köp (från behåll)",
+            "target": 110
+          },
+          {
+            "date": "2026-10-29",
+            "bank": "Morgan Stanley",
+            "rating": "Övervikt",
+            "target": 119
+          },
+          {
+            "date": "2026-10-29",
+            "bank": "BNP Paribas",
+            "rating": "Outperform",
+            "target": 127
+          },
+          {
+            "date": "2026-10-29",
+            "bank": "Nordea",
+            "rating": "Behåll",
+            "target": 92
+          },
           {
             "date": "2026-10-19",
             "bank": "Handelsbanken",
@@ -1284,12 +1312,6 @@
             "target": 132
           },
           {
-            "date": "2026-10-06",
-            "bank": "DNB Carnegie",
-            "rating": "Behåll",
-            "target": 110
-          },
-          {
             "date": "2026-09-21",
             "bank": "Bank of America",
             "rating": "Neutral",
@@ -1305,6 +1327,10 @@
         {
           "date": "2026-10-19",
           "text": "Första analysen. Utgångsläge neutral: vinsten växer, balansräkningen är stark och EU-skyddet hjälper, men Q3 är säsongssvagt, Europa-efterfrågan är svag och analytikerna spretar kraftigt (78–145 kr). Handelsbanken höjde idag riktkursen 120 → 125 kr (köp). Rapporten 28 oktober avgör nästa steg."
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Riktkursjusteringar efter Q3 (29 okt): DNB Carnegie höjde till köp (från behåll) med 110 kr, medan Morgan Stanley (120 → 119 kr, övervikt), BNP Paribas (128 → 127 kr, outperform) och Nordea (95 → 92 kr, behåll) sänkte marginellt. Börskollens snitt ligger på 113,71 kr och konsensus är köp. Små förändringar som bekräftar bilden av en rapport i linje – hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -1322,6 +1348,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Börskollen – SSAB riktkurser",
+          "url": "https://www.borskollen.se/aktie/ssab-b/riktkurs"
+        },
         {
           "title": "SSAB – Report for Q3 2026 (Inderes)",
           "url": "https://www.inderes.fi/en/releases/ssab-report-for-q3-2026"
@@ -1349,10 +1379,6 @@
         {
           "title": "Börsvärlden – SB1 höjer riktkursen till 132 kronor",
           "url": "https://borsvarlden.com/artiklar/sb1-upprepar-kop-for-ssab-och-hojer-riktkursen-till-132-kronor"
-        },
-        {
-          "title": "Placera – Höjd riktkurs för SSAB (DNB Carnegie)",
-          "url": "https://www.placera.se/nyheter/hojd-riktkurs-for-ssab-2026-10-06"
         }
       ]
     },
@@ -1456,10 +1482,16 @@
         }
       ],
       "analysts": {
-        "consensus": "",
+        "consensus": "Behåll",
         "avgTarget": null,
-        "avgTargetNote": "Få publika riktkurser. Arctic Securities har köp med riktkurs 5 kr (15 sep).",
+        "avgTargetNote": "Få publika riktkurser. Arctic Securities sänkte till behåll med riktkurs 2,30 kr (2 nov).",
         "targets": [
+          {
+            "date": "2026-11-02",
+            "bank": "Arctic Securities",
+            "rating": "Behåll (från köp)",
+            "target": 2.3
+          },
           {
             "date": "2026-09-15",
             "bank": "Arctic Securities",
@@ -1476,6 +1508,10 @@
         {
           "date": "2026-10-26",
           "text": "Extrastämman 23 oktober sa nej till återköp och inlösen av D-aktierna: förslaget fick cirka 92 % av rösterna men krävde även två tredjedelar av de företrädda D-aktierna, och bara 23 % av D-ägarna röstade ja. De anser att 7,94 kr är för lite jämfört med den upplupna utdelningen (cirka 5 kr per D-aktie). Styrelsen kallar till en ny stämma med samma vederlag efter Q3-rapporten, senast 10 december. Förenklingen av kapitalstrukturen drar ut på tiden – hållningen står kvar som negativ och risken som mycket hög."
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Arctic Securities sänkte SBB till behåll från köp och kapade riktkursen från 5 till 2,30 kr (2 nov). Skälen är högre räntor, en svagare transaktionsmarknad och ett lägre substansvärde efter affärerna med Klarabo och PPI – Arctic räknar nu med 0,55 kr per aktie mot tidigare 2,75 kr. Enligt Arctic krävs lägre räntor och en lyckad lösning för D-aktieägarna för att aktien ska bli intressant igen. Bekräftar den negativa hållningen och den mycket höga risken inför Q3-rapporten 24 november."
         }
       ],
       "links": [
@@ -1493,6 +1529,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Placera – Arctic sänker SBB till behåll (2 nov)",
+          "url": "https://www.placera.se/telegram/samhallsbyggnadsbolaget-i-norden-arctic-sanker-sbb-till-behall-kapar-riktkursen-kraftigt-20261102"
+        },
         {
           "title": "Investing.com – SBB Q2 2026 slides",
           "url": "https://www.investing.com/news/company-news/sbb-q2-2026-slides-portfolio-shift-advances-as-nav-slips-25-93CH-4794946"
@@ -1520,10 +1560,6 @@
         {
           "title": "MFN – SBB pressmeddelanden",
           "url": "https://mfn.se/all/a/samhallsbyggnadsbolaget-i-norden"
-        },
-        {
-          "title": "Placera – Bakslag för SBB: ägarna röstar nej till inlösen (23 okt)",
-          "url": "https://www.placera.se/nyheter/bakslag-for-sbb-agarna-rostar-nej-till-inlosen-2026-10-23"
         }
       ]
     },
