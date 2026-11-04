@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "stocks": [
     {
       "id": "electrolux",
@@ -449,8 +449,8 @@
         },
         {
           "label": "Blankat",
-          "value": "4,44 %",
-          "note": "5,03 % för en månad sedan"
+          "value": "4,54 %",
+          "note": "4,44 % vid förra mätningen (Börskollen)"
         }
       ],
       "latestReport": {
@@ -1216,8 +1216,8 @@
         },
         {
           "label": "Blankat",
-          "value": "2,82 %",
-          "note": "2,71 % vid förra mätningen, 2,66 % för en månad sedan"
+          "value": "2,92 %",
+          "note": "2,82 % vid förra mätningen"
         }
       ],
       "latestReport": {
@@ -1247,16 +1247,27 @@
         "Stor spridning bland analytikerna (78–145 kr) visar osäkerheten i cykeln."
       ],
       "watch": [
-        "Analytikernas riktkursjusteringar efter Q3-rapporten.",
+        "Fler riktkursjusteringar efter Q3 – hittills mest små förändringar.",
         "Prisutvecklingen i Europa och USA under Q4 och effekten av EU:s skyddsåtgärder.",
         "Status för Oxelösund (start Q2 2027) och Luleå (slutet av 2029)."
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "2027-01-28",
+          "label": "Bokslutskommuniké 2026"
+        }
+      ],
       "analysts": {
         "consensus": "Köp",
         "avgTarget": 113.71,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (spann 78–145 kr)",
         "targets": [
+          {
+            "date": "2026-11-03",
+            "bank": "Pareto Securities",
+            "rating": "Behåll",
+            "target": 93
+          },
           {
             "date": "2026-10-29",
             "bank": "DNB Carnegie",
@@ -1331,6 +1342,10 @@
         {
           "date": "2026-11-03",
           "text": "Riktkursjusteringar efter Q3 (29 okt): DNB Carnegie höjde till köp (från behåll) med 110 kr, medan Morgan Stanley (120 → 119 kr, övervikt), BNP Paribas (128 → 127 kr, outperform) och Nordea (95 → 92 kr, behåll) sänkte marginellt. Börskollens snitt ligger på 113,71 kr och konsensus är köp. Små förändringar som bekräftar bilden av en rapport i linje – hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Pareto Securities höjde riktkursen från 88 till 93 kr (3 nov) men upprepar behåll, med motiveringen att stålpriserna fortsätter uppåt. Blankningen har stigit något till 2,92 %. Nästa rapport, bokslutskommunikén, kommer 28 januari 2027 enligt Börskollen. Ingen ändring av hållningen (neutral)."
         }
       ],
       "links": [
@@ -1348,6 +1363,14 @@
         }
       ],
       "sources": [
+        {
+          "title": "Börskollen – SSAB",
+          "url": "https://www.borskollen.se/aktie/ssab-b"
+        },
+        {
+          "title": "Placera – dagens aktierekommendationer (2026-11-03)",
+          "url": "https://www.placera.se/nyheter/telia-kopstamplas-dagens-aktierekommendationer-2026-11-03"
+        },
         {
           "title": "Börskollen – SSAB riktkurser",
           "url": "https://www.borskollen.se/aktie/ssab-b/riktkurs"
@@ -1371,14 +1394,6 @@
         {
           "title": "Hurbra – SSAB rapport Q2 2026",
           "url": "https://hurbra.se/ssab-rapport-q2-2026/"
-        },
-        {
-          "title": "Börsvärlden – SHB förväntar sig motståndskraftigt SSAB i Q3",
-          "url": "https://borsvarlden.com/artiklar/shb-forvantar-sig-motstandskraftigt-ssab-i-q3-hojer-riktkursen"
-        },
-        {
-          "title": "Börsvärlden – SB1 höjer riktkursen till 132 kronor",
-          "url": "https://borsvarlden.com/artiklar/sb1-upprepar-kop-for-ssab-och-hojer-riktkursen-till-132-kronor"
         }
       ]
     },
@@ -1435,8 +1450,8 @@
         },
         {
           "label": "Blankat",
-          "value": "16,6 %",
-          "note": "Mest blankade aktien på börsen (16 okt)"
+          "value": "16,56 %",
+          "note": "16,42 % vid förra mätningen (Börskollen)"
         }
       ],
       "latestReport": {
@@ -1990,8 +2005,8 @@
         },
         {
           "label": "Snittriktkurs",
-          "value": "11,49 EUR",
-          "note": "Börskollen, 4 mån (före Q3); riktkurser anges i euro"
+          "value": "11,18 EUR",
+          "note": "Börskollen, 4 mån (efter Q3, ned från 11,49); riktkurser anges i euro"
         }
       ],
       "latestReport": {
@@ -2023,18 +2038,52 @@
         "Stora engångsposter gör att det rapporterade resultatet ligger långt under det justerade."
       ],
       "watch": [
-        "Kapitalmarknadsdagen och villkoren/tidplanen för noteringen av Bergslagets Skogar (H1 2027).",
-        "Analytikernas riktkursjusteringar efter Q3.",
+        "Extrastämman 15 december – röstningen om avknoppningen av Bergslagets Skogar (kräver 2/3 i varje aktieslag).",
         "Besked om den strategiska översynen av sågverken i Centraleuropa.",
         "Prisutvecklingen i förpackningskvaliteter och Oulus uppkörning.",
         "Bokslutskommunikén (datum ej bekräftat i källorna)."
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "2026-12-15",
+          "label": "Extra bolagsstämma om avknoppningen av Bergslagets Skogar"
+        }
+      ],
       "analysts": {
         "consensus": "Köp",
         "avgTarget": null,
-        "avgTargetNote": "Snittriktkurs 11,49 EUR (4 mån, Börskollen) – riktkurserna anges i euro och jämförs därför inte med kursen i SEK",
+        "avgTargetNote": "Snittriktkurs 11,18 EUR (4 mån, Börskollen) – riktkurserna anges i euro och jämförs därför inte med kursen i SEK",
         "targets": [
+          {
+            "date": "2026-11-03",
+            "bank": "Barclays",
+            "rating": "Jämvikt",
+            "target": 11.5
+          },
+          {
+            "date": "2026-11-02",
+            "bank": "Nordea",
+            "rating": "Köp",
+            "target": 11.7
+          },
+          {
+            "date": "2026-11-02",
+            "bank": "Jefferies",
+            "rating": "Köp",
+            "target": 11.2
+          },
+          {
+            "date": "2026-11-02",
+            "bank": "SB1 Markets",
+            "rating": "Neutral",
+            "target": 10.4
+          },
+          {
+            "date": "2026-11-02",
+            "bank": "Inderes",
+            "rating": "Minska (från öka)",
+            "target": 10
+          },
           {
             "date": "2026-10-23",
             "bank": "OP Corporate Bank",
@@ -2052,18 +2101,6 @@
             "bank": "DNB Carnegie",
             "rating": "Köp",
             "target": 12.4
-          },
-          {
-            "date": "2026-09-22",
-            "bank": "Jefferies",
-            "rating": "Köp",
-            "target": 12.5
-          },
-          {
-            "date": "2026-09-15",
-            "bank": "SB1 Markets",
-            "rating": "Neutral",
-            "target": 10.6
           },
           {
             "date": "2026-07-24",
@@ -2087,6 +2124,10 @@
         {
           "date": "2026-10-30",
           "text": "Q3-rapporten något bättre än väntat: justerat rörelseresultat 161 MEUR mot konsensus 156 (126 året innan), marginal 7,2 % och organisk tillväxt på 2 %, trots tunga underhållsstopp. Kassaflödet efter investeringar steg till 132 MEUR och skuldsättningen sjönk till 2,1x. Styrelsen har nu formellt beslutat om avknoppningen av Bergslagets Skogar (notering H1 2027). Q4 ser tyngre ut med stigande kostnader och stora underhållsstopp, så hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Efter Q3 sänkte flera analytiker riktkurserna: Nordea 12,30 → 11,70 EUR (köp), Jefferies 12,50 → 11,20 (köp) och SB1 Markets 10,60 → 10,40 (neutral) den 2 nov, och Barclays 12 → 11,50 (jämvikt) den 3 nov. Inderes sänkte till minska med oförändrad riktkurs 10 EUR. Snittet enligt Börskollen har fallit till 11,18 EUR. Bolaget har kallat till extrastämma 15 december om avknoppningen av Bergslagets Skogar: en ny aktie per Stora Enso-aktie (R blir B), notering i Stockholm och Helsingfors och planerad verkställighet 31 mars 2027. Rapporten var bra men analytikerna har dragit ned förväntningarna – hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -2104,6 +2145,18 @@
         }
       ],
       "sources": [
+        {
+          "title": "Placera – dagens aktierekommendationer (2026-11-03)",
+          "url": "https://www.placera.se/nyheter/telia-kopstamplas-dagens-aktierekommendationer-2026-11-03"
+        },
+        {
+          "title": "Stora Enso – kallelse till extra bolagsstämma",
+          "url": "https://www.prnewswire.com/news-releases/notice-of-the-extraordinary-general-meeting-of-stora-enso-oyj-302926126.html"
+        },
+        {
+          "title": "Placera – flera sänkta riktkurser för Stora Enso (2026-11-02)",
+          "url": "https://www.placera.se/telegram/stora-enso-flera-sankta-riktkurser-for-stora-enso-inderes-sanker-till-minska-20261102"
+        },
         {
           "title": "Stora Enso – delårsrapport januari–september 2026 (Inderes)",
           "url": "https://www.inderes.fi/en/releases/stora-enso-interim-report-january-september-2026-introducing-bergslagets-skogar-while-building-a-stronger-stora-enso"
@@ -2123,10 +2176,6 @@
         {
           "title": "Papnews – Bergslagets Skogar",
           "url": "https://www.papnews.com/stora-enso-names-future-forest-company-bergslagets-skogar/"
-        },
-        {
-          "title": "Börskollen – Stora Enso riktkurser",
-          "url": "https://www.borskollen.se/aktie/stora-enso/riktkurs"
         }
       ]
     }
