@@ -2276,7 +2276,8 @@
         "Foundry går med stor förlust och saknar bekräftade stora externa kunder – Bank of America sänkte till neutral med just det som skäl.",
         "Investeringarna ökar kraftigt 2027 och Intel väntar sig inget positivt fritt kassaflöde det året.",
         "Inom AI-acceleratorer är andelen runt 1 % mot Nvidias cirka 80 %, och Crescent Island kan försenas till 2027.",
-        "Olyckan i Kiryat Gat kostar cirka 600 MUSD i omsättning över två kvartal."
+        "Olyckan i Kiryat Gat kostar cirka 600 MUSD i omsättning över två kvartal.",
+        "Politisk risk: staten äger cirka 10 % sedan 2025, och efter mellanårsvalet kan både den affären och datacenterutbyggnaden ifrågasättas."
       ],
       "watch": [
         "Besked om externa kunder till 14A och avancerad kapsling (Intel väntar sig kundbesked inom två kvartal).",
@@ -2349,7 +2350,7 @@
       "log": [
         {
           "date": "2026-11-05",
-          "text": "Första analysen. Utgångsläge neutral med hög risk: datacenterdelen växer kraftigt och 18A går åt rätt håll, men en svag Q4-prognos (PC-avmattning, olyckan i Kiryat Gat, lägre marginal) fick aktien att falla cirka 29 % den 30 oktober. Foundry-delen behöver externa kunder för att bära sina investeringar, och de är inte bekräftade än."
+          "text": "Första analysen. Utgångsläge neutral med hög risk: datacenterdelen växer kraftigt och 18A går åt rätt håll, men en svag Q4-prognos (PC-avmattning, olyckan i Kiryat Gat, lägre marginal) fick aktien att falla cirka 29 % den 30 oktober. Foundry-delen behöver externa kunder för att bära sina investeringar, och de är inte bekräftade än. Samma dag som analysen lades in föll aktien ytterligare cirka 10 % till drygt 52 USD i en bred nedgång för chipaktier efter mellanårsvalet i USA. Marknaden oroar sig för att demokraterna, som vann båda kamrarna, ska skärpa AI-regleringen och bromsa bygget av datacenter. Den amerikanska statens ägarandel på 10 % i Intel kan dessutom bli föremål för nya utfrågningar."
         }
       ],
       "links": [
@@ -2388,8 +2389,8 @@
           "url": "https://tech-insider.org/intel-crescent-island-ai-gpu-delay-2026/"
         },
         {
-          "title": "Jon Peddie – Intels nya AI-färdplan",
-          "url": "https://www.jonpeddie.com/techwatch/intel-resets-its-ai-accelerator-roadmap/"
+          "title": "Motley Fool – därför faller Intel (2026-11-05)",
+          "url": "https://www.fool.com/investing/2026/11/05/why-intel-stock-is-down-today/"
         }
       ]
     }
