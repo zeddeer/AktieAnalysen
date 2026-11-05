@@ -2189,6 +2189,209 @@
           "url": "https://www.papnews.com/stora-enso-names-future-forest-company-bergslagets-skogar/"
         }
       ]
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "shareClass": "",
+      "ticker": "INTC",
+      "yahoo": "INTC",
+      "avanzaId": "",
+      "currency": "USD",
+      "market": "Nasdaq",
+      "sector": "IT · Halvledare & kontraktstillverkning",
+      "stance": "neutral",
+      "risk": "hög",
+      "thesis": "Datacenterdelen växer snabbt och 18A-processen blir bättre, men PC-försäljningen sviktar, foundry-verksamheten saknar stora externa kunder och en olycka i Israel tynger Q4. Aktien föll cirka 29 % efter Q3-rapporten.",
+      "summary": "Intels Q3 2026 var starkt på ytan: omsättningen steg 21 % till 16,5 mdr USD och justerad vinst per aktie blev 0,52 USD (0,23 i fjol). Datacenter och AI (DCAI) växte 78 % till 7,3 mdr USD och är nu nästan lika stort som PC-delen, som backade 5 % till 8,1 mdr USD. Efterfrågan på Xeon-processorer är större än vad Intel kan leverera. Prognosen för Q4 blev dock en kalldusch: omsättning 15–16 mdr USD och en justerad bruttomarginal på cirka 38 % (44,1 % i Q3). Skälen är en PC-avmattning som väntas hålla i sig åtminstone första halvåret 2027, underutnyttjad 18A-kapacitet och en explosion i fabriken i Kiryat Gat i Israel den 14 oktober, där två arbetare omkom. Fabriken stod still i cirka två veckor. Intel räknar med cirka 300 MUSD lägre omsättning i både Q4 och Q1 och cirka 2 procentenheter lägre bruttomarginal i Q4. Aktien föll cirka 29 % den 30 oktober, den värsta dagen sedan 1970-talet, och en rad banker sänkte riktkurserna. Tillverkningen går framåt: utbytet i 18A förbättrades mer än planerat, kostnaden har fallit cirka 40 % sedan Q1 och 18A-chippen står för nästan en tredjedel av PC-processorintäkterna. Men foundry-delen gick med 1,85 mdr USD i förlust och de externa intäkterna var bara 411 MUSD. Inga kunder till 14A-processen är bekräftade, och Intel räknar inte med positivt fritt kassaflöde 2027 när investeringarna ökar. På AI-acceleratorer är Intel en marginell aktör: Gaudi 3 säljs fortfarande men fick aldrig fäste, och fokus ligger nu på inferenskortet Crescent Island (GPU D-serien) och längre fram Jaguar Shores.",
+      "keyFigures": [
+        {
+          "label": "Omsättning Q3",
+          "value": "16,5 mdr USD",
+          "note": "+21 % (13,7 i fjol)"
+        },
+        {
+          "label": "Datacenter & AI (DCAI)",
+          "value": "7,3 mdr USD",
+          "note": "+78 %; rörelseresultat 3,0 mdr"
+        },
+        {
+          "label": "PC (CCPG)",
+          "value": "8,1 mdr USD",
+          "note": "−5 %"
+        },
+        {
+          "label": "Intel Foundry",
+          "value": "6,7 mdr USD",
+          "note": "Förlust 1,85 mdr; externt 411 MUSD"
+        },
+        {
+          "label": "Bruttomarginal Q3 (justerad)",
+          "value": "44,1 %",
+          "note": "+4,1 procentenheter"
+        },
+        {
+          "label": "Justerad vinst per aktie Q3",
+          "value": "0,52 USD",
+          "note": "0,23 i fjol; GAAP 0,60"
+        },
+        {
+          "label": "Prognos Q4",
+          "value": "15–16 mdr USD",
+          "note": "Bruttomarginal ≈ 38 %, vinst/aktie 0,25 USD"
+        },
+        {
+          "label": "Investeringar 2026",
+          "value": "≈ 20 mdr USD",
+          "note": "Ska öka kraftigt 2027"
+        },
+        {
+          "label": "Utdelning",
+          "value": "Ingen",
+          "note": ""
+        }
+      ],
+      "latestReport": {
+        "title": "Q3 2026",
+        "date": "2026-10-29",
+        "highlights": [
+          "Omsättning 16,5 mdr USD (+21 %), justerad vinst per aktie 0,52 USD (+126 %).",
+          "Datacenter och AI +78 % till 7,3 mdr USD; PC −5 % till 8,1 mdr USD.",
+          "Utbytet i 18A förbättrades mer än planerat och kostnaden har fallit cirka 40 % sedan Q1; 18A står för nästan en tredjedel av PC-processorintäkterna.",
+          "Foundry: intäkter 6,7 mdr USD (mest interna), rörelseförlust 1,85 mdr USD, externa intäkter 411 MUSD.",
+          "Explosionen i Kiryat Gat väntas kosta cirka 300 MUSD i omsättning i Q4 och lika mycket i Q1, samt cirka 2 procentenheter i bruttomarginal i Q4.",
+          "Prognos Q4: 15–16 mdr USD och cirka 38 % bruttomarginal. Aktien föll cirka 29 % dagen efter."
+        ]
+      },
+      "bull": [
+        "Datacenter och AI växer kraftigt (+78 %) och efterfrågan på Xeon överstiger utbudet.",
+        "18A-utbytet förbättras snabbare än planerat och kostnaden har fallit cirka 40 % sedan Q1.",
+        "14A ligger i fas: utvecklingspaket 0.9 hos utvalda kunder, version 1.0 i Q1 2027 och riskproduktion 2027.",
+        "Samarbetet med Nvidia (x86-processorer för Nvidias datacenter och PC-chip med RTX-grafik) pågår, och Nvidia är delägare sedan 2025.",
+        "Kursfallet på cirka 29 % har pressat förväntningarna kraftigt."
+      ],
+      "bear": [
+        "PC-avmattningen väntas fortsätta minst första halvåret 2027.",
+        "Bruttomarginalen faller från 44 % till cirka 38 % i Q4.",
+        "Foundry går med stor förlust och saknar bekräftade stora externa kunder – Bank of America sänkte till neutral med just det som skäl.",
+        "Investeringarna ökar kraftigt 2027 och Intel väntar sig inget positivt fritt kassaflöde det året.",
+        "Inom AI-acceleratorer är andelen runt 1 % mot Nvidias cirka 80 %, och Crescent Island kan försenas till 2027.",
+        "Olyckan i Kiryat Gat kostar cirka 600 MUSD i omsättning över två kvartal."
+      ],
+      "watch": [
+        "Besked om externa kunder till 14A och avancerad kapsling (Intel väntar sig kundbesked inom två kvartal).",
+        "Hur fort fabriken i Kiryat Gat är tillbaka i full drift, och om kostnaden blir större än första bedömningen.",
+        "Bruttomarginalen i Q4 och investeringsplanen för 2027.",
+        "Försäljningsstart för Crescent Island (GPU D-serien) och kundintresset.",
+        "Om den förhandsuppgörelse med Apple som WSJ rapporterade om i maj blir ett bindande avtal."
+      ],
+      "events": [
+        {
+          "date": "",
+          "label": "Q4-rapport 2026 (väntas i slutet av januari, datum ej bekräftat)"
+        }
+      ],
+      "analysts": {
+        "consensus": "Måttligt köp",
+        "avgTarget": 83.5,
+        "avgTargetNote": "Snitt av de åtta riktkurserna efter Q3 som listas här. Barchart-snittet på 114 USD (46 analytiker, 31 behåll) är från före sänkningarna.",
+        "targets": [
+          {
+            "date": "2026-10-30",
+            "bank": "Bank of America",
+            "rating": "Neutral (sänkt från köp)",
+            "target": 100
+          },
+          {
+            "date": "2026-10-30",
+            "bank": "StoneX",
+            "rating": "Köp",
+            "target": 100
+          },
+          {
+            "date": "2026-10-30",
+            "bank": "Jefferies",
+            "rating": "Behåll",
+            "target": 85
+          },
+          {
+            "date": "2026-10-30",
+            "bank": "Baird",
+            "rating": "Neutral",
+            "target": 83
+          },
+          {
+            "date": "",
+            "bank": "UBS",
+            "rating": "–",
+            "target": 80
+          },
+          {
+            "date": "2026-10-30",
+            "bank": "RBC Capital",
+            "rating": "Neutral (Sector Perform)",
+            "target": 75
+          },
+          {
+            "date": "",
+            "bank": "Barclays",
+            "rating": "–",
+            "target": 75
+          },
+          {
+            "date": "2026-10-30",
+            "bank": "Roth Capital",
+            "rating": "Neutral (sänkt från köp)",
+            "target": 70
+          }
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-11-05",
+          "text": "Första analysen. Utgångsläge neutral med hög risk: datacenterdelen växer kraftigt och 18A går åt rätt håll, men en svag Q4-prognos (PC-avmattning, olyckan i Kiryat Gat, lägre marginal) fick aktien att falla cirka 29 % den 30 oktober. Foundry-delen behöver externa kunder för att bära sina investeringar, och de är inte bekräftade än."
+        }
+      ],
+      "links": [
+        {
+          "title": "Intel Investor Relations",
+          "url": "https://www.intc.com/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Intel Q3 2026 – pressmeddelande (StockTitan)",
+          "url": "https://www.stocktitan.net/news/INTC/intel-reports-third-quarter-2026-financial-45kjlqvhkaar.html"
+        },
+        {
+          "title": "TradingKey – Intel Q3 2026 earnings call",
+          "url": "https://www.tradingkey.com/news/transcripts/262256124-tradingkey"
+        },
+        {
+          "title": "Wccftech – DCAI nästan lika stort som PC",
+          "url": "https://wccftech.com/intel-q3-2026-earnings-data-center-nearly-matches-pc-business/"
+        },
+        {
+          "title": "Finbold – riktkurssänkningar efter Q3",
+          "url": "https://finbold.com/17-wall-street-analysts-slash-intel-stock-price-targets-after-q3-earnings/"
+        },
+        {
+          "title": "KuCoin – Intel faller 29 % efter Q3",
+          "url": "https://www.kucoin.com/news/flash/intel-stock-drops-29-after-q3-earnings-miss-expectations"
+        },
+        {
+          "title": "Times of Israel – explosionen i Kiryat Gat",
+          "url": "https://www.timesofisrael.com/second-worker-dies-of-wounds-sustained-in-intel-plant-blast-in-southern-israel/"
+        },
+        {
+          "title": "Tech Insider – Crescent Island och AI-marknadsandelar",
+          "url": "https://tech-insider.org/intel-crescent-island-ai-gpu-delay-2026/"
+        },
+        {
+          "title": "Jon Peddie – Intels nya AI-färdplan",
+          "url": "https://www.jonpeddie.com/techwatch/intel-resets-its-ai-accelerator-roadmap/"
+        }
+      ]
     }
   ]
 }
