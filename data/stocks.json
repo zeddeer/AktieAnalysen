@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "stocks": [
     {
       "id": "electrolux",
@@ -95,8 +95,8 @@
       ],
       "analysts": {
         "consensus": "Neutral",
-        "avgTarget": 32.68,
-        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (29 okt, inkl. DNB Carnegies 50 kr)",
+        "avgTarget": 30.46,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (6 nov 2026)",
         "targets": [
           {
             "date": "2026-10-28",
@@ -1056,26 +1056,26 @@
       ],
       "analysts": {
         "consensus": "Köp",
-        "avgTarget": 855.6,
-        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen. Alla åtta registrerade rekommendationer är köp.",
+        "avgTarget": 868.8,
+        "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (6 nov, efter Nordeas och DNB Carnegies höjningar). Alla registrerade rekommendationer är köp.",
         "targets": [
           {
-            "date": "2026-10-05",
+            "date": "2026-11-06",
             "bank": "Nordea",
             "rating": "Köp",
-            "target": 950
+            "target": 965
           },
           {
-            "date": "",
+            "date": "2026-11-06",
+            "bank": "DNB Carnegie",
+            "rating": "Köp",
+            "target": 914
+          },
+          {
+            "date": "2026-10-19",
             "bank": "Jefferies",
             "rating": "Köp",
             "target": 865
-          },
-          {
-            "date": "2026-10-14",
-            "bank": "DNB Carnegie",
-            "rating": "Köp",
-            "target": 863
           },
           {
             "date": "2026-10-20",
@@ -1119,6 +1119,10 @@
         {
           "date": "2026-11-05",
           "text": "Q3-rapporten: intäkter 724 MSEK (+28 %) och rörelseresultat 322 MSEK (+40 %) utan milstolpsintäkter; produktförsäljningen 582 MSEK var rekord. Brixadi-royaltyn steg 23 % till 137 MSEK men var enligt DI under förväntan, medan resultatet slog förväntningarna klart. Bolaget väntar sig nu den övre halvan av helårsprognosen, och en milstolpe på 15 MUSD från Brixadi kommer i Q4. Rapporten stärker den positiva hållningen; risken styrs fortsatt av FDA-beslutet 18 december."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Två riktkurshöjningar dagen efter Q3-rapporten: DNB Carnegie 863 → 914 kr och Nordea 950 → 965 kr, båda köp. Nordea menar att en konkurrents reträtt kan gynna Camurus. Snittet enligt Börskollen har stigit till 868,80 kr. Aktien steg cirka 8 % på rapportdagen till 717 kr. Bekräftar den positiva hållningen; FDA-beslutet 18 december är fortfarande den stora risken."
         }
       ],
       "links": [
@@ -1136,6 +1140,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Börskollen – Camurus nyheter (Nordea och DNB Carnegie höjer, 6 nov 2026)",
+          "url": "https://www.borskollen.se/aktie/camurus/nyheter"
+        },
         {
           "title": "Camurus delårsrapport Q3 2026 (Inderes)",
           "url": "https://www.inderes.fi/en/releases/camurus-ab-camurus-interim-report-third-quarter-2026"
