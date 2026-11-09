@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-09",
   "stocks": [
     {
       "id": "electrolux",
@@ -834,8 +834,8 @@
         },
         {
           "label": "Blankat",
-          "value": "0,39 %",
-          "note": ""
+          "value": "0,29 %",
+          "note": "Börskollen, november 2026 (från 0,58 %)"
         }
       ],
       "latestReport": {
@@ -869,6 +869,10 @@
         {
           "date": "2026-12-12",
           "label": "Delårsrapport Q1 2026/27"
+        },
+        {
+          "date": "2026-12-12",
+          "label": "Årsstämma i Sälen (utdelning 3,50 kr, avstämning 15 dec, utbetalning 18 dec)"
         }
       ],
       "analysts": {
@@ -912,6 +916,10 @@
         {
           "date": "2026-11-03",
           "text": "Ännu ett insynsköp: ledande befattningshavaren Henrik Lundmark köpte 1 078 aktier till cirka 185,40 kr (knappt 0,2 MSEK), enligt Börskollen. Det är den fjärde personen i ledningen som köper sedan slutet av oktober – fortsatt en förtroendesignal inför vintersäsongen. Hållningen står kvar som positiv."
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Kallelsen till årsstämman 12 december i Sälen är ute: styrelsen föreslår 3,50 kr per aktie i utdelning (avstämning 15 dec, utbetalning 18 dec) och omval av hela styrelsen med Anders Sundström som ordförande. Nya ersättningsriktlinjer höjer bonustaket för vd från 40 till 50 % av årslönen, och styrelsen vill ha mandat för nyemission och återköp av upp till 10 %. Blankningen har halverats till 0,29 % enligt Börskollen. Inget som ändrar den positiva hållningen."
         }
       ],
       "links": [
@@ -948,6 +956,10 @@
         {
           "title": "Börskollen – SkiStar insynshandel",
           "url": "https://www.borskollen.se/aktie/skistar/insynshandel"
+        },
+        {
+          "title": "SkiStar – kallelse till årsstämma (4 nov)",
+          "url": "https://investor.skistar.com/en/pressreleases/notice-to-annual-general-meeting-of-skistar-ab-3395051"
         }
       ]
     },
@@ -2359,6 +2371,10 @@
         {
           "date": "2026-11-05",
           "text": "Första analysen. Utgångsläge neutral med hög risk: datacenterdelen växer kraftigt och 18A går åt rätt håll, men en svag Q4-prognos (PC-avmattning, olyckan i Kiryat Gat, lägre marginal) fick aktien att falla cirka 29 % den 30 oktober. Foundry-delen behöver externa kunder för att bära sina investeringar, och de är inte bekräftade än. Samma dag som analysen lades in föll aktien ytterligare cirka 10 % till drygt 52 USD i en bred nedgång för chipaktier efter mellanårsvalet i USA. Marknaden oroar sig för att demokraterna, som vann båda kamrarna, ska skärpa AI-regleringen och bromsa bygget av datacenter. Den amerikanska statens ägarandel på 10 % i Intel kan dessutom bli föremål för nya utfrågningar."
+        },
+        {
+          "date": "2026-11-09",
+          "text": "VD Lip-Bu Tan köpte 150 000 aktier för cirka 9,7 MUSD (snittkurs runt 64,70 USD) den 4 november, ett tydligt förtroendebesked efter kursraset. Köpet gjordes före fallet den 5 november, så han ligger redan på minus. Den 6 november studsade aktien upp cirka 5,7 % i en bred återhämtning för chipaktier. Ändrar inte tesen – Q4-prognosen och foundry-kunderna avgör – hållningen står kvar som neutral med hög risk."
         }
       ],
       "links": [
@@ -2368,14 +2384,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Intel Q3 2026 – pressmeddelande (StockTitan)",
-          "url": "https://www.stocktitan.net/news/INTC/intel-reports-third-quarter-2026-financial-45kjlqvhkaar.html"
-        },
-        {
-          "title": "TradingKey – Intel Q3 2026 earnings call",
-          "url": "https://www.tradingkey.com/news/transcripts/262256124-tradingkey"
-        },
         {
           "title": "Wccftech – DCAI nästan lika stort som PC",
           "url": "https://wccftech.com/intel-q3-2026-earnings-data-center-nearly-matches-pc-business/"
@@ -2399,6 +2407,14 @@
         {
           "title": "Motley Fool – därför faller Intel (2026-11-05)",
           "url": "https://www.fool.com/investing/2026/11/05/why-intel-stock-is-down-today/"
+        },
+        {
+          "title": "GuruFocus – Intels vd köper aktier för 9,7 MUSD (4 nov)",
+          "url": "https://www.gurufocus.com/news/9170638/intel-ceo-lipbu-tan-buys-97m-in-shares-signaling-confidence-in-intc"
+        },
+        {
+          "title": "Trefis – vad hände med Intel-aktien (6 nov)",
+          "url": "https://www.trefis.com/stock/intc/articles/623356/what-just-happened-to-intel-stock/2026-11-06"
         }
       ]
     }
