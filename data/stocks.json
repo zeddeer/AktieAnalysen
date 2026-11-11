@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "stocks": [
     {
       "id": "electrolux",
@@ -635,7 +635,12 @@
         "Om mjukvara håller 7–8 % helårstillväxt utan hjälp av uppskjutna affärer.",
         "Om aktien hittar stöd efter att rapportlyftet vände ned – bruttomarginalen och det oförändrade tillväxtmålet."
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "2026-12-10",
+          "label": "Utbetalning av kvartalsutdelning 1,69 USD"
+        }
+      ],
       "analysts": {
         "consensus": "Måttligt köp",
         "avgTarget": 258.36,
@@ -739,6 +744,10 @@
         {
           "date": "2026-10-23",
           "text": "Riktkurshöjningar efter Q3 (22 okt): JPMorgan 250 → 269 USD, Stifel 235 → 260 (köp), Baird 230 → 260 (neutral), BMO 230 → 265 (market perform) och Jefferies 280 (köp). MarketBeats snitt ligger på 258 USD. Aktien steg först efterbörsen men vände ned dagen efter, då tillväxtmålet 4–5 % lämnades oförändrat och bruttomarginalerna krympte. Analytikerna höjer, men marknaden tvivlar på uthålligheten – hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-11",
+          "text": "IBM och Microsoft lanserade den 10 november \"Imagine Enterprise\", en plattform för branschspecifika AI-agenter i reglerade sektorer som bygger på IBM Consultings drygt 6 000 färdiga agenter och komponenter. Inga finansiella siffror lämnades, men samarbetet stödjer konsultdelens AI-satsning. Aktien handlades utan utdelning (1,69 USD) den 10 november; utbetalning 10 december. Hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -752,10 +761,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Investing.com – Evercore ISI upprepar IBM inför Q3 (2026-10-19)",
-          "url": "https://uk.investing.com/news/stock-market-news/evercore-isi-reiterates-ibm-stock-rating-ahead-of-q3-results-93CH-4918448"
-        },
         {
           "title": "IBM Q3 2026 – pressmeddelande (SEC 8-K)",
           "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm"
@@ -783,6 +788,10 @@
         {
           "title": "Benzinga – analytiker höjer IBM efter Q3 (2026-10-22)",
           "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62541796/these-analysts-boost-their-forecasts-on-ibm-following-upbeat-q3-results"
+        },
+        {
+          "title": "Microsoft – IBM och Microsoft lanserar AI-agentplattform (10 nov)",
+          "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/"
         }
       ]
     },
@@ -1563,6 +1572,10 @@
         {
           "date": "2026-11-03",
           "text": "Arctic Securities sänkte SBB till behåll från köp och kapade riktkursen från 5 till 2,30 kr (2 nov). Skälen är högre räntor, en svagare transaktionsmarknad och ett lägre substansvärde efter affärerna med Klarabo och PPI – Arctic räknar nu med 0,55 kr per aktie mot tidigare 2,75 kr. Enligt Arctic krävs lägre räntor och en lyckad lösning för D-aktieägarna för att aktien ska bli intressant igen. Bekräftar den negativa hållningen och den mycket höga risken inför Q3-rapporten 24 november."
+        },
+        {
+          "date": "2026-11-11",
+          "text": "Storägaren Erik Salén (tredje största ägare, nära 7 % via 118 miljoner B-aktier) köpte 2 miljoner D-aktier för cirka 13 MSEK den 9 november – efter att D-ägarna röstat ned det första inlösenförslaget. Köpet tyder på att han räknar med att få ut inlösenvillkoren (7,94 kr kontant eller 1,567 B-aktier per D-aktie) eller bättre på den nya extrastämman, vars datum ännu inte är satt (senast 10 december). Ändrar inte den negativa hållningen."
         }
       ],
       "links": [
@@ -1580,10 +1593,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Placera – Arctic sänker SBB till behåll (2 nov)",
-          "url": "https://www.placera.se/telegram/samhallsbyggnadsbolaget-i-norden-arctic-sanker-sbb-till-behall-kapar-riktkursen-kraftigt-20261102"
-        },
         {
           "title": "Investing.com – SBB Q2 2026 slides",
           "url": "https://www.investing.com/news/company-news/sbb-q2-2026-slides-portfolio-shift-advances-as-nav-slips-25-93CH-4794946"
@@ -1611,6 +1620,10 @@
         {
           "title": "MFN – SBB pressmeddelanden",
           "url": "https://mfn.se/all/a/samhallsbyggnadsbolaget-i-norden"
+        },
+        {
+          "title": "Aktiespararna – SBB-storägare köper D-aktier (9 nov)",
+          "url": "https://www.aktiespararna.se/nyheter/sbb-storagare-koper-d-aktier-efter-nobbat-inlosenforslag"
         }
       ]
     },
@@ -1954,6 +1967,10 @@
         {
           "date": "2026-10-29",
           "text": "Första analysen. Utgångsläge positiv med medelrisk: Q3 visade 31 % tillväxt och 25,5 % rörelsemarginal, och bruttomarginalen slog förväntan. Kassaflödet var svagt och en del av Norges tillväxt var lageruppbyggnad, så det är värt att följa. Ordföranden Ylwa Karlgren köpte 290 aktier (cirka 0,25 MSEK) den 21 oktober. SEB sänkte riktkursen något, från 1 400 till 1 380 kr (köp), den 19 oktober."
+        },
+        {
+          "date": "2026-11-11",
+          "text": "Kompletterande insynsuppgift: största ägaren Christian von Koenigsegg (närstående till styrelseledamoten Halldora von Koenigsegg) köpte 35 000 aktier till snittkurs 820,40 kr, cirka 28,7 MSEK, den 28 oktober. Ägarandelen steg från cirka 11,1 till 11,4 %. Ett stort köp från huvudägaren direkt efter Q3 stärker den positiva hållningen. Inga nya riktkurser sedan SEB 19 oktober."
         }
       ],
       "links": [
@@ -1990,6 +2007,10 @@
         {
           "title": "Börskollen – Plejd (blankning, insyn)",
           "url": "https://www.borskollen.se/aktie/plejd"
+        },
+        {
+          "title": "Hurbra – Koenigsegg köper Plejd-aktier (28 okt)",
+          "url": "https://hurbra.se/koenigsegg-koper-plejd-aktier-2026-10-28/"
         }
       ]
     },
@@ -2092,6 +2113,10 @@
         {
           "date": "2026-12-15",
           "label": "Extra bolagsstämma om avknoppningen av Bergslagets Skogar"
+        },
+        {
+          "date": "2027-02-11",
+          "label": "Bokslutskommuniké 2026"
         }
       ],
       "analysts": {
@@ -2328,8 +2353,8 @@
       ],
       "analysts": {
         "consensus": "Måttligt köp",
-        "avgTarget": 83.5,
-        "avgTargetNote": "Snitt av de åtta riktkurserna efter Q3 som listas här. Barchart-snittet på 114 USD (46 analytiker, 31 behåll) är från före sänkningarna.",
+        "avgTarget": 81.3,
+        "avgTargetNote": "Snitt av de 10 riktkurserna efter Q3 som listas här. TradingKey anger snitt 92 USD (spann 63–160) och konsensus behåll (10 nov).",
         "targets": [
           {
             "date": "2026-10-30",
@@ -2374,9 +2399,21 @@
             "target": 75
           },
           {
+            "date": "",
+            "bank": "Wedbush",
+            "rating": "Neutral",
+            "target": 75
+          },
+          {
             "date": "2026-10-30",
             "bank": "Roth Capital",
             "rating": "Neutral (sänkt från köp)",
+            "target": 70
+          },
+          {
+            "date": "",
+            "bank": "DA Davidson",
+            "rating": "–",
             "target": 70
           }
         ]
@@ -2389,6 +2426,10 @@
         {
           "date": "2026-11-09",
           "text": "VD Lip-Bu Tan köpte 150 000 aktier för cirka 9,7 MUSD (snittkurs runt 64,70 USD) den 4 november, ett tydligt förtroendebesked efter kursraset. Köpet gjordes före fallet den 5 november, så han ligger redan på minus. Den 6 november studsade aktien upp cirka 5,7 % i en bred återhämtning för chipaktier. Ändrar inte tesen – Q4-prognosen och foundry-kunderna avgör – hållningen står kvar som neutral med hög risk."
+        },
+        {
+          "date": "2026-11-11",
+          "text": "Fler riktkurssänkningar efter Q3 har kommit fram: Wedbush sänkte till 75 USD (neutral) och DA Davidson från 100 till 70 USD. Snittet av listade riktkurser sjunker till 81,3 USD. Aktien steg 5,5 % till 59,37 USD den 9 november i en återhämtning för chipaktier men föll 3,3 % dagen efter. CFO:n väntar sig att PC-avmattningen håller i sig åtminstone första halvåret 2027. Hållningen står kvar som neutral med hög risk."
         }
       ],
       "links": [
@@ -2398,14 +2439,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Wccftech – DCAI nästan lika stort som PC",
-          "url": "https://wccftech.com/intel-q3-2026-earnings-data-center-nearly-matches-pc-business/"
-        },
-        {
-          "title": "Finbold – riktkurssänkningar efter Q3",
-          "url": "https://finbold.com/17-wall-street-analysts-slash-intel-stock-price-targets-after-q3-earnings/"
-        },
         {
           "title": "KuCoin – Intel faller 29 % efter Q3",
           "url": "https://www.kucoin.com/news/flash/intel-stock-drops-29-after-q3-earnings-miss-expectations"
@@ -2429,6 +2462,14 @@
         {
           "title": "Trefis – vad hände med Intel-aktien (6 nov)",
           "url": "https://www.trefis.com/stock/intc/articles/623356/what-just-happened-to-intel-stock/2026-11-06"
+        },
+        {
+          "title": "Heygotrade – Intel-aktien 10 nov",
+          "url": "https://www.heygotrade.com/en/news/intel-intc-stock-news-november-10-2026/"
+        },
+        {
+          "title": "TradingKey – Intel market movers (10 nov)",
+          "url": "https://www.tradingkey.com/news/market-movers/262299231-market-movers-intc-20261110"
         }
       ]
     }
