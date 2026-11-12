@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "stocks": [
     {
       "id": "electrolux",
@@ -99,6 +99,12 @@
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (6 nov 2026)",
         "targets": [
           {
+            "date": "2026-11-11",
+            "bank": "Goldman Sachs",
+            "rating": "Neutral",
+            "target": 32
+          },
+          {
             "date": "2026-10-28",
             "bank": "UBS",
             "rating": "Neutral",
@@ -135,12 +141,6 @@
             "target": 29
           },
           {
-            "date": "2026-10-09",
-            "bank": "Goldman Sachs",
-            "rating": "Neutral",
-            "target": 28
-          },
-          {
             "date": "2026-08-31",
             "bank": "SEB",
             "rating": "Behåll",
@@ -155,6 +155,10 @@
         ]
       },
       "log": [
+        {
+          "date": "2026-11-12",
+          "text": "Goldman Sachs höjde riktkursen från 28 till 32 kr med upprepad neutral (11 nov). Riktkursen ligger ungefär i nivå med aktiekursen, så banken ser ingen uppsida. Konsensus är fortsatt neutral och hållningen står kvar som neutral."
+        },
         {
           "date": "2026-11-10",
           "text": "Blankningen har minskat till 9,56 % enligt Börskollen (från 10,93 % vid förra kontrollen). Gladstone Capital stängde sin blankning (0,53 %) den 3 november och Systematica gick ur sin (0,57 %) den 4 november, medan Tudor ökade något till 0,80 %. Minskad press från blankarna, men ingen förändring av hållningen (neutral)."
@@ -200,10 +204,6 @@
           "url": "https://www.borskollen.se/aktie/electrolux/blankning"
         },
         {
-          "title": "Electrolux Group delårsrapport Q2 2026 (Inderes)",
-          "url": "https://www.inderes.se/releases/electrolux-group-delarsrapport-andra-kvartalet-2026"
-        },
-        {
           "title": "Electrolux och Midea ingår partnerskap i Nordamerika (MFN)",
           "url": "https://mfn.se/cis/a/electrolux/electrolux-group-och-midea-group-ingar-ett-starkt-kompletterande-langsiktigt-strategiskt-partnerskap-i-nordamerika-i-syfte-att-accelerera-lonsam-tillvaxt-och-starka-innovation-62c3f5a6"
         },
@@ -226,6 +226,10 @@
         {
           "title": "Börskollen – Electrolux riktkurser (okt 2026)",
           "url": "https://www.borskollen.se/aktie/electrolux/riktkurs"
+        },
+        {
+          "title": "Börskollen – dagens köp- och säljråd 11 nov 2026",
+          "url": "https://www.borskollen.se/nyheter/27/lista-dagens-kop-och-saljrad-fran-analytikerna-1794402003"
         }
       ]
     },
@@ -2420,6 +2424,10 @@
       },
       "log": [
         {
+          "date": "2026-11-12",
+          "text": "Aktien steg 7,5 % till 62,50 USD den 11 november i en bred återhämtning för chipaktier, sedan CoreWeaves starka rapport dämpat oron för AI-investeringarna efter mellanårsvalet. Samma dag framgick av SoftBanks rapport att bolaget lånat upp 7,4 mdr USD via förutbetalda terminskontrakt med sina Intel-aktier som underlag – motsvarande cirka 70 % av innehavets värde, vilket kan begränsa SoftBanks uppsida och på sikt innebära att aktier byter ägare. Inga nya bolagsbesked; hållningen står kvar som neutral med hög risk."
+        },
+        {
           "date": "2026-11-05",
           "text": "Första analysen. Utgångsläge neutral med hög risk: datacenterdelen växer kraftigt och 18A går åt rätt håll, men en svag Q4-prognos (PC-avmattning, olyckan i Kiryat Gat, lägre marginal) fick aktien att falla cirka 29 % den 30 oktober. Foundry-delen behöver externa kunder för att bära sina investeringar, och de är inte bekräftade än. Samma dag som analysen lades in föll aktien ytterligare cirka 10 % till drygt 52 USD i en bred nedgång för chipaktier efter mellanårsvalet i USA. Marknaden oroar sig för att demokraterna, som vann båda kamrarna, ska skärpa AI-regleringen och bromsa bygget av datacenter. Den amerikanska statens ägarandel på 10 % i Intel kan dessutom bli föremål för nya utfrågningar."
         },
@@ -2439,14 +2447,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "KuCoin – Intel faller 29 % efter Q3",
-          "url": "https://www.kucoin.com/news/flash/intel-stock-drops-29-after-q3-earnings-miss-expectations"
-        },
-        {
-          "title": "Times of Israel – explosionen i Kiryat Gat",
-          "url": "https://www.timesofisrael.com/second-worker-dies-of-wounds-sustained-in-intel-plant-blast-in-southern-israel/"
-        },
         {
           "title": "Tech Insider – Crescent Island och AI-marknadsandelar",
           "url": "https://tech-insider.org/intel-crescent-island-ai-gpu-delay-2026/"
@@ -2470,6 +2470,14 @@
         {
           "title": "TradingKey – Intel market movers (10 nov)",
           "url": "https://www.tradingkey.com/news/market-movers/262299231-market-movers-intc-20261110"
+        },
+        {
+          "title": "Motley Fool – Stock Market Today 11 nov 2026: Intel",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-intel-climbs-on-broader-chip-rally-as-ai-infrastructure-demand-lifts-semiconductor-stocks/"
+        },
+        {
+          "title": "GuruFocus/TradingView – SoftBank tar in 7,4 mdr USD mot Intel-aktier",
+          "url": "https://www.tradingview.com/news/gurufocus:e79b3481e094b:0-intel-stocks-climb-5-23-as-softbank-reveals-7-4-billion-raised-against-intel-shares/"
         }
       ]
     }
