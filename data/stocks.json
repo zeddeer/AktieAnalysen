@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "stocks": [
     {
       "id": "electrolux",
@@ -182,6 +182,10 @@
         {
           "date": "2026-10-29",
           "text": "UBS sänkte riktkursen 33 → 31 kr (neutral) den 28 oktober. Börskollen listar nu DNB Carnegies uppgradering till köp med 50 kr (från 26) i riktkurstabellen, vilket lyfter snittet till 32,68 kr; konsensus är fortsatt neutral. Ännu en försiktig röst efter Q3 – hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "M&G har ökat sitt innehav till 4,93 % av kapitalet och 3,97 % av rösterna enligt en flaggning den 10 november. Ingen ny riktkurs utöver Goldman Sachs 32 kr (neutral). Hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -199,10 +203,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Börskollen – Electrolux blankning",
-          "url": "https://www.borskollen.se/aktie/electrolux/blankning"
-        },
         {
           "title": "Electrolux och Midea ingår partnerskap i Nordamerika (MFN)",
           "url": "https://mfn.se/cis/a/electrolux/electrolux-group-och-midea-group-ingar-ett-starkt-kompletterande-langsiktigt-strategiskt-partnerskap-i-nordamerika-i-syfte-att-accelerera-lonsam-tillvaxt-och-starka-innovation-62c3f5a6"
@@ -230,6 +230,10 @@
         {
           "title": "Börskollen – dagens köp- och säljråd 11 nov 2026",
           "url": "https://www.borskollen.se/nyheter/27/lista-dagens-kop-och-saljrad-fran-analytikerna-1794402003"
+        },
+        {
+          "title": "Börsvärlden – Electrolux",
+          "url": "https://borsvarlden.com/Foretagsinfo/electrolux"
         }
       ]
     },
@@ -752,6 +756,10 @@
         {
           "date": "2026-11-11",
           "text": "IBM och Microsoft lanserade den 10 november \"Imagine Enterprise\", en plattform för branschspecifika AI-agenter i reglerade sektorer som bygger på IBM Consultings drygt 6 000 färdiga agenter och komponenter. Inga finansiella siffror lämnades, men samarbetet stödjer konsultdelens AI-satsning. Aktien handlades utan utdelning (1,69 USD) den 10 november; utbetalning 10 december. Hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "IBM visade den 11 november kvantprocessorn Nighthawk r3, som ska klara 10 000 operationer på 520 qubits, med planen att koppla ihop två till ett system på 1 040 qubits 2027. Den 12 november köpte IBM identitetssäkerhetsbolaget AuthMind (pris ej angivet), vars teknik ska in i HashiCorp Vault. Små steg som stärker kvant- och säkerhetserbjudandet; hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -765,14 +773,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "IBM Q3 2026 – pressmeddelande (SEC 8-K)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm"
-        },
-        {
-          "title": "Yahoo Finance – IBM Q3 över förväntan (2026-10-21)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-stock-rises-hours-tops-221258293.html"
-        },
         {
           "title": "Yahoo Finance – IBM:s Q3-telefonkonferens",
           "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-said-010259012.html"
@@ -796,6 +796,14 @@
         {
           "title": "Microsoft – IBM och Microsoft lanserar AI-agentplattform (10 nov)",
           "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/"
+        },
+        {
+          "title": "IBM – Quantum Nighthawk",
+          "url": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027"
+        },
+        {
+          "title": "IBM – AuthMind och Vault",
+          "url": "https://newsroom.ibm.com/blog-ibm-advances-agent-identity-security-with-new-vault-capabilities"
         }
       ]
     },
@@ -812,7 +820,7 @@
       "stance": "positiv",
       "risk": "låg",
       "thesis": "Rekordår med stigande vinst och höjd utdelning. Bokningarna inför vintern pekar uppåt och analytikerna är eniga köpare.",
-      "summary": "Verksamhetsåret 2025/26 gav en omsättning på 4 954 MSEK (+8 %) och ett rörelseresultat på 872 MSEK (+11 %, +18 % exklusive reavinster). Vinsten per aktie blev 8,01 SEK och utdelningen föreslås höjas till 3,50 SEK (3,00). Soliditeten är 49 %. Bokningarna inför vintern 2026/27 ligger 3 % över fjolåret. Aktien handlas runt 20 gånger vinsten. Fjärde kvartalet är alltid förlustbringande eftersom det är sommar, så nästa riktiga test är vintersäsongen och Q1-rapporten den 12 december.",
+      "summary": "Verksamhetsåret 2025/26 gav en omsättning på 4 954 MSEK (+8 %) och ett rörelseresultat på 872 MSEK (+11 %, +18 % exklusive reavinster). Vinsten per aktie blev 8,01 SEK och utdelningen föreslås höjas till 3,50 SEK (3,00). Soliditeten är 49 %. Bokningarna inför vintern 2026/27 ligger 3 % över fjolåret. Aktien handlas runt 20 gånger vinsten. Fjärde kvartalet är alltid förlustbringande eftersom det är sommar, så nästa riktiga test är vintersäsongen och Q1-rapporten den 18 december.",
       "keyFigures": [
         {
           "label": "Omsättning 2025/26",
@@ -879,17 +887,21 @@
       ],
       "watch": [
         "Snöläget och säsongsstarten i november–december.",
-        "Q1 12 dec: tidiga vinterintäkter och bokningsläge.",
+        "Q1 18 dec: tidiga vinterintäkter och bokningsläge.",
         "Utdelningsbeslut på årsstämman i december."
       ],
       "events": [
         {
-          "date": "2026-12-12",
-          "label": "Delårsrapport Q1 2026/27"
+          "date": "2026-11-17",
+          "label": "Års- och hållbarhetsredovisning 2025/26"
         },
         {
           "date": "2026-12-12",
           "label": "Årsstämma i Sälen (utdelning 3,50 kr, avstämning 15 dec, utbetalning 18 dec)"
+        },
+        {
+          "date": "2026-12-18",
+          "label": "Delårsrapport Q1 2026/27"
         }
       ],
       "analysts": {
@@ -937,6 +949,10 @@
         {
           "date": "2026-11-09",
           "text": "Kallelsen till årsstämman 12 december i Sälen är ute: styrelsen föreslår 3,50 kr per aktie i utdelning (avstämning 15 dec, utbetalning 18 dec) och omval av hela styrelsen med Anders Sundström som ordförande. Nya ersättningsriktlinjer höjer bonustaket för vd från 40 till 50 % av årslönen, och styrelsen vill ha mandat för nyemission och återköp av upp till 10 %. Blankningen har halverats till 0,29 % enligt Börskollen. Inget som ändrar den positiva hållningen."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "Operativa direktören Niclas Sjögren Berg köpte 1 680 B-aktier till 202,40 kr (cirka 0,34 MSEK) den 9 november. Enligt bolagets kalender kommer Q1-rapporten 18 december (inte 12 december som tidigare angetts) och årsredovisningen 17 november. Ett litet men positivt insynsköp – hållningen står kvar som positiv."
         }
       ],
       "links": [
@@ -977,6 +993,14 @@
         {
           "title": "SkiStar – kallelse till årsstämma (4 nov)",
           "url": "https://investor.skistar.com/en/pressreleases/notice-to-annual-general-meeting-of-skistar-ab-3395051"
+        },
+        {
+          "title": "Börsvärlden – insynsköp SkiStar",
+          "url": "https://borsvarlden.com/artiklar/skistars-operationella-direktor-niclas-sjogren-berg-koper-aktier-for-035-miljoner-kronor"
+        },
+        {
+          "title": "SkiStar – finansiell kalender",
+          "url": "https://investor.skistar.com/sv/finansiellt/finansiellt"
         }
       ]
     },
@@ -1107,10 +1131,10 @@
             "target": 850
           },
           {
-            "date": "2026-10-19",
-            "bank": "Jefferies",
+            "date": "2026-11-06",
+            "bank": "Danske Bank",
             "rating": "Köp",
-            "target": 865
+            "target": 810
           },
           {
             "date": "2026-10-20",
@@ -1119,16 +1143,16 @@
             "target": 850
           },
           {
+            "date": "2026-10-19",
+            "bank": "Jefferies",
+            "rating": "Köp",
+            "target": 865
+          },
+          {
             "date": "2026-05-13",
             "bank": "SEB",
             "rating": "Köp",
             "target": 775
-          },
-          {
-            "date": "2026-10-15",
-            "bank": "Danske Bank",
-            "rating": "Köp",
-            "target": 750
           },
           {
             "date": "2026-05-13",
@@ -1162,6 +1186,10 @@
         {
           "date": "2026-11-06",
           "text": "Två riktkurshöjningar dagen efter Q3-rapporten: DNB Carnegie 863 → 914 kr och Nordea 950 → 965 kr, båda köp. Nordea menar att en konkurrents reträtt kan gynna Camurus. Snittet enligt Börskollen har stigit till 868,80 kr. Aktien steg cirka 8 % på rapportdagen till 717 kr. Bekräftar den positiva hållningen; FDA-beslutet 18 december är fortfarande den stora risken."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "Kompletterande: även Danske Bank höjde riktkursen efter Q3, från 750 till 810 kr (köp), den 6 november. Camurus presenterade på Stifel Healthcare Conference 11 november. Inget som ändrar den positiva hållningen; FDA-beslutet 18 december är nästa stora händelse."
         }
       ],
       "links": [
@@ -1179,10 +1207,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Affärsvärlden – aktierekar (ABG 850 kr, 6 nov 2026)",
-          "url": "https://www.affarsvarlden.se/aktierekar"
-        },
         {
           "title": "Camurus – IHE-studie om samhällskostnader vid opioidberoende i Storbritannien (9 nov 2026)",
           "url": "https://www.camurus.com/media/press-releases/2026/ihe-and-camurus-study-indicates-substantial-societal-cost-reductions-associated-with-opioid-dependence-treatment-in-the-uk/"
@@ -1210,6 +1234,10 @@
         {
           "title": "Camurus får godkännande i Kanada (Placera)",
           "url": "https://www.placera.se/telegram/camurus-camurus-far-godkannande-for-oczyesa-xr-i-kanada-20261012"
+        },
+        {
+          "title": "Placera – Danske Bank höjer Camurus",
+          "url": "https://www.placera.se/telegram/camurus-danske-bank-hojer-riktkursen-for-camurus-till-810-kronor-750-upprepar-kop-bn-20261106"
         }
       ]
     },
@@ -1298,7 +1326,8 @@
       "watch": [
         "Fler riktkursjusteringar efter Q3 – hittills mest små förändringar.",
         "Prisutvecklingen i Europa och USA under Q4 och effekten av EU:s skyddsåtgärder.",
-        "Status för Oxelösund (start Q2 2027) och Luleå (slutet av 2029)."
+        "Status för Oxelösund (start Q2 2027) och Luleå (slutet av 2029).",
+        "Byggentreprenad i Luleå efter att NCC lämnar – risk för förseningar och högre kostnader."
       ],
       "events": [
         {
@@ -1395,6 +1424,10 @@
         {
           "date": "2026-11-04",
           "text": "Pareto Securities höjde riktkursen från 88 till 93 kr (3 nov) men upprepar behåll, med motiveringen att stålpriserna fortsätter uppåt. Blankningen har stigit något till 2,92 %. Nästa rapport, bokslutskommunikén, kommer 28 januari 2027 enligt Börskollen. Ingen ändring av hållningen (neutral)."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "NCC lämnar bygget av SSAB:s nya stålverk i Luleå under nästa år, efter att parterna inte enats om nästa fas och riskfördelningen (12 nov). Kontraktsvärde och effekt på tidplanen har inte redovisats. Det ökar osäkerheten kring det stora omställningsprojektet men ändrar inte hållningen (neutral)."
         }
       ],
       "links": [
@@ -1412,10 +1445,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Börskollen – SSAB",
-          "url": "https://www.borskollen.se/aktie/ssab-b"
-        },
         {
           "title": "Placera – dagens aktierekommendationer (2026-11-03)",
           "url": "https://www.placera.se/nyheter/telia-kopstamplas-dagens-aktierekommendationer-2026-11-03"
@@ -1443,6 +1472,10 @@
         {
           "title": "Hurbra – SSAB rapport Q2 2026",
           "url": "https://hurbra.se/ssab-rapport-q2-2026/"
+        },
+        {
+          "title": "Metal Supply – NCC lämnar SSAB-bygget",
+          "url": "https://metal-supply.se/article/view/1256478/nytt_bakslag_i_ssabs_miljardbygge_ncc_lamnar"
         }
       ]
     },
@@ -1530,7 +1563,7 @@
         "Börsens mest blankade aktie (≈ 16,6 %) – marknaden tvivlar på balansräkningen."
       ],
       "watch": [
-        "Ny extrastämma (senast 10 dec): går D-ägarna med på inlösen, eller tvingas SBB höja budet?",
+        "Extrastämman 7 december: går D-ägarna med på inlösen, eller tvingas SBB höja budet?",
         "Q3-rapporten 24 nov: belåning, räntetäckning och redovisningen av KlaraBo-fusionen.",
         "Plan för obligationsförfallen 2027 och eventuella nya försäljningar.",
         "Förändringar i blankningen och kreditbetyget."
@@ -1541,8 +1574,8 @@
           "label": "Delårsrapport januari–september 2026"
         },
         {
-          "date": "",
-          "label": "Ny extra bolagsstämma om inlösen av D-aktier (senast 10 december)"
+          "date": "2026-12-07",
+          "label": "Extra bolagsstämma om inlösen av D-aktier"
         }
       ],
       "analysts": {
@@ -1580,6 +1613,10 @@
         {
           "date": "2026-11-11",
           "text": "Storägaren Erik Salén (tredje största ägare, nära 7 % via 118 miljoner B-aktier) köpte 2 miljoner D-aktier för cirka 13 MSEK den 9 november – efter att D-ägarna röstat ned det första inlösenförslaget. Köpet tyder på att han räknar med att få ut inlösenvillkoren (7,94 kr kontant eller 1,567 B-aktier per D-aktie) eller bättre på den nya extrastämman, vars datum ännu inte är satt (senast 10 december). Ändrar inte den negativa hållningen."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "SBB kallade den 12 november till den nya extrastämman om återköp och inlösen av D-aktierna; enligt bolagets kalender hålls den 7 december. Villkoren i kallelsen har inte gått att bekräfta – i oktober angav SBB att de skulle vara oförändrade (7,94 kr kontant eller 1,567 B-aktier per D-aktie). Hållningen står kvar som negativ."
         }
       ],
       "links": [
@@ -1597,10 +1634,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Investing.com – SBB Q2 2026 slides",
-          "url": "https://www.investing.com/news/company-news/sbb-q2-2026-slides-portfolio-shift-advances-as-nav-slips-25-93CH-4794946"
-        },
         {
           "title": "Investing.com – SBB Q2 2026 earnings call",
           "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sbb-q2-2026-shows-stable-income-shares-fall-29-93CH-4794926"
@@ -1628,6 +1661,10 @@
         {
           "title": "Aktiespararna – SBB-storägare köper D-aktier (9 nov)",
           "url": "https://www.aktiespararna.se/nyheter/sbb-storagare-koper-d-aktier-efter-nobbat-inlosenforslag"
+        },
+        {
+          "title": "SBB – pressmeddelanden",
+          "url": "https://www.sbbnorden.se/sv/section/media/pressmeddelanden/"
         }
       ]
     },
@@ -1896,7 +1933,7 @@
         },
         {
           "label": "Blankat",
-          "value": "1,04 %",
+          "value": "0,92 %",
           "note": "0,23 % för en månad sedan"
         }
       ],
@@ -1930,7 +1967,7 @@
         "Bokslutet 28 januari 2027: om tillväxten i Sverige tar fart igen och om Norge håller uppe efter lageruppbyggnaden.",
         "Kassaflödet och lagernivån – vänder de i Q4?",
         "Lanseringarna av TRL-01 och CMS-01 i början av 2027 och de smarta solskyddsmotorerna i Europa.",
-        "Blankningen, som har stigit från 0,2 % till cirka 1 % på en månad."
+        "Blankningen, som har stigit från 0,2 % till cirka 0,9 % på en månad (JPMorgan Asset Management 0,62 %)."
       ],
       "events": [
         {
@@ -2109,9 +2146,8 @@
       ],
       "watch": [
         "Extrastämman 15 december – röstningen om avknoppningen av Bergslagets Skogar (kräver 2/3 i varje aktieslag).",
-        "Besked om den strategiska översynen av sågverken i Centraleuropa.",
         "Prisutvecklingen i förpackningskvaliteter och Oulus uppkörning.",
-        "Bokslutskommunikén (datum ej bekräftat i källorna)."
+        "Bokslutskommunikén 11 februari 2027."
       ],
       "events": [
         {
@@ -2202,6 +2238,10 @@
         {
           "date": "2026-11-04",
           "text": "Efter Q3 sänkte flera analytiker riktkurserna: Nordea 12,30 → 11,70 EUR (köp), Jefferies 12,50 → 11,20 (köp) och SB1 Markets 10,60 → 10,40 (neutral) den 2 nov, och Barclays 12 → 11,50 (jämvikt) den 3 nov. Inderes sänkte till minska med oförändrad riktkurs 10 EUR. Snittet enligt Börskollen har fallit till 11,18 EUR. Bolaget har kallat till extrastämma 15 december om avknoppningen av Bergslagets Skogar: en ny aktie per Stora Enso-aktie (R blir B), notering i Stockholm och Helsingfors och planerad verkställighet 31 mars 2027. Rapporten var bra men analytikerna har dragit ned förväntningarna – hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "Stora Enso har avslutat den strategiska översynen av sågverken och bygglösningarna i Centraleuropa och behåller verksamheten; upp till 250 anställda kan beröras av åtgärder (10 nov). Därmed blir ingen försäljning av den delen. Hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -2219,10 +2259,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Placera – dagens aktierekommendationer (2026-11-03)",
-          "url": "https://www.placera.se/nyheter/telia-kopstamplas-dagens-aktierekommendationer-2026-11-03"
-        },
         {
           "title": "Stora Enso – kallelse till extra bolagsstämma",
           "url": "https://www.prnewswire.com/news-releases/notice-of-the-extraordinary-general-meeting-of-stora-enso-oyj-302926126.html"
@@ -2250,6 +2286,10 @@
         {
           "title": "Papnews – Bergslagets Skogar",
           "url": "https://www.papnews.com/stora-enso-names-future-forest-company-bergslagets-skogar/"
+        },
+        {
+          "title": "Börskollen – Stora Enso",
+          "url": "https://www.borskollen.se/aktie/stora-enso"
         }
       ]
     },
@@ -2357,15 +2397,9 @@
       ],
       "analysts": {
         "consensus": "Måttligt köp",
-        "avgTarget": 81.3,
-        "avgTargetNote": "Snitt av de 10 riktkurserna efter Q3 som listas här. TradingKey anger snitt 92 USD (spann 63–160) och konsensus behåll (10 nov).",
+        "avgTarget": 79.3,
+        "avgTargetNote": "Snitt av de 10 riktkurserna som listas här. Konsensus enligt TradingView: 91,04 USD (41 analytiker, spann 63–160).",
         "targets": [
-          {
-            "date": "2026-10-30",
-            "bank": "Bank of America",
-            "rating": "Neutral (sänkt från köp)",
-            "target": 100
-          },
           {
             "date": "2026-10-30",
             "bank": "StoneX",
@@ -2383,6 +2417,12 @@
             "bank": "Baird",
             "rating": "Neutral",
             "target": 83
+          },
+          {
+            "date": "2026-11-12",
+            "bank": "Bank of America",
+            "rating": "Neutral",
+            "target": 80
           },
           {
             "date": "",
@@ -2438,6 +2478,10 @@
         {
           "date": "2026-11-11",
           "text": "Fler riktkurssänkningar efter Q3 har kommit fram: Wedbush sänkte till 75 USD (neutral) och DA Davidson från 100 till 70 USD. Snittet av listade riktkurser sjunker till 81,3 USD. Aktien steg 5,5 % till 59,37 USD den 9 november i en återhämtning för chipaktier men föll 3,3 % dagen efter. CFO:n väntar sig att PC-avmattningen håller i sig åtminstone första halvåret 2027. Hållningen står kvar som neutral med hög risk."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "Bank of America sänkte riktkursen från 100 till 80 USD med fortsatt neutral (12 nov). Aktien steg 7,5 % till 62,50 USD den 11 november men föll i handeln dagen efter, när Intel nämndes som partner till Megaspeed, ett bolag med koppling till en misstänkt kinesisk spion. Snittet av listade riktkurser sjunker till 79,3 USD. Hållningen står kvar som neutral med hög risk."
         }
       ],
       "links": [
@@ -2447,14 +2491,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Tech Insider – Crescent Island och AI-marknadsandelar",
-          "url": "https://tech-insider.org/intel-crescent-island-ai-gpu-delay-2026/"
-        },
-        {
-          "title": "Motley Fool – därför faller Intel (2026-11-05)",
-          "url": "https://www.fool.com/investing/2026/11/05/why-intel-stock-is-down-today/"
-        },
         {
           "title": "GuruFocus – Intels vd köper aktier för 9,7 MUSD (4 nov)",
           "url": "https://www.gurufocus.com/news/9170638/intel-ceo-lipbu-tan-buys-97m-in-shares-signaling-confidence-in-intc"
@@ -2478,6 +2514,14 @@
         {
           "title": "GuruFocus/TradingView – SoftBank tar in 7,4 mdr USD mot Intel-aktier",
           "url": "https://www.tradingview.com/news/gurufocus:e79b3481e094b:0-intel-stocks-climb-5-23-as-softbank-reveals-7-4-billion-raised-against-intel-shares/"
+        },
+        {
+          "title": "Riktkurssänkning Bank of America",
+          "url": "https://www.dailypolitical.com/2026/11/12/intel-nasdaqintc-stock-price-target-lowered-at-bank-of-america.html"
+        },
+        {
+          "title": "Stocktwits – Megaspeed",
+          "url": "https://stocktwits.com/news-articles/markets/equity/intc-baba-shares-slide-over-links-to-firm-tied-to-suspected-chinese-spy/cNGzod1R99H"
         }
       ]
     }
