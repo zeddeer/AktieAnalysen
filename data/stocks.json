@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "stocks": [
     {
       "id": "electrolux",
@@ -1061,8 +1061,8 @@
         },
         {
           "label": "Blankat",
-          "value": "4,64 %",
-          "note": "4,65 % vid förra mätningen"
+          "value": "4,2 %",
+          "note": "4,72 % för en månad sedan (Börskollen)"
         }
       ],
       "latestReport": {
@@ -1103,6 +1103,10 @@
       ],
       "events": [
         {
+          "date": "2026-11-18",
+          "label": "Vd Fredrik Tiberg presenterar på Jefferies Global Healthcare Conference i London (kl. 10.00)"
+        },
+        {
           "date": "2026-12-18",
           "label": "FDA:s måldatum för Oclaiz (CAM2029) mot akromegali"
         }
@@ -1112,6 +1116,12 @@
         "avgTarget": 868.8,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (6 nov, efter Nordeas och DNB Carnegies höjningar). Alla registrerade rekommendationer är köp.",
         "targets": [
+          {
+            "date": "2026-11-13",
+            "bank": "Jefferies",
+            "rating": "Köp",
+            "target": 870
+          },
           {
             "date": "2026-11-06",
             "bank": "Nordea",
@@ -1143,12 +1153,6 @@
             "target": 850
           },
           {
-            "date": "2026-10-19",
-            "bank": "Jefferies",
-            "rating": "Köp",
-            "target": 865
-          },
-          {
             "date": "2026-05-13",
             "bank": "SEB",
             "rating": "Köp",
@@ -1163,6 +1167,10 @@
         ]
       },
       "log": [
+        {
+          "date": "2026-11-16",
+          "text": "Jefferies höjde riktkursen från 865 till 870 kr med upprepad köp (13 nov) och räknar med att Brixadi-försäljningen tar fart nästa år. Rättelse: konferensen som meddelades 11 november är Jefferies Global Healthcare Conference i London, där vd presenterar 18 november – inte Stifel. Blankningen har fallit till 4,2 %. Hållningen står kvar som positiv."
+        },
         {
           "date": "2026-11-10",
           "text": "ABG Sundal Collier höjde riktkursen från 750 till 850 kr med upprepad köp (6 nov) – den tredje höjningen efter Q3. Den 9 november publicerade Camurus tillsammans med IHE en hälsoekonomisk studie som pekar på betydande samhällsbesparingar av opioidberoendebehandling i Storbritannien, ett stöd i diskussionerna med betalare för Buvidal. Bekräftar den positiva hållningen; FDA-beslutet 18 december är fortfarande den stora risken."
@@ -1208,6 +1216,14 @@
       ],
       "sources": [
         {
+          "title": "Camurus presenterar på Jefferies Global Healthcare Conference (Inderes, 11 nov 2026)",
+          "url": "https://www.inderes.fi/en/releases/camurus-ab-camurus-to-present-at-jefferies-global-healthcare-conference-2"
+        },
+        {
+          "title": "Börskollen – Jefferies höjer Camurus till 870 kr (13 nov 2026)",
+          "url": "https://borskollen.se/aktie/camurus"
+        },
+        {
           "title": "Camurus – IHE-studie om samhällskostnader vid opioidberoende i Storbritannien (9 nov 2026)",
           "url": "https://www.camurus.com/media/press-releases/2026/ihe-and-camurus-study-indicates-substantial-societal-cost-reductions-associated-with-opioid-dependence-treatment-in-the-uk/"
         },
@@ -1218,14 +1234,6 @@
         {
           "title": "Camurus delårsrapport Q3 2026 (Inderes)",
           "url": "https://www.inderes.fi/en/releases/camurus-ab-camurus-interim-report-third-quarter-2026"
-        },
-        {
-          "title": "Pressen/DI – Camurus resultat bättre än väntat (2026-11-05)",
-          "url": "https://www.pressen.se/1371664478.html"
-        },
-        {
-          "title": "FDA accepterar ny ansökan för CAM2029 (HCPLive)",
-          "url": "https://www.hcplive.com/view/fda-accepts-resubmitted-cam2029-nda-for-acromegaly"
         },
         {
           "title": "Oczyesa godkänt i Kanada, USA-besked i december (Hurbra)",
@@ -1293,8 +1301,8 @@
         },
         {
           "label": "Blankat",
-          "value": "2,92 %",
-          "note": "2,82 % vid förra mätningen"
+          "value": "2,95 %",
+          "note": "2,92 % vid förra mätningen (12 nov)"
         }
       ],
       "latestReport": {
@@ -1410,6 +1418,10 @@
       },
       "log": [
         {
+          "date": "2026-11-16",
+          "text": "SSAB har tecknat en ny syndikerad kreditfacilitet på 800 MEUR med fem års löptid och två möjliga förlängningar på ett år (12 nov). Den ersätter en facilitet på 700 MEUR från 2022 och stärker likviditetsreserven inför omställningen – ett stöd när Luleåprojektet möter motvind efter NCC:s uttåg. Hållningen står kvar som neutral."
+        },
+        {
           "date": "2026-10-28",
           "text": "Q3-rapporten i linje med förväntan: rörelseresultat 2 157 MSEK (konsensus 2 148) och EBITDA 3 259 MSEK (3 184), trots 810 MSEK i underhåll. Högre priser i Europa visar att EU:s skyddsåtgärder biter, och för Q4 väntas något högre priser men också högre råvarukostnader. Moody's gav investment grade (Baa2) och årets investeringar sänks till 11,2 mdr på grund av betalningstidpunkter. Stabilt men utan överraskning – hållningen står kvar som neutral. Nästa rapportdatum är inte känt ännu."
         },
@@ -1446,6 +1458,10 @@
       ],
       "sources": [
         {
+          "title": "Börsvärlden – SSAB tecknar ny kreditfacilitet på 800 MEUR (12 nov 2026)",
+          "url": "https://borsvarlden.com/artiklar/ssab-tecknar-ny-kreditfacilitet-pa-800-miljoner-euro"
+        },
+        {
           "title": "Placera – dagens aktierekommendationer (2026-11-03)",
           "url": "https://www.placera.se/nyheter/telia-kopstamplas-dagens-aktierekommendationer-2026-11-03"
         },
@@ -1468,10 +1484,6 @@
         {
           "title": "SSAB – Q2 2026 report (PDF)",
           "url": "https://www.ssab.com/-/media/files/company/investors/interim-reports/2026/ssab-q2-2026-report_eng_f.pdf?m=20260722051929"
-        },
-        {
-          "title": "Hurbra – SSAB rapport Q2 2026",
-          "url": "https://hurbra.se/ssab-rapport-q2-2026/"
         },
         {
           "title": "Metal Supply – NCC lämnar SSAB-bygget",
@@ -1532,8 +1544,8 @@
         },
         {
           "label": "Blankat",
-          "value": "16,56 %",
-          "note": "16,42 % vid förra mätningen (Börskollen)"
+          "value": "16,12 %",
+          "note": "16,54 % för en månad sedan (Börskollen)"
         }
       ],
       "latestReport": {
@@ -1575,7 +1587,7 @@
         },
         {
           "date": "2026-12-07",
-          "label": "Extra bolagsstämma om inlösen av D-aktier"
+          "label": "Extra bolagsstämma om inlösen av D-aktier (avstämning 27 nov, anmälan senast 1 dec)"
         }
       ],
       "analysts": {
@@ -1598,6 +1610,10 @@
         ]
       },
       "log": [
+        {
+          "date": "2026-11-16",
+          "text": "Kallelsen till extrastämman 7 december bekräftar oförändrade villkor: 7,94 kr kontant eller 1,567 nya B-aktier per D-aktie, en premie på 29 % mot kursen 23 oktober. Förslaget gäller 149,2 miljoner utestående D-aktier och kräver två tredjedelars majoritet, även bland D-aktierna. Stämman röstar också om att SBB accepterar PPI:s bud på Preservium Property, Origa Care och One Publicus (70 % i PPI-aktier, 30 % kontant). Inlösen ska vara klar i januari 2027 om förslaget går igenom. Hållningen står kvar som negativ."
+        },
         {
           "date": "2026-10-19",
           "text": "Första analysen. Utgångsläge negativ med mycket hög risk: stor rabatt mot substansvärdet, men belåning på 54 %, räntetäckning 1,9x, stora förfall 2027 och börsens högsta blankning. Extrastämman 23 oktober (D-aktierna) och den uppskjutna Q3-rapporten 24 november avgör nästa steg."
@@ -1635,8 +1651,8 @@
       ],
       "sources": [
         {
-          "title": "Investing.com – SBB Q2 2026 earnings call",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sbb-q2-2026-shows-stable-income-shares-fall-29-93CH-4794926"
+          "title": "Kallelse till extra bolagsstämma 7 dec 2026 (TradingView)",
+          "url": "https://www.tradingview.com/news/modular_finance:8a1b7a94067d4:0-notice-of-extraordinary-general-meeting-in-samh-llsbyggnadsbolaget-i-norden-ab-publ/"
         },
         {
           "title": "SBB skjuter upp delårsrapporten januari–september 2026",
@@ -1767,7 +1783,8 @@
         "Kassaflödet i Q4 – vänder det när lagret och EX60-produktionen normaliseras?",
         "EX60-leveranser per kvartal mot orderboken på över 50 000 bilar.",
         "Effekten av sparpaketet och omstruktureringskostnaden på cirka 600 MSEK i Q4.",
-        "Försäljningssiffror per månad, särskilt Kina och USA."
+        "Försäljningssiffror per månad, särskilt Kina och USA.",
+        "Kapitalbehovet: bolaget dementerar nyemissionsrykten, men styrelsen har mandat att emittera upp till 10 % nya aktier."
       ],
       "events": [
         {
@@ -1780,6 +1797,12 @@
         "avgTarget": 13.58,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (inkluderar äldre riktkurser före Q3)",
         "targets": [
+          {
+            "date": "2026-10-30",
+            "bank": "Citi",
+            "rating": "Sälj",
+            "target": 9
+          },
           {
             "date": "2026-10-27",
             "bank": "Nordea",
@@ -1820,6 +1843,10 @@
       },
       "log": [
         {
+          "date": "2026-11-16",
+          "text": "Volvo Cars dementerade 12 november rykten om en kommande nyemission: \"inga sådana förberedelser pågår\". Styrelsen har dock sedan årsstämman i mars mandat att ge ut upp till 10 % nya aktier, och nettokassan är bara 1 mdr kr. Kompletterande: Citi sänkte i oktober riktkursen till 9 kr med sälj, marknadens lägsta. Hållningen står kvar som negativ."
+        },
+        {
           "date": "2026-10-23",
           "text": "Första analysen, samma dag som Q3-rapporten. Utgångsläge negativ med hög risk: förlust på 5,6 mdr SEK, Kina-försäljningen −41 %, kassaflöde −24 mdr på nio månader och en nettokassa som krympt till 1 mdr. Det nya sparpaketet (5 mdr, cirka 2 500 tjänster) och EX60-orderboken ger en möjlig vändning 2027, men det behöver synas i kassaflödet först. Aktien föll cirka 28 % till runt 10,20 kr under rapportdagens förmiddag, under både Deutsche Banks (13 kr) och Nordeas (15,50 kr) riktkurser."
         },
@@ -1848,12 +1875,16 @@
       ],
       "sources": [
         {
-          "title": "Volvo Cars försäljning aug–okt 2026 (Inderes)",
-          "url": "https://www.inderes.fi/en/releases/volvo-car-ab-publ-volvo-cars-reports-rolling-three-month-sales-for-the-period-ending-october-2026"
+          "title": "EFN – Citi kapar Volvo Cars igen",
+          "url": "https://efn.se/citi-kapar-volvo-cars-igen-satter-marknadens-lagsta-riktkurs"
         },
         {
-          "title": "Placera – SEB sänker Volvo Cars till 11 kr (2026-10-27)",
-          "url": "https://www.placera.se/telegram"
+          "title": "Carup – Volvo Cars dementerar nyemission (12 nov 2026)",
+          "url": "https://carup.se/volvo-cars-dementerar-nyemission-inga-forberedelser-pagar/"
+        },
+        {
+          "title": "Volvo Cars försäljning aug–okt 2026 (Inderes)",
+          "url": "https://www.inderes.fi/en/releases/volvo-car-ab-publ-volvo-cars-reports-rolling-three-month-sales-for-the-period-ending-october-2026"
         },
         {
           "title": "Placera – Volvo Cars vänder till förlust (2026-10-23)",
@@ -1862,10 +1893,6 @@
         {
           "title": "HurBra – Volvo Cars rapport Q3 2026",
           "url": "https://hurbra.se/volvo-cars-rapport-q3-2026/"
-        },
-        {
-          "title": "HurBra – Volvo Cars stryker prognosen (2026-10-02)",
-          "url": "https://hurbra.se/volvo-cars-aktie-2-oktober-2026/"
         },
         {
           "title": "Börsvärlden – Deutsche Bank sänker till 13 kr",
