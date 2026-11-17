@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "stocks": [
     {
       "id": "electrolux",
@@ -53,8 +53,8 @@
         },
         {
           "label": "Blankat",
-          "value": "9,56 %",
-          "note": "10,34 % för en månad sedan"
+          "value": "9,17 %",
+          "note": "10,42 % för en månad sedan (Börskollen, 17 nov)"
         }
       ],
       "latestReport": {
@@ -1062,7 +1062,7 @@
         {
           "label": "Blankat",
           "value": "4,2 %",
-          "note": "4,72 % för en månad sedan (Börskollen)"
+          "note": "4,66 % för en månad sedan (Börskollen)"
         }
       ],
       "latestReport": {
@@ -1784,7 +1784,8 @@
         "EX60-leveranser per kvartal mot orderboken på över 50 000 bilar.",
         "Effekten av sparpaketet och omstruktureringskostnaden på cirka 600 MSEK i Q4.",
         "Försäljningssiffror per månad, särskilt Kina och USA.",
-        "Kapitalbehovet: bolaget dementerar nyemissionsrykten, men styrelsen har mandat att emittera upp till 10 % nya aktier."
+        "Kapitalbehovet: bolaget dementerar nyemissionsrykten, men styrelsen har mandat att emittera upp till 10 % nya aktier.",
+        "Kreditbetyget: Moody's Ba2 med negativ utsikt (16 nov) – ytterligare sänkning skulle fördyra finansieringen."
       ],
       "events": [
         {
@@ -1861,6 +1862,10 @@
         {
           "date": "2026-11-05",
           "text": "Försäljningen för augusti–oktober (rullande tre månader) blev 141 656 bilar, 16 % färre än året innan. Elbilarna ökade 27 % till 34 % av volymen, medan laddhybrider (−30 %) och mildhybrider/bensin (−28 %) föll. Bolaget pekar på svag efterfrågan i Kina och USA men stark elbilsefterfrågan i Europa, med över 50 000 order på EX60 som begränsas av produktionsupptrappningen. Volymtappet håller i sig – hållningen står kvar som negativ."
+        },
+        {
+          "date": "2026-11-17",
+          "text": "Moody's sänkte kreditbetyget ett steg, från Ba1 till Ba2, med negativ utsikt (16 nov). Skälet är det kraftigt försämrade resultatet och kassaflödet i år: fritt kassaflöde −21,1 mdr kr senaste tolv månaderna och en nettoskuld på 15,6 mdr kr mot en nettokassa på 10,7 mdr kr vid årsskiftet. Moody's räknar med negativ rörelsemarginal 2026, nära noll 2027 och 1,5–2 % 2028, samt att mer omstrukturering kan krävas. Aktien föll cirka 4 %. Dyrare upplåning och ökat tryck på kapitalbehovet – hållningen står kvar som negativ med hög risk."
         }
       ],
       "links": [
@@ -1874,6 +1879,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Carup – Moody's sänker Volvo Cars kreditbetyg (16 nov 2026)",
+          "url": "https://carup.se/ny-small-for-volvo-cars-aktien-faller-efter-sankt-kreditbetyg/"
+        },
         {
           "title": "EFN – Citi kapar Volvo Cars igen",
           "url": "https://efn.se/citi-kapar-volvo-cars-igen-satter-marknadens-lagsta-riktkurs"
@@ -1901,10 +1910,6 @@
         {
           "title": "Placera – Nordea sänker prognoserna för Volvo Cars",
           "url": "https://www.placera.se/nyheter/nordea-sanker-prognoserna-rejalt-for-volvo-cars-2026-10-13"
-        },
-        {
-          "title": "Börsvärlden – Nordea sänker Volvo Cars till 12 kr (2026-10-27)",
-          "url": "https://borsvarlden.com/artiklar/nordea-sanker-riktkursen-for-volvo-cars-till-12-kronor-upprepar-behall"
         }
       ]
     },
@@ -2189,7 +2194,7 @@
       "analysts": {
         "consensus": "Köp",
         "avgTarget": null,
-        "avgTargetNote": "Snittriktkurs 11,18 EUR (4 mån, Börskollen) – riktkurserna anges i euro och jämförs därför inte med kursen i SEK",
+        "avgTargetNote": "Snittriktkurs 126,48 kr enligt Finwire/FactSet (13 nov 2026, ned från 127,36 kr; 11 positiva, 4 neutrala, 2 negativa av 17). Börskollen: 11,18 EUR (4 mån).",
         "targets": [
           {
             "date": "2026-11-03",
@@ -2269,6 +2274,10 @@
         {
           "date": "2026-11-13",
           "text": "Stora Enso har avslutat den strategiska översynen av sågverken och bygglösningarna i Centraleuropa och behåller verksamheten; upp till 250 anställda kan beröras av åtgärder (10 nov). Därmed blir ingen försäljning av den delen. Hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-17",
+          "text": "Efter Q3-rapporten har analytikerna sänkt prognoserna: konsensus för justerat rörelseresultat är nu 632 MEUR i år (−1,7 %) och 846 MEUR nästa år (−1,5 %), och snittriktkursen sjönk från 127,36 till 126,48 kr enligt Finwire/FactSet (13 nov). 11 av 17 analytiker är positiva. Små justeringar som inte ändrar den neutrala hållningen."
         }
       ],
       "links": [
@@ -2286,6 +2295,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Placera – sänkta vinstprognoser för Stora Enso (13 nov 2026)",
+          "url": "https://www.placera.se/telegram/stora-enso-sankta-vinstprognoser-for-stora-enso-efter-rapporten-riktkursen-justeras-ned-20261113"
+        },
         {
           "title": "Stora Enso – kallelse till extra bolagsstämma",
           "url": "https://www.prnewswire.com/news-releases/notice-of-the-extraordinary-general-meeting-of-stora-enso-oyj-302926126.html"
@@ -2313,10 +2326,6 @@
         {
           "title": "Papnews – Bergslagets Skogar",
           "url": "https://www.papnews.com/stora-enso-names-future-forest-company-bergslagets-skogar/"
-        },
-        {
-          "title": "Börskollen – Stora Enso",
-          "url": "https://www.borskollen.se/aktie/stora-enso"
         }
       ]
     },
@@ -2414,7 +2423,8 @@
         "Hur fort fabriken i Kiryat Gat är tillbaka i full drift, och om kostnaden blir större än första bedömningen.",
         "Bruttomarginalen i Q4 och investeringsplanen för 2027.",
         "Försäljningsstart för Crescent Island (GPU D-serien) och kundintresset.",
-        "Om den förhandsuppgörelse med Apple som WSJ rapporterade om i maj blir ett bindande avtal."
+        "Om den förhandsuppgörelse med Apple som WSJ rapporterade om i maj blir ett bindande avtal.",
+        "Grupptalan om värdepappersbedrägeri (inlämnad 13 nov; sista dag att ansöka som huvudkärande 12 januari 2027)."
       ],
       "events": [
         {
@@ -2509,6 +2519,10 @@
         {
           "date": "2026-11-13",
           "text": "Bank of America sänkte riktkursen från 100 till 80 USD med fortsatt neutral (12 nov). Aktien steg 7,5 % till 62,50 USD den 11 november men föll i handeln dagen efter, när Intel nämndes som partner till Megaspeed, ett bolag med koppling till en misstänkt kinesisk spion. Snittet av listade riktkurser sjunker till 79,3 USD. Hållningen står kvar som neutral med hög risk."
+        },
+        {
+          "date": "2026-11-17",
+          "text": "En grupptalan om värdepappersbedrägeri lämnades in mot Intel, vd Lip-Bu Tan och CFO David Zinsner i federal domstol i San Jose (13 nov). Den gäller perioden 23 juli–29 oktober och hävdar att bolaget tonade ned PC-svackans effekt och utbudsproblemen för serverprocessorer, bland annat i samband med aktieförsäljningen på 23 mdr USD till 95 USD i augusti. Aktien stängde på 59,66 USD den 13 november och öppnade 4,6 % lägre den 16 november i en bred nedgång för chipaktier. Ingen ny riktkursändring. Juridisk risk tillkommer, men hållningen står kvar som neutral med hög risk."
         }
       ],
       "links": [
@@ -2518,6 +2532,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Euronews – aktieägare stämmer Intel (16 nov 2026)",
+          "url": "https://www.euronews.com/2026/11/16/shareholders-sue-intel-after-its-shares-plunge-nearly-29"
+        },
         {
           "title": "GuruFocus – Intels vd köper aktier för 9,7 MUSD (4 nov)",
           "url": "https://www.gurufocus.com/news/9170638/intel-ceo-lipbu-tan-buys-97m-in-shares-signaling-confidence-in-intc"
@@ -2545,10 +2563,6 @@
         {
           "title": "Riktkurssänkning Bank of America",
           "url": "https://www.dailypolitical.com/2026/11/12/intel-nasdaqintc-stock-price-target-lowered-at-bank-of-america.html"
-        },
-        {
-          "title": "Stocktwits – Megaspeed",
-          "url": "https://stocktwits.com/news-articles/markets/equity/intc-baba-shares-slide-over-links-to-firm-tied-to-suspected-chinese-spy/cNGzod1R99H"
         }
       ]
     }
