@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "stocks": [
     {
       "id": "electrolux",
@@ -891,10 +891,6 @@
         "Utdelningsbeslut på årsstämman i december."
       ],
       "events": [
-        {
-          "date": "2026-11-17",
-          "label": "Års- och hållbarhetsredovisning 2025/26"
-        },
         {
           "date": "2026-12-12",
           "label": "Årsstämma i Sälen (utdelning 3,50 kr, avstämning 15 dec, utbetalning 18 dec)"
