@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "stocks": [
     {
       "id": "electrolux",
@@ -1094,14 +1094,10 @@
         "FDA:s beslut om Oclaiz, måldatum 18 december 2026.",
         "Analytikernas riktkursjusteringar efter Q3-rapporten.",
         "Brixadi-royaltyns tillväxttakt i Q4 – planar den ut?",
-        "SORENTO fas 3-resultat väntas under andra halvåret.",
+        "SORENTO fas 3 (CAM2029 mot GEP-NET) – resultat väntas Q1 2027; Danske Bank ser 25–30 % kursuppsida vid positivt utfall.",
         "Lansering och prissättning av Oczyesa i Kanada (ingen tidpunkt meddelad)."
       ],
       "events": [
-        {
-          "date": "2026-11-18",
-          "label": "Vd Fredrik Tiberg presenterar på Jefferies Global Healthcare Conference i London (kl. 10.00)"
-        },
         {
           "date": "2026-12-18",
           "label": "FDA:s måldatum för Oclaiz (CAM2029) mot akromegali"
@@ -1112,6 +1108,12 @@
         "avgTarget": 868.8,
         "avgTargetNote": "Snitt senaste 4 mån enligt Börskollen (6 nov, efter Nordeas och DNB Carnegies höjningar). Alla registrerade rekommendationer är köp.",
         "targets": [
+          {
+            "date": "2026-11-17",
+            "bank": "Danske Bank",
+            "rating": "Köp",
+            "target": 826
+          },
           {
             "date": "2026-11-13",
             "bank": "Jefferies",
@@ -1137,12 +1139,6 @@
             "target": 850
           },
           {
-            "date": "2026-11-06",
-            "bank": "Danske Bank",
-            "rating": "Köp",
-            "target": 810
-          },
-          {
             "date": "2026-10-20",
             "bank": "Pareto Securities",
             "rating": "Köp",
@@ -1163,6 +1159,10 @@
         ]
       },
       "log": [
+        {
+          "date": "2026-11-19",
+          "text": "Danske Bank höjde riktkursen från 810 till 826 kr med upprepad köp (17 nov). Banken bedömer att aktien kan stiga 25–30 % om SORENTO-studien av CAM2029 mot neuroendokrina tumörer blir positiv, höjer sannolikheten för framgång till 68 % (65) och väntar resultat under Q1 2027. På Jefferies-konferensen i London 18 november upprepade vd att intäkter och rörelseresultat väntas hamna i övre halvan av årsprognosen, och att Brixadi-satsningen hos Braeburn kan synas i siffrorna först om tre till fyra kvartal. Hållningen står kvar som positiv; FDA-beslutet 18 december är fortsatt den stora risken."
+        },
         {
           "date": "2026-11-16",
           "text": "Jefferies höjde riktkursen från 865 till 870 kr med upprepad köp (13 nov) och räknar med att Brixadi-försäljningen tar fart nästa år. Rättelse: konferensen som meddelades 11 november är Jefferies Global Healthcare Conference i London, där vd presenterar 18 november – inte Stifel. Blankningen har fallit till 4,2 %. Hållningen står kvar som positiv."
@@ -1212,6 +1212,14 @@
       ],
       "sources": [
         {
+          "title": "Placera – Danske Bank ser 25–30 % uppsida vid positiv SORENTO-data (17 nov 2026)",
+          "url": "https://www.placera.se/telegram/camurus-danske-bank-ser-mojlig-kursuppgang-25-30-vid-positiv-data-20261117"
+        },
+        {
+          "title": "Investing.com – Camurus på Jefferies Global Healthcare Conference (18 nov 2026)",
+          "url": "https://www.investing.com/news/transcripts/camurus-at-jefferies-global-healthcare-conference-growth-and-catalysts-93CH-5035232"
+        },
+        {
           "title": "Camurus presenterar på Jefferies Global Healthcare Conference (Inderes, 11 nov 2026)",
           "url": "https://www.inderes.fi/en/releases/camurus-ab-camurus-to-present-at-jefferies-global-healthcare-conference-2"
         },
@@ -1234,14 +1242,6 @@
         {
           "title": "Oczyesa godkänt i Kanada, USA-besked i december (Hurbra)",
           "url": "https://hurbra.se/camurus-oczyesa-godkant-kanada-2026/"
-        },
-        {
-          "title": "Camurus får godkännande i Kanada (Placera)",
-          "url": "https://www.placera.se/telegram/camurus-camurus-far-godkannande-for-oczyesa-xr-i-kanada-20261012"
-        },
-        {
-          "title": "Placera – Danske Bank höjer Camurus",
-          "url": "https://www.placera.se/telegram/camurus-danske-bank-hojer-riktkursen-for-camurus-till-810-kronor-750-upprepar-kop-bn-20261106"
         }
       ]
     },
@@ -2497,6 +2497,10 @@
       },
       "log": [
         {
+          "date": "2026-11-19",
+          "text": "Nvidias 13F-rapport visar att bolaget minskade sitt Intel-innehav med cirka 25 %, från 214,7 till 161,1 miljoner aktier, per 30 september. Aktien föll drygt 2 % den 17 november och handlades kring 54,50 USD dagen därpå. Den 18 november rapporterades också om en ny uppsägningsrunda på IT-avdelningen; Intel uppger inte hur många som berörs och säger bara att bolaget blir mer fokuserat och effektivt. Nvidia är fortfarande en stor ägare, men försäljningen tynger sentimentet. Hållningen står kvar som neutral med hög risk."
+        },
+        {
           "date": "2026-11-12",
           "text": "Aktien steg 7,5 % till 62,50 USD den 11 november i en bred återhämtning för chipaktier, sedan CoreWeaves starka rapport dämpat oron för AI-investeringarna efter mellanårsvalet. Samma dag framgick av SoftBanks rapport att bolaget lånat upp 7,4 mdr USD via förutbetalda terminskontrakt med sina Intel-aktier som underlag – motsvarande cirka 70 % av innehavets värde, vilket kan begränsa SoftBanks uppsida och på sikt innebära att aktier byter ägare. Inga nya bolagsbesked; hållningen står kvar som neutral med hög risk."
         },
@@ -2529,6 +2533,18 @@
       ],
       "sources": [
         {
+          "title": "Motley Fool – därför föll Intel-aktien (17 nov 2026)",
+          "url": "https://www.fool.com/investing/2026/11/17/why-intel-stock-just-dropped/"
+        },
+        {
+          "title": "Goldesel – Nvidia minskar Intel-innehavet med 25 % (17 nov 2026)",
+          "url": "https://goldesel.de/aktien/news/intel-aktie-nvidia-senkt-beteiligung-um-25-prozent-auf-1611-millionen-aktien"
+        },
+        {
+          "title": "Yahoo Finance – ny uppsägningsrunda hos Intel (18 nov 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-conducts-another-round-layoffs-210525185.html"
+        },
+        {
           "title": "Euronews – aktieägare stämmer Intel (16 nov 2026)",
           "url": "https://www.euronews.com/2026/11/16/shareholders-sue-intel-after-its-shares-plunge-nearly-29"
         },
@@ -2547,18 +2563,6 @@
         {
           "title": "TradingKey – Intel market movers (10 nov)",
           "url": "https://www.tradingkey.com/news/market-movers/262299231-market-movers-intc-20261110"
-        },
-        {
-          "title": "Motley Fool – Stock Market Today 11 nov 2026: Intel",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-intel-climbs-on-broader-chip-rally-as-ai-infrastructure-demand-lifts-semiconductor-stocks/"
-        },
-        {
-          "title": "GuruFocus/TradingView – SoftBank tar in 7,4 mdr USD mot Intel-aktier",
-          "url": "https://www.tradingview.com/news/gurufocus:e79b3481e094b:0-intel-stocks-climb-5-23-as-softbank-reveals-7-4-billion-raised-against-intel-shares/"
-        },
-        {
-          "title": "Riktkurssänkning Bank of America",
-          "url": "https://www.dailypolitical.com/2026/11/12/intel-nasdaqintc-stock-price-target-lowered-at-bank-of-america.html"
         }
       ]
     }
