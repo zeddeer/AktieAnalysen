@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "stocks": [
     {
       "id": "electrolux",
@@ -953,6 +953,10 @@
         {
           "date": "2026-11-20",
           "text": "Ytterligare ett insynsköp: HR-direktören Camilla Sundqvist köpte 1 153 B-aktier till 199,60 kr (cirka 0,23 MSEK) den 16 november, enligt FI:s insynsregister. Det är andra köpet från ledningen på en vecka, efter operativa direktörens köp den 9 november – en liten men samstämmig signal inför säsongsstarten. Hållningen står kvar som positiv."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "SkiStar meddelade den 19 november säsongsstarten: smygpremiär i Vemdalen 21 november och ordinarie öppning 27 november, Sälen och Trysil 4 december, Åre och Hemsedal 11 december. Inför säsongen har 306 MSEK investerats i snötillverkning, med 489 nya snökanoner. Fri av- och ombokning gäller till 18 december, därefter en snögaranti om ett minsta antal öppna nedfarter per destination. Inga bokningssiffror lämnades. Tidig öppning och större snökapacitet minskar risken för en svag start; hållningen står kvar som positiv."
         }
       ],
       "links": [
@@ -970,10 +974,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "SkiStar bokslutskommuniké 2025/26 (Inderes)",
-          "url": "https://www.inderes.se/releases/skistar-ab-year-end-report-september-2025-august-2026"
-        },
         {
           "title": "Börskollen – SkiStar",
           "url": "https://www.borskollen.se/aktie/skistar"
@@ -1001,6 +1001,10 @@
         {
           "title": "Placera – Skistars HR-direktör Camilla Sundqvist köper aktier (17 nov 2026)",
           "url": "https://www.placera.se/telegram/skistar-skistars-hr-direktor-camilla-sundqvist-koper-aktier-for-drygt-0-2-miljoner-kronor-20261117"
+        },
+        {
+          "title": "SkiStar – Nu öppnar SkiStar vintersäsongen (19 nov 2026)",
+          "url": "https://www.mynewsdesk.com/se/skistar_ab/news/nu-oeppnar-skistar-vintersaesongen-saa-ser-snoelaeget-ut-paa-destinationerna-515181"
         }
       ]
     },
@@ -1633,6 +1637,10 @@
         {
           "date": "2026-11-13",
           "text": "SBB kallade den 12 november till den nya extrastämman om återköp och inlösen av D-aktierna; enligt bolagets kalender hålls den 7 december. Villkoren i kallelsen har inte gått att bekräfta – i oktober angav SBB att de skulle vara oförändrade (7,94 kr kontant eller 1,567 B-aktier per D-aktie). Hållningen står kvar som negativ."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "SBB:s valberedning inför årsstämman 2027 är utsedd (19 nov): Svein Oskar Stoknes (Aker Capital, ordförande), Ilija Batljan, Leif West (Dragfast), Erik Salén – som ersätter Arvid Svenssons representant – samt styrelseordföranden Lennart Sten. Ingen påverkan på case:t. Q3-rapporten kommer i morgon, 24 november; hållningen står kvar som negativ."
         }
       ],
       "links": [
@@ -1650,10 +1658,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Kallelse till extra bolagsstämma 7 dec 2026 (TradingView)",
-          "url": "https://www.tradingview.com/news/modular_finance:8a1b7a94067d4:0-notice-of-extraordinary-general-meeting-in-samh-llsbyggnadsbolaget-i-norden-ab-publ/"
-        },
         {
           "title": "SBB skjuter upp delårsrapporten januari–september 2026",
           "url": "https://www.sbbnorden.se/en/sbb-postpones-publication-of-its-interim-report-for-january-september-2026/"
@@ -1681,6 +1685,10 @@
         {
           "title": "SBB – pressmeddelanden",
           "url": "https://www.sbbnorden.se/sv/section/media/pressmeddelanden/"
+        },
+        {
+          "title": "Placera – Erik Salén ersätter Arvid Svensson i SBB:s valberedning (19 nov 2026)",
+          "url": "https://www.placera.se/telegram/samhallsbyggnadsbolaget-i-norden-erik-salen-ersatter-arvid-svensson-i-valberedningen-i-sbb-20261119"
         }
       ]
     },
@@ -1866,6 +1874,10 @@
         {
           "date": "2026-11-17",
           "text": "Moody's sänkte kreditbetyget ett steg, från Ba1 till Ba2, med negativ utsikt (16 nov). Skälet är det kraftigt försämrade resultatet och kassaflödet i år: fritt kassaflöde −21,1 mdr kr senaste tolv månaderna och en nettoskuld på 15,6 mdr kr mot en nettokassa på 10,7 mdr kr vid årsskiftet. Moody's räknar med negativ rörelsemarginal 2026, nära noll 2027 och 1,5–2 % 2028, samt att mer omstrukturering kan krävas. Aktien föll cirka 4 %. Dyrare upplåning och ökat tryck på kapitalbehovet – hållningen står kvar som negativ med hög risk."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "Blekinge tingsrätt dömde den 19 november Volvo Personvagnar att betala 23,2 MSEK i företagsbot för arbetsmiljöbrott efter en klämolycka i Olofströmsfabriken i januari 2025. Bolaget hade redan i oktober godtagit åklagarens krav, så domen formaliserar det. Beloppet är litet i förhållande till bolaget; hållningen står kvar som negativ med hög risk."
         }
       ],
       "links": [
@@ -1879,10 +1891,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Carup – Moody's sänker Volvo Cars kreditbetyg (16 nov 2026)",
-          "url": "https://carup.se/ny-small-for-volvo-cars-aktien-faller-efter-sankt-kreditbetyg/"
-        },
         {
           "title": "EFN – Citi kapar Volvo Cars igen",
           "url": "https://efn.se/citi-kapar-volvo-cars-igen-satter-marknadens-lagsta-riktkurs"
@@ -1910,6 +1918,10 @@
         {
           "title": "Placera – Nordea sänker prognoserna för Volvo Cars",
           "url": "https://www.placera.se/nyheter/nordea-sanker-prognoserna-rejalt-for-volvo-cars-2026-10-13"
+        },
+        {
+          "title": "Börsvärlden – Volvo Cars får företagsbot på 23 miljoner",
+          "url": "https://borsvarlden.com/artiklar/volvo-cars-far-foretagsbot-pa-23-miljoner-efter-allvarlig-arbetsplatsolycka"
         }
       ]
     },
@@ -2419,7 +2431,7 @@
         "Politisk risk: staten äger cirka 10 % sedan 2025, och efter mellanårsvalet kan både den affären och datacenterutbyggnaden ifrågasättas."
       ],
       "watch": [
-        "Besked om externa kunder till 14A och avancerad kapsling (Intel väntar sig kundbesked inom två kvartal).",
+        "Besked om externa kunder till 18A/14A och avancerad kapsling – vem är den första 18A-P-kunden och hur stor är affären?",
         "Hur fort fabriken i Kiryat Gat är tillbaka i full drift, och om kostnaden blir större än första bedömningen.",
         "Bruttomarginalen i Q4 och investeringsplanen för 2027.",
         "Försäljningsstart för Crescent Island (GPU D-serien) och kundintresset.",
@@ -2527,6 +2539,10 @@
         {
           "date": "2026-11-17",
           "text": "En grupptalan om värdepappersbedrägeri lämnades in mot Intel, vd Lip-Bu Tan och CFO David Zinsner i federal domstol i San Jose (13 nov). Den gäller perioden 23 juli–29 oktober och hävdar att bolaget tonade ned PC-svackans effekt och utbudsproblemen för serverprocessorer, bland annat i samband med aktieförsäljningen på 23 mdr USD till 95 USD i augusti. Aktien stängde på 59,66 USD den 13 november och öppnade 4,6 % lägre den 16 november i en bred nedgång för chipaktier. Ingen ny riktkursändring. Juridisk risk tillkommer, men hållningen står kvar som neutral med hög risk."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "Vd Lip-Bu Tan sade den 18 november att Intel tecknat sin första externa kund för 18A-processen; CTO:n preciserade att det gäller 18A-P. Kunden, volymen och intäkterna har inte angetts. Aktien steg och stängde på 55,72 USD den 19 november, men föll knappt 8 % till 51,28 USD den 20 november i en bred försäljning av AI- och chipaktier, utan bolagsspecifik nyhet. Flera advokatbyråer marknadsför grupptalan; sista dag att anmäla sig som huvudkärande är 12 januari 2027. Kundbeskedet är ett första steg för foundry-tesen, men utan siffror ändras inte bilden – hållningen står kvar som neutral med hög risk."
         }
       ],
       "links": [
@@ -2536,18 +2552,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Motley Fool – därför föll Intel-aktien (17 nov 2026)",
-          "url": "https://www.fool.com/investing/2026/11/17/why-intel-stock-just-dropped/"
-        },
-        {
-          "title": "Goldesel – Nvidia minskar Intel-innehavet med 25 % (17 nov 2026)",
-          "url": "https://goldesel.de/aktien/news/intel-aktie-nvidia-senkt-beteiligung-um-25-prozent-auf-1611-millionen-aktien"
-        },
-        {
-          "title": "Yahoo Finance – ny uppsägningsrunda hos Intel (18 nov 2026)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-conducts-another-round-layoffs-210525185.html"
-        },
         {
           "title": "Euronews – aktieägare stämmer Intel (16 nov 2026)",
           "url": "https://www.euronews.com/2026/11/16/shareholders-sue-intel-after-its-shares-plunge-nearly-29"
@@ -2567,6 +2571,18 @@
         {
           "title": "TradingKey – Intel market movers (10 nov)",
           "url": "https://www.tradingkey.com/news/market-movers/262299231-market-movers-intc-20261110"
+        },
+        {
+          "title": "Motley Fool – Why Intel stock is gaining today (19 nov 2026)",
+          "url": "https://fool.com/investing/2026/11/19/why-intel-stock-is-gaining-today"
+        },
+        {
+          "title": "DCD – Intel secures first external customer for 18A-P",
+          "url": "https://www.datacenterdynamics.com/en/news/intel-secures-first-external-customer-for-18a-p-process-node/"
+        },
+        {
+          "title": "IBTimes – Intel shares fall despite 18A customer",
+          "url": "https://www.ibtimes.com.au/intel-shares-fall-18a-foundry-customer-pc-business-1879068"
         }
       ]
     }
