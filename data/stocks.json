@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "stocks": [
     {
       "id": "electrolux",
@@ -2189,7 +2189,7 @@
         "Stora engångsposter gör att det rapporterade resultatet ligger långt under det justerade."
       ],
       "watch": [
-        "Extrastämman 15 december – röstningen om avknoppningen av Bergslagets Skogar (kräver 2/3 i varje aktieslag).",
+        "Extrastämman 15 december – röstningen om avknoppningen av Bergslagets Skogar (kräver 2/3 i varje aktieslag). Planerad registrering 31 mars 2027, därefter notering.",
         "Prisutvecklingen i förpackningskvaliteter och Oulus uppkörning.",
         "Bokslutskommunikén 11 februari 2027."
       ],
@@ -2290,6 +2290,10 @@
         {
           "date": "2026-11-17",
           "text": "Efter Q3-rapporten har analytikerna sänkt prognoserna: konsensus för justerat rörelseresultat är nu 632 MEUR i år (−1,7 %) och 846 MEUR nästa år (−1,5 %), och snittriktkursen sjönk från 127,36 till 126,48 kr enligt Finwire/FactSet (13 nov). 11 av 17 analytiker är positiva. Små justeringar som inte ändrar den neutrala hållningen."
+        },
+        {
+          "date": "2026-11-24",
+          "text": "Stora Enso publicerade 23 november en informationsbroschyr om avknoppningen av Bergslagets Skogar. Tidplanen ligger fast: extrastämma 15 december, planerad registrering av delningen 31 mars 2027 och notering i Stockholm och Helsingfors snarast därefter. Bergslagets Skogar får huvudkontor i Falun och cirka 1,22 miljoner hektar skog och lever främst på att sälja avverkningsrätter. Inga nya siffror som ändrar case:t; hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -2307,6 +2311,10 @@
         }
       ],
       "sources": [
+        {
+          "title": "Stora Enso – informationsbroschyr om avknoppningen av Bergslagets Skogar (23 nov 2026)",
+          "url": "https://prnewswire.com/news-releases/stora-enso-publishes-information-brochure-on-the-demerger-process-and-bergslagets-skogar-as-a-standalone-company-302947998.html"
+        },
         {
           "title": "Placera – sänkta vinstprognoser för Stora Enso (13 nov 2026)",
           "url": "https://www.placera.se/telegram/stora-enso-sankta-vinstprognoser-for-stora-enso-efter-rapporten-riktkursen-justeras-ned-20261113"
@@ -2334,10 +2342,6 @@
         {
           "title": "Stora Enso – rapportdatum 2026",
           "url": "https://www.storaenso.com/en/newsroom/regulatory-and-investor-releases/2025/4/stora-ensos-financial-reports-and-agm-in-2026"
-        },
-        {
-          "title": "Papnews – Bergslagets Skogar",
-          "url": "https://www.papnews.com/stora-enso-names-future-forest-company-bergslagets-skogar/"
         }
       ]
     },
