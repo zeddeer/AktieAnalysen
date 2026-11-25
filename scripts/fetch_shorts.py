@@ -31,13 +31,14 @@ OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
 OPENER.addheaders = [("User-Agent", UA), ("Accept", "*/*"), ("Accept-Language", "sv-SE,sv;q=0.9,en;q=0.8")]
 
 PAGES = [
-    "https://www.fi.se/sv/vara-register/blankningsregistret/",
-    "https://www.fi.se/en/vara-register/fis-marknadsregister/blankning/net-short-positions/",
-    "https://www.fi.se/sv/vara-register/fis-marknadsregister/blankning/register/",
+    "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/",
+    "https://www.fi.se/sv/vara-register/fis-marknadsregister/blankning/",
 ]
 CANDIDATES = {
-    "aktuella": ["https://www.fi.se/sv/vara-register/blankningsregistret/GetAktuellFile/"],
-    "historiska": ["https://www.fi.se/sv/vara-register/blankningsregistret/GetHistFile/"],
+    "aktuella": ["https://www.fi.se/BlankningsRegister/GetAktuellFile",
+                 "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/BlankningsRegister/GetAktuellFile"],
+    "historiska": ["https://www.fi.se/BlankningsRegister/GetHistFile",
+                   "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/BlankningsRegister/GetHistFile"],
 }
 
 
@@ -63,10 +64,18 @@ def discover():
         hrefs = re.findall(r'(?:href|data-url|data-href)="([^"]+)"', html)
         print(f"sida {page}: {len(html)} tecken, {len(hrefs)} länkar")
         if os.environ.get("FI_DEBUG"):
-            for h in hrefs:
-                print("  href", h)
-            for m in re.finditer(r"(?i)(historic|current positions|aktuella positioner|historiska positioner)", html):
-                print("  ctx", html[max(0, m.start() - 300):m.end() + 200].replace("\n", " "))
+            m = re.search(r"function RunReport", html)
+            if m:
+                print("  RunReport:", re.sub(r"\s+", " ", html[m.start():m.start() + 1500]))
+        for path in re.findall(r"RunReport\('([^']+)'", html):
+            low = path.lower()
+            kind = "historiska" if "hist" in low else ("aktuella" if "aktuell" in low or "current" in low else None)
+            if kind:
+                for base in ("https://www.fi.se", page.rstrip("/")):
+                    u = base + path
+                    print(f"RunReport-länk: {u}")
+                    if u not in found[kind]:
+                        found[kind].append(u)
         for href in hrefs:
             h = href.replace("&amp;", "&")
             low = h.lower()
