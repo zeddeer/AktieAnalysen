@@ -32,21 +32,18 @@ OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
 OPENER.addheaders = [("User-Agent", UA), ("Accept", "*/*"), ("Accept-Language", "sv-SE,sv;q=0.9,en;q=0.8")]
 
 PAGES = [
-    "https://www.fi.se/sv/vara-register/fis-marknadsregister/blankning/",
-    "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/",
-    "https://www.fi.se/en/vara-register/fis-marknadsregister/blankning/net-short-positions/",
     "https://www.fi.se/sv/vara-register/blankningsregistret/",
 ]
 CANDIDATES = {
-    "aktuella": ["https://www.fi.se/BlankningsRegister/GetAktuellFile",
-                 "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/BlankningsRegister/GetAktuellFile"],
-    "historiska": ["https://www.fi.se/BlankningsRegister/GetHistFile",
-                   "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/BlankningsRegister/GetHistFile"],
+    "aktuella": ["https://www.fi.se/BlankningsRegister/GetAktuellFile"],
+    "historiska": ["https://www.fi.se/BlankningsRegister/GetHistFile"],
 }
 
 
-def get(url, data=None, timeout=60, tries=3):
-    headers = {"Content-Type": "application/json"} if data is not None else {}
+def get(url, data=None, timeout=60, tries=3, headers=None):
+    headers = dict(headers or {})
+    if data is not None:
+        headers["Content-Type"] = "application/json"
     for i in range(tries):
         try:
             with OPENER.open(urllib.request.Request(url, data=data, headers=headers), timeout=timeout) as r:
@@ -73,17 +70,12 @@ def discover():
         hrefs = re.findall(r'(?:href|data-url|data-href)="([^"]+)"', html)
         print(f"sida {page}: {len(html)} tecken, {len(hrefs)} länkar")
         if os.environ.get("FI_DEBUG"):
-            for src in re.findall(r'<script[^>]+src="([^"]+)"', html):
-                print("  script", src)
-            for m in list(re.finditer(r"RunReport", html))[:8]:
-                print("  ctx", re.sub(r"\s+", " ", html[max(0, m.start() - 80):m.start() + 400]))
-            for m in list(re.finditer(r"(?i)\.(ods|xlsx)|GetAktuell|Aktuell", html))[:6]:
-                print("  fil", re.sub(r"\s+", " ", html[max(0, m.start() - 150):m.start() + 150]))
+            pass
         for path in re.findall(r"RunReport\('([^']+)'", html):
             low = path.lower()
             kind = "historiska" if "hist" in low else ("aktuella" if "aktuell" in low or "current" in low else None)
             if kind:
-                for base in ("https://www.fi.se", page.rstrip("/")):
+                for base in ("https://www.fi.se",):
                     u = base + path
                     print(f"RunReport-länk: {u}")
                     if u not in found[kind]:
@@ -259,7 +251,10 @@ def fetch_register():
         err = []
         for u in urls[kind]:
             try:
-                blob = get(u, timeout=120)
+                ref = "https://www.fi.se/sv/vara-register/blankningsregistret/"
+                blob = get(f"{u}{'&' if '?' in u else '?'}_={int(time.time() * 1000)}", timeout=180, tries=2,
+                           headers={"X-Requested-With": "XMLHttpRequest", "Referer": ref, "Accept": "*/*"})
+                print(f"{kind}: {u} gav {len(blob)} byte, början {blob[:8]!r}")
                 rows = read_sheet(blob)
                 rr = to_records(rows, kind)
                 print(f"ok {kind}: {u} – {len(rr)} rader")
