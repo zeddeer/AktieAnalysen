@@ -31,7 +31,7 @@ OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
 OPENER.addheaders = [("User-Agent", UA), ("Accept", "*/*"), ("Accept-Language", "sv-SE,sv;q=0.9,en;q=0.8")]
 
 PAGES = [
-    "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/",
+    "https://www.fi.se/en/vara-register/fis-marknadsregister/blankning/net-short-positions/",
     "https://www.fi.se/sv/vara-register/fis-marknadsregister/blankning/",
 ]
 CANDIDATES = {
