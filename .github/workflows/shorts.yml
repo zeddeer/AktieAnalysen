@@ -25,11 +25,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Felsök FI
-        env:
-          FI_PROBE: "1"
-        run: python3 scripts/fi_probe.py || true
-      - name: Hämta FI:s blankningsregister och kurser
+      - name: Testa FI-varianter
+        run: |
+          U=https://www.fi.se/BlankningsRegister/GetHistFile
+          B="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          for i in 1 2; do
+            echo "curl default: $(curl -s -o /tmp/a -w '%{http_code} %{content_type} %{size_download}' $U)"
+            echo "curl browser: $(curl -s -o /tmp/b -w '%{http_code} %{content_type} %{size_download}' -A "$B" $U)"
+            echo "curl browser+accept: $(curl -s -o /tmp/c -w '%{http_code} %{content_type} %{size_download}' -A "$B" -H 'Accept: text/html,application/xhtml+xml,*/*;q=0.8' -H 'Accept-Language: sv-SE,sv;q=0.9' $U)"
+            echo "curl cookies: $(curl -s -c /tmp/j -b /tmp/j -o /dev/null -w '%{http_code}' -A "$B" https://www.fi.se/sv/vara-register/blankningsregistret/) $(curl -s -c /tmp/j -b /tmp/j -o /tmp/d -w '%{http_code} %{content_type} %{size_download}' -A "$B" -H 'X-Requested-With: XMLHttpRequest' $U)"
+            echo "curl http1.1: $(curl -s --http1.1 -o /tmp/e -w '%{http_code} %{content_type} %{size_download}' -A "$B" $U)"
+            echo "curl -I: $(curl -sI -A "$B" $U | head -12 | tr '\r\n' '  ')"
+            sleep 3
+          done
+
         run: python3 scripts/fetch_shorts.py
         env:
           FI_DEBUG: "1"
