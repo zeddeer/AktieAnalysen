@@ -60,10 +60,17 @@ def discover():
         except Exception as e:
             print(f"sida {page}: {e}")
             continue
-        for href in re.findall(r'href="([^"]+)"', html):
+        hrefs = re.findall(r'(?:href|data-url|data-href)="([^"]+)"', html)
+        print(f"sida {page}: {len(html)} tecken, {len(hrefs)} länkar")
+        if os.environ.get("FI_DEBUG"):
+            for h in hrefs:
+                print("  href", h)
+            for m in re.finditer(r"(?i)(historic|current positions|aktuella positioner|historiska positioner)", html):
+                print("  ctx", html[max(0, m.start() - 300):m.end() + 200].replace("\n", " "))
+        for href in hrefs:
             h = href.replace("&amp;", "&")
             low = h.lower()
-            if not re.search(r"(getaktuell|gethist|\.ods|\.xlsx?|blankning.*file|position.*file)", low):
+            if not re.search(r"(getaktuell|gethist|\.ods|\.xlsx?|file|download|export|excel)", low):
                 continue
             url = urllib.parse.urljoin(page, h)
             print(f"länk på {page}: {url}")

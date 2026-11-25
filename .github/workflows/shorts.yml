@@ -27,6 +27,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Hämta FI:s blankningsregister och kurser
         run: python3 scripts/fetch_shorts.py
+        env:
+          FI_DEBUG: "1"
       - name: Analysera
         run: if [ -f scripts/analyze_shorts.py ]; then python3 scripts/analyze_shorts.py; fi
       - name: Spara
