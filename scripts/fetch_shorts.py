@@ -49,9 +49,15 @@ def get(url, data=None, timeout=60, tries=3, headers=None):
             with OPENER.open(urllib.request.Request(url, data=data, headers=headers), timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
-            if i == tries - 1 or e.code not in (404, 429, 500, 502, 503):
+            body = b""
+            try:
+                body = e.read()[:300]
+            except Exception:
+                pass
+            print(f"  försök {i + 1}/{tries} {url[:90]}: HTTP {e.code} {dict(e.headers).get('Server', '')} {body[:160]!r}")
+            if i == tries - 1 or e.code not in (403, 404, 429, 500, 502, 503):
                 raise
-            time.sleep(2 + 2 * i)
+            time.sleep(3 + 4 * i)
 
 
 def warn(title, msg):
@@ -252,7 +258,7 @@ def fetch_register():
         for u in urls[kind]:
             try:
                 ref = "https://www.fi.se/sv/vara-register/blankningsregistret/"
-                blob = get(f"{u}{'&' if '?' in u else '?'}_={int(time.time() * 1000)}", timeout=180, tries=2,
+                blob = get(f"{u}{'&' if '?' in u else '?'}_={int(time.time() * 1000)}", timeout=180, tries=6,
                            headers={"X-Requested-With": "XMLHttpRequest", "Referer": ref, "Accept": "*/*"})
                 print(f"{kind}: {u} gav {len(blob)} byte, början {blob[:8]!r}")
                 rows = read_sheet(blob)
