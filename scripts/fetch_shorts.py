@@ -35,8 +35,12 @@ PAGES = [
     "https://www.fi.se/sv/vara-register/blankningsregistret/",
 ]
 CANDIDATES = {
-    "aktuella": ["https://www.fi.se/BlankningsRegister/GetAktuellFile"],
-    "historiska": ["https://www.fi.se/BlankningsRegister/GetHistFile"],
+    "aktuella": ["https://www.fi.se/sv/vara-register/blankningsregistret/GetAktuellFile/",
+                 "https://www.fi.se/sv/vara-register/blankningsregistret/GetAktuellFile",
+                 "https://www.fi.se/sv/vara-register/blankningsregistret/BlankningsRegister/GetAktuellFile"],
+    "historiska": ["https://www.fi.se/sv/vara-register/blankningsregistret/GetHistFile/",
+                   "https://www.fi.se/sv/vara-register/blankningsregistret/GetHistFile",
+                   "https://www.fi.se/sv/vara-register/blankningsregistret/BlankningsRegister/GetHistFile"],
 }
 
 
@@ -76,7 +80,10 @@ def discover():
         hrefs = re.findall(r'(?:href|data-url|data-href)="([^"]+)"', html)
         print(f"sida {page}: {len(html)} tecken, {len(hrefs)} länkar")
         if os.environ.get("FI_DEBUG"):
-            pass
+            for m in re.findall(r"<base[^>]*>", html):
+                print("  base", m)
+            for m in re.findall(r"(?i)(?:url|action)\s*[:=]\s*['\"]([^'\"]*(?:Blankning|Hist|Aktuell)[^'\"]*)['\"]", html)[:10]:
+                print("  url-ref", m)
         for path in re.findall(r"RunReport\('([^']+)'", html):
             low = path.lower()
             kind = "historiska" if "hist" in low else ("aktuella" if "aktuell" in low or "current" in low else None)
@@ -258,7 +265,7 @@ def fetch_register():
         for u in urls[kind]:
             try:
                 ref = "https://www.fi.se/sv/vara-register/blankningsregistret/"
-                blob = get(f"{u}{'&' if '?' in u else '?'}_={int(time.time() * 1000)}", timeout=180, tries=6,
+                blob = get(f"{u}{'&' if '?' in u else '?'}_={int(time.time() * 1000)}", timeout=180, tries=3,
                            headers={"X-Requested-With": "XMLHttpRequest", "Referer": ref, "Accept": "*/*"})
                 print(f"{kind}: {u} gav {len(blob)} byte, början {blob[:8]!r}")
                 rows = read_sheet(blob)
