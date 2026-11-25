@@ -9,7 +9,6 @@ on:
     paths:
       - "scripts/fetch_shorts.py"
       - "scripts/analyze_shorts.py"
-      - "scripts/fi_test.sh"
       - "data/shorts_config.json"
       - ".github/workflows/shorts.yml"
   workflow_dispatch:
@@ -26,8 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Testa FI-varianter
-        run: bash scripts/fi_test.sh || true
       - name: Hämta FI:s blankningsregister och kurser
         run: python3 scripts/fetch_shorts.py
       - name: Analysera

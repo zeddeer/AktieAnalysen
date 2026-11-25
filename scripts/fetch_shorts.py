@@ -60,6 +60,24 @@ def get(url, data=None, timeout=60, tries=3, headers=None):
             time.sleep(3 + 4 * i)
 
 
+def curl(url, tries=4):
+    """FI svarar 404 på Pythons urllib men levererar till curl, så filerna hämtas med curl."""
+    import subprocess
+    import tempfile
+    last = ""
+    for i in range(tries):
+        with tempfile.NamedTemporaryFile() as tmp:
+            r = subprocess.run(["curl", "-sSL", "--max-time", "240", "-A", UA, "-o", tmp.name,
+                                "-w", "%{http_code} %{content_type}", url], capture_output=True, text=True)
+            code = r.stdout.strip()
+            if r.returncode == 0 and code.startswith("200"):
+                return open(tmp.name, "rb").read()
+            last = f"curl {r.returncode} {code} {r.stderr.strip()[:200]}"
+            print(f"  försök {i + 1}/{tries} {url}: {last}")
+        time.sleep(3 + 4 * i)
+    raise RuntimeError(last)
+
+
 def warn(title, msg):
     print(f"::warning title={title}::{str(msg)[:500]}")
 
@@ -254,14 +272,14 @@ def to_records(rows, kind):
 
 
 def fetch_register():
-    urls = discover()
+    urls = {k: list(v) for k, v in CANDIDATES.items()}
     recs, meta = [], {}
     for kind in ("historiska", "aktuella"):
         err = []
         for u in urls[kind]:
             try:
                 ref = "https://www.fi.se/sv/vara-register/blankningsregistret/"
-                blob = get(u, timeout=180, tries=4, headers={"Referer": ref})
+                blob = curl(u)
                 print(f"{kind}: {u} gav {len(blob)} byte, början {blob[:8]!r}")
                 rows = read_sheet(blob)
                 rr = to_records(rows, kind)
