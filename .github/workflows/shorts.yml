@@ -1,0 +1,40 @@
+name: Uppdatera blankning
+
+on:
+  schedule:
+    # Dagligen: FI publicerar löpande, filen uppdateras normalt under natten
+    - cron: "20 5 * * *"
+    - cron: "40 16 * * 1-5"
+  push:
+    paths:
+      - "scripts/fetch_shorts.py"
+      - "scripts/analyze_shorts.py"
+      - "data/shorts_config.json"
+      - ".github/workflows/shorts.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shorts
+  cancel-in-progress: false
+
+jobs:
+  shorts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Hämta FI:s blankningsregister och kurser
+        run: python3 scripts/fetch_shorts.py
+      - name: Analysera
+        run: if [ -f scripts/analyze_shorts.py ]; then python3 scripts/analyze_shorts.py; fi
+      - name: Spara
+        run: |
+          git config user.name "blankning-bot"
+          git config user.email "blankning-bot@users.noreply.github.com"
+          git add data/fi data/short_prices.json data/shorts.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Inga ändringar"; exit 0; fi
+          git commit -m "Blankning $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
