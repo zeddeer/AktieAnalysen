@@ -35,12 +35,8 @@ PAGES = [
     "https://www.fi.se/sv/vara-register/blankningsregistret/",
 ]
 CANDIDATES = {
-    "aktuella": ["https://www.fi.se/sv/vara-register/blankningsregistret/GetAktuellFile/",
-                 "https://www.fi.se/sv/vara-register/blankningsregistret/GetAktuellFile",
-                 "https://www.fi.se/sv/vara-register/blankningsregistret/BlankningsRegister/GetAktuellFile"],
-    "historiska": ["https://www.fi.se/sv/vara-register/blankningsregistret/GetHistFile/",
-                   "https://www.fi.se/sv/vara-register/blankningsregistret/GetHistFile",
-                   "https://www.fi.se/sv/vara-register/blankningsregistret/BlankningsRegister/GetHistFile"],
+    "aktuella": ["https://www.fi.se/BlankningsRegister/GetAktuellFile"],
+    "historiska": ["https://www.fi.se/BlankningsRegister/GetHistFile"],
 }
 
 
@@ -265,8 +261,7 @@ def fetch_register():
         for u in urls[kind]:
             try:
                 ref = "https://www.fi.se/sv/vara-register/blankningsregistret/"
-                blob = get(f"{u}{'&' if '?' in u else '?'}_={int(time.time() * 1000)}", timeout=180, tries=3,
-                           headers={"X-Requested-With": "XMLHttpRequest", "Referer": ref, "Accept": "*/*"})
+                blob = get(u, timeout=180, tries=4, headers={"Referer": ref})
                 print(f"{kind}: {u} gav {len(blob)} byte, början {blob[:8]!r}")
                 rows = read_sheet(blob)
                 rr = to_records(rows, kind)

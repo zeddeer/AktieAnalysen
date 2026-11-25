@@ -8,7 +8,6 @@ on:
   push:
     paths:
       - "scripts/fetch_shorts.py"
-      - "scripts/fi_probe.py"
       - "scripts/analyze_shorts.py"
       - "data/shorts_config.json"
       - ".github/workflows/shorts.yml"
