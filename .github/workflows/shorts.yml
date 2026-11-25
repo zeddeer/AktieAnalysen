@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "scripts/fetch_shorts.py"
+      - "scripts/fi_probe.py"
       - "scripts/analyze_shorts.py"
       - "data/shorts_config.json"
       - ".github/workflows/shorts.yml"
@@ -25,6 +26,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Felsök FI
+        env:
+          FI_PROBE: "1"
+        run: python3 scripts/fi_probe.py || true
       - name: Hämta FI:s blankningsregister och kurser
         run: python3 scripts/fetch_shorts.py
         env:
