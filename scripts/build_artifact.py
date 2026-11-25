@@ -3,7 +3,7 @@
 
 The Artifact wraps the page in its own <html>/<head>/<body>, so this writes
 only <title>, inline <style>, the body markup and inline <script>.
-Data files (data/stocks.json, data/prices.json) are published next to it.
+Data files (data/stocks.json, data/prices.json, data/shorts.json, data/shorts_notes.json) are published next to it.
 """
 import os
 import re

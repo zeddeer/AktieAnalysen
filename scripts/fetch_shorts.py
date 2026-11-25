@@ -338,7 +338,7 @@ def avanza_hist(oid):
 
 
 def fetch_prices(recs, cfg):
-    focus = [f.lower() for f in cfg["focus"]]
+    focus = [m.lower() for f in cfg["focus"] for m in (f["match"] if isinstance(f, dict) else [f])]
     isins = {}
     for r in recs:
         if any(f in r["holder"].lower() for f in focus) and r["isin"]:

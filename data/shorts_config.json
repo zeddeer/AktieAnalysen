@@ -1,4 +1,22 @@
 {
-  "focus": ["Citadel"],
-  "note": "Firmor (delsträng i 'Innehavare av position') som analyseras i detalj. Lägg till fler vid behov, t.ex. \"Marshall Wace\"."
+  "note": "Styr analysen i scripts/analyze_shorts.py. 'focus' = firmor som analyseras i detalj; 'match' är delsträngar (gemener) i FI:s fält 'Innehavare av positionen'. 'theses' = specifika köp-i-bandet-tester. 'watch' = id i stocks.json -> delsträng i emittentnamnet.",
+  "focus": [
+    {"name": "Citadel Advisors", "role": "hedgefond", "match": ["citadel advisors", "citadel europe", "citadel gp llc"]},
+    {"name": "Citadel Securities", "role": "market maker", "match": ["citadel securities"]}
+  ],
+  "theses": [
+    {"name": "Tobii: köp när Citadel Securities ligger på 0,62–0,68 %", "focus": "Citadel Securities", "issuer": "tobii", "low": 0.62, "high": 0.68}
+  ],
+  "watch": {
+    "electrolux": "aktiebolaget electrolux",
+    "electrolux-professional": "electrolux professional",
+    "tobii": "tobii",
+    "skistar": "skistar",
+    "camurus": "camurus",
+    "ssab": "ssab",
+    "sbb": "samhällsbyggnadsbolaget",
+    "volvo-cars": "volvo car",
+    "plejd": "plejd",
+    "stora-enso": "stora enso"
+  }
 }

@@ -1,0 +1,16 @@
+{
+  "conclusionDate": "2026-11-26",
+  "conclusion": "Första genomgången av FI:s historik visar att Tobii-mönstret finns, men att det inte ger någon fördel att köpa på det. Det är Citadel Securities – Citadels market maker, inte hedgefonden Citadel Advisors – som blankar Tobii. Positionen har rapporterats 33 gånger senaste året och vänt 19 gånger. 79 % av rapporterna ligger mellan 0,5 och 0,7 %, och den har studsat ned från 0,7-nivån sex gånger. Men FI visar bara ny rad när positionen korsar ett helt tiondels steg, så ett band på 0,6–0,7 är delvis rutnätet i sig. De 15 tillfällen då positionen rapporterats på 0,62–0,68 % gav i snitt −2,0 % efter 20 dagar (median −6,8 %, 36 % positiva). Fram till nästa rapport blev det −1,6 % (33 % positiva). Det är bättre än Tobiis mycket svaga kursutveckling, men långt ifrån statistiskt säkert. Över alla bolag syns ingen tydlig kurseffekt efter Citadel Advisors rapporter. Enda svaga signalen är att aktier där Citadel Securities gått under 0,5 % utvecklats sämre än normalt efteråt (−5,3 % på 20 dagar, 42 fall). Samma pendlande mönster finns hos Millennium, AQR, Qube, Marshall Wace och D E Shaw – det tyder på att mönstret är vanligt för kvant- och market maker-firmor och för hur registret fungerar, snarare än en Citadel-specifik strategi. Tesen följs vidare varje vecka.",
+  "weekly": [
+    {
+      "date": "2026-11-26",
+      "text": "Citadel Advisors har 20 publika positioner (summa 17,9 %). Senaste veckan gick Better Collective, Elekta och Coffee Stain under 0,5 %. Embracer, Truecaller och Intrum minskade något, medan Hacksaw ökade från 0,82 till 0,91 %. Citadel Securities har 11 positioner. Nya är Maha Energy (0,68 %), Studsvik (0,53 %) och Cibus (0,50 %), medan IRLAB gick under 0,5 %. Tobii ligger kvar på 0,59 % sedan 10 november, alltså strax under 0,6-gränsen."
+    }
+  ],
+  "monthly": [
+    {
+      "date": "2026-11-26",
+      "text": "November: Citadel Advisors hade 18 publika positioner (summa 15,2 %) 1 oktober och 24 (19,6 %) 1 november. Nu är de 20 (17,9 %). Senaste månaden har det tillkommit små positioner kring 0,5 % (Nobia, Rejlers, Svolder) och en i Intrum (0,77 %). Essity, Better Collective, Powercell, Sveafastigheter, Apotea och Clas Ohlson gick under 0,5 %. Mips ökade från 0,51 till 0,79 % och Hacksaw från 0,70 till 0,91 %. Citadel Securities gick från 2 positioner 1 oktober till 7 den 1 november och har nu 11, med nya i bland annat Nobia, Smart Eye och Powercell. I Tobii minskade den från 0,71 till 0,59 %."
+    }
+  ]
+}

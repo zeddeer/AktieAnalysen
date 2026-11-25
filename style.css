@@ -297,3 +297,20 @@ table.targets td.d { color: var(--muted); font-family: var(--mono); font-size: 1
   .hero .quote .p { font-size: 26px; }
   .card .spark { width: 76px; }
 }
+
+/* ---------- blankning ---------- */
+table.shorts td { vertical-align: top; }
+table.shorts small { font-size: 11px; }
+.srow { cursor: pointer; }
+.srow:hover td { background: var(--panel2); }
+.sdet td { padding: 6px 0 12px; }
+.consensus.thesis b { font-size: 16px; }
+.consensus.thesis small { display: block; font-size: 11px; color: var(--muted); }
+@media (max-width: 440px) {
+  .top { gap: 6px; }
+  .brand { letter-spacing: 0.12em; font-size: 12px; }
+  .top nav a { padding: 6px 7px; font-size: 12.5px; }
+  table.targets td { overflow-wrap: anywhere; }
+}
+ul.plain li.chg { display: flex; justify-content: space-between; gap: 10px; }
+ul.plain li.chg .num { white-space: nowrap; }

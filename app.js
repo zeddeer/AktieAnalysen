@@ -5,6 +5,8 @@
   const stamp = document.getElementById("stamp");
   let DATA = null;
   let PRICES = { quotes: {} };
+  let SHORTS = null;
+  let NOTES = null;
   let range = "6M";
 
   const STANCE = { positiv: "Positiv", neutral: "Neutral", negativ: "Negativ" };
@@ -202,6 +204,8 @@
         </section>
       </div>
 
+      ${shortHoldersPanel(s)}
+
       <section class="panel">
         <p class="lbl">Analytiker</p>
         ${a.consensus || a.avgTarget || upside != null ? `
@@ -253,15 +257,150 @@
       }).join("") || `<p class="empty">Inga kommande händelser.</p>`}</div>`;
   }
 
+  // ---------- blankning ----------
+  const pc = (v, d = 2) => (v == null ? "—" : v === 0 ? "<0,5" : nf(v, d));
+  const delta = (v) => (!v ? `<span class="flat">±0</span>` : `<span class="${v > 0 ? "down" : "up"}">${v > 0 ? "+" : "−"}${nf(Math.abs(v))}</span>`);
+
+  function shortHoldersPanel(s) {
+    const list = SHORTS?.watch?.[s.id];
+    if (!list) return "";
+    return `
+      <section class="panel">
+        <p class="lbl">Blankare enligt FI (≥ 0,5 %)<span class="rep-date">${SHORTS.registerDate ? fmtDate(SHORTS.registerDate) : ""}</span></p>
+        ${list.length ? `<table class="targets">${list.map((h) => `
+          <tr><td class="d">${fmtDate(h.date, { day: "numeric", month: "short", year: "2-digit" })}</td><td>${esc(h.holder)}</td><td class="r">${nf(h.pct)} %</td></tr>`).join("")}</table>`
+          : `<p class="flat" style="margin:0">Ingen publik position över 0,5 %.</p>`}
+        <p class="flat" style="font-size:12px;margin:8px 0 0"><a href="#blankning">Citadel-analysen →</a></p>
+      </section>`;
+  }
+
+  function stepChart(p) {
+    const W = Math.max(280, Math.round((app.clientWidth || 700) - 34)), H = 170, L = 4, R = 40, T = 8, B = 20;
+    const ser = (p.series || []).map(([d, v]) => [parseDate(d), v]);
+    const px = (p.price || []).map(([d, v]) => [parseDate(d), v]);
+    if (!ser.length) return "";
+    const t0 = Math.min(ser[0][0], px.length ? px[0][0] : ser[0][0]);
+    const t1 = Math.max(today(), px.length ? px[px.length - 1][0] : 0);
+    const x = (t) => L + ((t - t0) / (t1 - t0 || 1)) * (W - L - R);
+    const vmax = Math.max(0.8, ...ser.map((s) => s[1])) * 1.1;
+    const y = (v) => T + (1 - v / vmax) * (H - T - B);
+    let d = "";
+    ser.forEach(([t, v], i) => {
+      d += i ? `H${x(t).toFixed(1)}V${y(v).toFixed(1)}` : `M${x(t).toFixed(1)},${y(v).toFixed(1)}`;
+    });
+    d += `H${x(t1).toFixed(1)}`;
+    let price = "";
+    if (px.length > 1) {
+      const lo = Math.min(...px.map((q) => q[1])), hi = Math.max(...px.map((q) => q[1]));
+      const yp = (v) => T + (1 - (v - lo) / (hi - lo || 1)) * (H - T - B);
+      price = `<path d="${px.map(([t, v], i) => `${i ? "L" : "M"}${x(t).toFixed(1)},${yp(v).toFixed(1)}`).join("")}" fill="none" stroke="var(--muted)" stroke-width="1.2" opacity="0.7" vector-effect="non-scaling-stroke"/>`;
+    }
+    const grid = [0.5, 0.6, 0.7, 0.8, 1.0, 1.5, 2.0].filter((v) => v < vmax).map((v) =>
+      `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1" ${v === 0.5 ? 'stroke-dasharray="4 3"' : ""}/><text x="${W - R + 5}" y="${y(v) + 3}">${nf(v, 1)}</text>`).join("");
+    const band = p.band ? `<rect x="${L}" width="${W - L - R}" y="${y(p.band.high)}" height="${y(p.band.low) - y(p.band.high)}" fill="var(--brass)" opacity="0.08"/>` : "";
+    return `<svg class="chart" viewBox="0 0 ${W} ${H}" style="height:${H}px">${band}${grid}${price}
+      <path d="${d}" fill="none" stroke="var(--down)" stroke-width="2" vector-effect="non-scaling-stroke"/>
+      <text x="${L}" y="${H - 5}">${fmtDate(new Date(t0).toISOString().slice(0, 10), { month: "short", year: "numeric" })}</text>
+      <text x="${W - R}" y="${H - 5}" text-anchor="end">idag</text></svg>
+      <div class="legend"><span style="color:var(--down)">━ Blankning %</span>${price ? `<span>━ Kurs (skala till höger ej visad)</span>` : ""}${p.band ? `<span>▇ Band ${nf(p.band.low, 1)}–${nf(p.band.high, 1)} (${Math.round(p.band.share * 100)} % av rapporterna)</span>` : ""}</div>`;
+  }
+
+  function studyTable(pooled) {
+    const rows = [["ökning", "Firman ökar"], ["minskning", "Firman minskar"], ["under 0,5", "Går under 0,5 %"], ["in i bandet uppifrån", "In i bandet uppifrån"], ["in i bandet underifrån", "In i bandet underifrån"]];
+    const cell = (a) => (a && a.n ? `<td class="r ${cls(a.mean)}">${a.mean > 0 ? "+" : ""}${nf(a.mean, 1)}<small class="flat"> · ${a.hit}% · n${a.n}</small></td>` : `<td class="r flat">—</td>`);
+    return `<table class="targets"><tr><td class="d">Händelse</td><td class="r d">5 dagar</td><td class="r d">20 dagar</td><td class="r d">60 dagar</td></tr>
+      ${rows.map(([k, label]) => `<tr><td>${label}</td>${["5", "20", "60"].map((n) => cell(pooled[k]?.[n]?.excess)).join("")}</tr>`).join("")}</table>
+      <p class="flat" style="font-size:12px;margin:8px 0 0">Överavkastning i % mot aktiens normala utveckling över lika lång period · andel positiva · antal händelser. Köp antas dagen efter positionsdatumet.</p>`;
+  }
+
+  function thesisPanel(t) {
+    const c = (a) => (a && a.n ? `<b class="${cls(a.mean)}">${a.mean > 0 ? "+" : ""}${nf(a.mean, 1)} %</b><small>median ${nf(a.median, 1)} · ${a.hit} % positiva · n ${a.n}</small>` : "<b>—</b>");
+    return `
+      <section class="panel">
+        <p class="lbl">Tes: ${esc(t.name)}</p>
+        <div class="consensus thesis">
+          <div>5 dagar${c(t.h5)}</div><div>20 dagar${c(t.h20)}</div><div>60 dagar${c(t.h60)}</div><div>Till nästa rapport${c(t.untilNext)}</div>
+        </div>
+        <p class="flat" style="font-size:12px;margin:0 0 10px">Aktiens normala utveckling samma period: ${["5", "20", "60"].map((n) => `${n} d ${t.baseline[n] == null ? "—" : nf(t.baseline[n], 1) + " %"}`).join(" · ")}</p>
+        <table class="targets">${t.events.slice().reverse().map((e) => `
+          <tr><td class="d">${fmtDate(e.date, { day: "numeric", month: "short", year: "2-digit" })}</td><td>${pc(e.from)} → <b>${nf(e.pct)}</b>${e.nextPct != null ? ` <span class="flat">→ ${pc(e.nextPct)}</span>` : ""}</td>
+          <td class="r ${cls(e["20"])}">${e["20"] == null ? "—" : (e["20"] > 0 ? "+" : "") + nf(e["20"], 1) + " %"}</td></tr>`).join("")}</table>
+        <p class="flat" style="font-size:12px;margin:8px 0 0">Position före → vid köp → nästa rapport · kursutveckling 20 handelsdagar efter köp.</p>
+      </section>`;
+  }
+
+  function focusSection(f) {
+    const chg = (list) => list.length ? `<ul class="plain">${list.map((c) => `<li class="chg"><span>${esc(c.issuer)} <span class="flat">${esc(c.kind)}</span></span><span class="num">${pc(c.from)} → ${pc(c.to)}</span></li>`).join("")}</ul>` : `<p class="flat" style="margin:0">Inga förändringar.</p>`;
+    const cut = new Date(today() - 90 * 86400000).toISOString().slice(0, 10);
+    const pos = f.positions.filter((p) => p.current > 0 || p.lastDate >= cut);
+    return `
+      <section class="panel">
+        <div class="verdict"><span class="chip neutral">${esc(f.name)}</span><span class="risk">${esc(f.role)} · <b>${f.active}</b> aktiva positioner · summa <b>${nf(f.sumActive)} %</b></span></div>
+        <p class="flat" style="font-size:12px;margin:0">Juridiska enheter: ${f.entities.map(esc).join(", ")}</p>
+      </section>
+      <div class="twocol stack">
+        <section class="panel"><p class="lbl">Senaste veckan</p>${chg(f.week)}</section>
+        <section class="panel"><p class="lbl">Senaste månaden</p>${chg(f.month)}</section>
+      </div>
+      <section class="panel">
+        <p class="lbl">Positioner (öppna + stängda senaste 90 dagarna) – klicka för diagram</p>
+        <table class="targets shorts">
+          <tr><td class="d">Bolag</td><td class="r d">Nu</td><td class="r d">7 d</td><td class="r d">30 d</td><td class="r d">Band 12 mån</td></tr>
+          ${pos.map((p) => `
+          <tr class="srow" data-isin="${esc(f.name + p.isin)}"><td>${esc(p.issuer)}<br><small class="flat">${fmtDate(p.lastDate, { day: "numeric", month: "short", year: "2-digit" })} · ${p.reports365} rapp. · ${p.reversals365} vändn.</small></td>
+            <td class="r">${pc(p.current)}</td><td class="r">${delta(p.change7)}</td><td class="r">${delta(p.change30)}</td>
+            <td class="r">${p.band ? `${nf(p.band.low, 1)}–${nf(p.band.high, 1)}<br><small class="flat">${Math.round(p.band.share * 100)} %${p.likelyCap ? ` · tak ${nf(p.likelyCap, 1)}×${p.capHits}` : ""}${p.likelyFloor != null && p.floorHits ? ` · golv ${p.likelyFloor ? nf(p.likelyFloor, 1) : "<0,5"}×${p.floorHits}` : ""}</small>` : "—"}</td></tr>
+          <tr class="sdet" data-for="${esc(f.name + p.isin)}" hidden><td colspan="5"></td></tr>`).join("")}
+        </table>
+      </section>
+      <section class="panel">
+        <p class="lbl">Vad händer med kursen efter ${esc(f.name)}s rapporter? (2 år, alla bolag)</p>
+        ${studyTable(f.pooled)}
+      </section>`;
+  }
+
+  function renderShorts() {
+    if (!SHORTS) {
+      app.innerHTML = `<div class="overview"><h1>Blankning</h1></div><p class="empty">Blankningsdata saknas ännu – den hämtas automatiskt från FI.</p>`;
+      return;
+    }
+    const n = NOTES || {};
+    const latest = (arr) => (arr || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+    app.innerHTML = `
+      <div class="overview"><h1>Blankning</h1><span>FI-registret ${fmtDate(SHORTS.registerDate)}</span></div>
+      ${n.conclusion ? `<section class="panel"><p class="lbl">Slutsats hittills<span class="rep-date">${fmtDate(n.conclusionDate)}</span></p><p class="summary">${esc(n.conclusion)}</p></section>` : ""}
+      <section class="panel"><p class="lbl">Så fungerar registret</p><p class="summary" style="font-size:13.5px">${esc(SHORTS.note)} Ett "band" mellan två tiondelssteg kan därför vara rapporteringsrutnätet snarare än en avsiktlig gräns.</p></section>
+      ${(SHORTS.theses || []).map(thesisPanel).join("")}
+      ${["weekly", "monthly"].map((k) => latest(n[k]).length ? `<section class="panel"><p class="lbl">${k === "weekly" ? "Veckoanalys" : "Månadsanalys"}</p><ul class="timeline">${latest(n[k]).slice(0, 6).map((l) => `<li><span class="d">${fmtDate(l.date)}</span>${esc(l.text)}</li>`).join("")}</ul></section>` : "").join("")}
+      ${SHORTS.focus.map(focusSection).join("")}
+      <section class="panel">
+        <p class="lbl">Liknande mönster hos andra firmor (2 år)</p>
+        <table class="targets">${SHORTS.patterns.slice(0, 20).map((p) => `
+          <tr><td>${esc(p.holder)}<br><small class="flat">${esc(p.issuer)}</small></td><td class="r">${nf(p.band[0], 1)}–${nf(p.band[1], 1)}<br><small class="flat">${Math.round(p.share * 100)} % · ${p.reversals} vändn.</small></td><td class="r">${pc(p.current)}</td></tr>`).join("")}</table>
+        <p class="flat" style="font-size:12px;margin:8px 0 0">Par där positionen vänt minst fyra gånger och mest legat inom två tiondelssteg. Mest förekommande firmor: ${SHORTS.patternHolders.slice(0, 6).map((h) => `${esc(h.holder)} (${h.pairs})`).join(", ")}.</p>
+      </section>`;
+    app.querySelectorAll(".srow").forEach((r) =>
+      r.addEventListener("click", () => {
+        const det = app.querySelector(`.sdet[data-for="${CSS.escape(r.dataset.isin)}"]`);
+        if (!det.hidden) { det.hidden = true; return; }
+        const f = SHORTS.focus.find((f) => r.dataset.isin.startsWith(f.name));
+        const p = f.positions.find((p) => f.name + p.isin === r.dataset.isin);
+        det.firstElementChild.innerHTML = stepChart(p);
+        det.hidden = false;
+      })
+    );
+  }
+
   // ---------- router ----------
   function route() {
     if (!DATA) return;
     let h = location.hash.replace(/^#\/?/, "");
     if (h === "bevakning") h = "";
     document.querySelectorAll("[data-nav]").forEach((a) =>
-      a.classList.toggle("on", (h === "kalender" && a.dataset.nav === "kalender") || (h === "" && a.dataset.nav === "list"))
+      a.classList.toggle("on", (h === a.dataset.nav) || (h === "" && a.dataset.nav === "list"))
     );
     if (h === "kalender") renderCalendar();
+    else if (h === "blankning") { renderShorts(); document.title = "Blankning · AktieAnalysen"; }
     else if (h) {
       const s = DATA.stocks.find((x) => x.id === h);
       s ? renderDetail(s) : renderList();
@@ -285,6 +424,11 @@
       const r = await fetch(`data/prices.json${bust}`);
       if (r.ok) PRICES = await r.json();
     } catch (e) { /* kurser saknas – visa analysen ändå */ }
+    try {
+      const [a, b] = await Promise.all([fetch(`data/shorts.json${bust}`), fetch(`data/shorts_notes.json${bust}`)]);
+      if (a.ok) SHORTS = await a.json();
+      if (b.ok) NOTES = await b.json();
+    } catch (e) { /* blankningsdata saknas */ }
 
     const pt = PRICES.updated ? new Date(PRICES.updated).toLocaleString("sv-SE", { dateStyle: "medium", timeStyle: "short" }) : "ej hämtade ännu";
     stamp.textContent = `Analys uppdaterad ${fmtDate(DATA.updated)} · Kurser ${pt}`;
