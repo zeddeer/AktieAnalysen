@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "stocks": [
     {
       "id": "electrolux",
@@ -760,6 +760,10 @@
         {
           "date": "2026-11-13",
           "text": "IBM visade den 11 november kvantprocessorn Nighthawk r3, som ska klara 10 000 operationer på 520 qubits, med planen att koppla ihop två till ett system på 1 040 qubits 2027. Den 12 november köpte IBM identitetssäkerhetsbolaget AuthMind (pris ej angivet), vars teknik ska in i HashiCorp Vault. Små steg som stärker kvant- och säkerhetserbjudandet; hållningen står kvar som neutral."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "IBM, Fermilab och Nvidia presenterade 16 november planer på en gemensam plattform för att ta fram modulära kvantdatorer för fysikforskning, och 20 november blev IBM:s och Red Hats säkerhetserbjudande Lightwell tillgängligt via Microsofts molnmarknadsplats. Aktien stängde på 224,44 USD den 20 november, ned drygt 9 % på en vecka och cirka 31 % från toppen i juni. Flera advokatbyråer säger att de utreder IBM:s information om säljpipelinen. Inga nya riktkurser; hållningen står kvar som neutral."
         }
       ],
       "links": [
@@ -773,14 +777,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Yahoo Finance – IBM:s Q3-telefonkonferens",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-said-010259012.html"
-        },
-        {
-          "title": "MarketBeat – Baird höjer IBM till 260 USD (2026-10-22)",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-international-business-machines-nyse-ibm-given-new-26000-price-target-at-robert-w-baird-2026-10-22/"
-        },
         {
           "title": "GuruFocus – JPMorgan höjer IBM till 269 USD",
           "url": "https://www.gurufocus.com/news/9135940/ibm-stock-target-price-raised-to-269-by-jpmorgan"
@@ -804,6 +800,14 @@
         {
           "title": "IBM – AuthMind och Vault",
           "url": "https://newsroom.ibm.com/blog-ibm-advances-agent-identity-security-with-new-vault-capabilities"
+        },
+        {
+          "title": "IBM Newsroom – pressmeddelanden",
+          "url": "https://newsroom.ibm.com/announcements?l=25"
+        },
+        {
+          "title": "24/7 Wall St – IBM har fallit mer än 30 % från junitoppen (22 nov 2026)",
+          "url": "https://247wallst.com/investing/2026/11/22/ibm-has-fallen-more-than-30-from-its-june-high-but-1000-from-five-years-ago-is-still-worth-more-than-2200/"
         }
       ]
     },
@@ -1509,42 +1513,42 @@
       "stance": "negativ",
       "risk": "mycket hög",
       "thesis": "SBB har blivit ett holdingbolag med tre kärninnehav (Sveafastigheter, Nordiqus och PPI) och handlas långt under substansvärdet. Men belåningen är hög, räntetäckningen svag och stora obligationsförfall väntar 2027, och aktien är börsens mest blankade.",
-      "summary": "Efter flera års krishantering består SBB i dag främst av andelar i Sveafastigheter (bostäder), Nordiqus (utbildningsfastigheter) och Public Property Invest (samhällsfastigheter); kärninnehaven utgör cirka 81 % av tillgångarna efter fusionen mellan Sveafastigheter och KlaraBo, som slutfördes 30 september. Det långsiktiga substansvärdet var 7,94 kr per aktie i juni, men belåningsgraden steg till 54 % och räntetäckningen föll till 1,9x. Likviditeten är cirka 6 mdr SEK, vilket täcker årets förfall på 4,1 mdr, men 2027 förfaller cirka 6 mdr i obligationer som ska lösas med försäljningar eller lån från innehaven. Bolaget har sålt fastigheter för 7 mdr till KlaraBo och sex samhällsfastigheter för 1,35 mdr till PPI, fått ny vd (Andreas Morfiadakis) och ville lösa in alla D-aktier för 7,94 kr styck – men förslaget föll på extrastämman 23 oktober, där D-ägarna i praktiken hade veto. En ny extrastämma med samma erbjudande ska hållas efter Q3-rapporten, senast 10 december. Q3-rapporten har skjutits upp till 24 november för att hinna bedöma redovisningen av KlaraBo-fusionen. Blankningen är cirka 16,6 %, högst på börsen.",
+      "summary": "Efter flera års krishantering består SBB i dag främst av andelar i Sveafastigheter (bostäder, efter fusionen med KlaraBo 30 september), Nordiqus (utbildningsfastigheter) och Public Property Invest (samhällsfastigheter), och alla tre betalar nu utdelning till SBB. Q3-rapporten 24 november visade högre hyresintäkter och driftnetto och ett långsiktigt substansvärde på 8,50 kr per aktie (7,94 i juni), lyft av en förvärvsvinst från KlaraBo-affären. Samtidigt steg belåningsgraden till 56,1 % och räntetäckningen föll till omkring 1,5x, och resultatet per stamaktie var negativt. Ny vd är Andreas Morfiadakis, som vill göra SBB till ett investeringsbolag inom samhällsinfrastruktur; bolaget räknar med att intjäningsförmågan till stamägarna ökat till 1 057 MSEK och att utdelningarna från innehaven uppgår till cirka 905 MSEK per år. 2027 förfaller cirka 6 mdr i obligationer. D-aktieinlösen (7,94 kr per aktie) föll på extrastämman 23 oktober och prövas igen på en ny stämma 7 december. Blankningen är cirka 16 %, bland de högsta på börsen.",
       "keyFigures": [
         {
-          "label": "Hyresintäkter jan–jun",
-          "value": "955 MSEK",
-          "note": "952 året innan; +4,7 % jämförbart"
+          "label": "Hyresintäkter Q3",
+          "value": "488 MSEK",
+          "note": "466 året innan; +5,3 % jämförbart"
         },
         {
-          "label": "Driftnetto jan–jun",
-          "value": "582 MSEK",
-          "note": "591 året innan"
+          "label": "Driftnetto Q3",
+          "value": "352 MSEK",
+          "note": "317 året innan"
         },
         {
-          "label": "Resultat jan–jun",
-          "value": "−678 MSEK",
-          "note": "860 året innan; valutaeffekter −728 MSEK"
+          "label": "Resultat Q3",
+          "value": "446 MSEK",
+          "note": "803 året innan; −0,53 kr per A/B-aktie"
         },
         {
           "label": "Långsiktigt substansvärde/aktie",
-          "value": "7,94 SEK",
-          "note": "8,14 vid årsskiftet"
+          "value": "8,50 SEK",
+          "note": "7,94 i juni; 9,01 året innan"
         },
         {
           "label": "Belåningsgrad",
-          "value": "54 %",
-          "note": "50 % tidigare"
+          "value": "56,1 %",
+          "note": "54 % i juni; 58,9 % året innan"
         },
         {
           "label": "Räntetäckningsgrad",
-          "value": "1,9x",
-          "note": "2,3x tidigare"
+          "value": "1,5x",
+          "note": "1,9x i juni (uppgift från hurbra.se)"
         },
         {
-          "label": "Likviditet",
-          "value": "6,0 mdr SEK",
-          "note": "Kassa 1,8 mdr + outnyttjade krediter 3,5 mdr + fordran på PPI"
+          "label": "Likvida medel",
+          "value": "1 651 MSEK",
+          "note": "1 702 året innan"
         },
         {
           "label": "Blankat",
@@ -1553,42 +1557,38 @@
         }
       ],
       "latestReport": {
-        "title": "Delårsrapport januari–juni 2026",
-        "date": "2026-07-16",
+        "title": "Delårsrapport januari–september 2026",
+        "date": "2026-11-24",
         "highlights": [
-          "Hyresintäkter 955 MSEK och driftnetto 582 MSEK för första halvåret, i stort sett oförändrat; jämförbart driftnetto +3,5 %.",
-          "Resultatet blev −678 MSEK, främst på grund av negativa valutaeffekter (−728 MSEK).",
-          "Långsiktigt substansvärde 7,94 kr per aktie (8,14 vid årsskiftet).",
-          "Belåningsgraden steg till 54 % och räntetäckningsgraden sjönk till 1,9x.",
-          "Fokus på tre kärninnehav; fusionen Sveafastigheter–KlaraBo väntas ge cirka 120 MSEK i årliga synergier.",
-          "Aktien föll knappt 3 % på rapportdagen."
+          "Hyresintäkterna i Q3 steg 4,7 % till 488 MSEK (466); jämförbart +5,3 %.",
+          "Driftnettot ökade 11 % till 352 MSEK (317), varav Sveafastigheter 303 MSEK.",
+          "Rörelseresultatet 2 920 MSEK lyftes av en förvärvsvinst på 2 978 MSEK från KlaraBo-affären; orealiserade värdeförändringar −245 MSEK.",
+          "Periodens resultat 446 MSEK (803), men resultatet per A/B-aktie blev −0,53 kr (0,28).",
+          "Långsiktigt substansvärde 8,50 kr per aktie (7,94 i juni); belåningsgraden 56,1 %.",
+          "Nye vd Andreas Morfiadakis vill göra SBB till ett investeringsbolag inom samhällsinfrastruktur; alla tre kärninnehav betalar nu utdelning till SBB. Ingen prognos lämnas."
         ]
       },
       "bull": [
-        "Aktien handlas till en stor rabatt mot substansvärdet på 7,94 kr per aktie.",
-        "Enklare struktur: tre kärninnehav står för cirka 81 % av tillgångarna.",
-        "Försäljningar till KlaraBo (7 mdr) och PPI (1,35 mdr) stärker likviditeten.",
+        "Aktien handlas till en stor rabatt mot substansvärdet på 8,50 kr per aktie.",
+        "Enklare struktur: tre kärninnehav som alla betalar utdelning till SBB (cirka 905 MSEK per år enligt bolaget).",
+        "Driftnettot växer (+11 % i Q3) och ny bostadsfinansiering väntas sänka räntekostnaderna med 184 MSEK per år.",
         "Inlösen av D-aktierna skulle ta bort en dyr aktieklass med ackumulerad utdelningsrätt.",
         "Hög blankning kan ge kraftiga uppgångar vid positiva besked."
       ],
       "bear": [
-        "Hög belåning (54 %) och svag räntetäckning (1,9x).",
+        "Belåningen steg till 56,1 % och räntetäckningen föll till cirka 1,5x i Q3.",
         "Cirka 6 mdr SEK i obligationer förfaller 2027 och måste refinansieras eller betalas med försäljningar.",
-        "Ingen utdelning på stamaktierna sedan 2024; kassaflödet beror på utdelningar från innehaven.",
-        "Q3-rapporten är uppskjuten och D-aktieförslaget möter motstånd från större ägare.",
-        "Börsens mest blankade aktie (≈ 16,6 %) – marknaden tvivlar på balansräkningen."
+        "Resultatet per stamaktie var negativt i Q3; substansökningen kom främst från en engångsvinst.",
+        "Ingen utdelning på stamaktierna sedan 2024 och ingen prognos lämnas.",
+        "Börsens mest blankade aktie (≈ 16 %) – marknaden tvivlar på balansräkningen."
       ],
       "watch": [
         "Extrastämman 7 december: går D-ägarna med på inlösen, eller tvingas SBB höja budet?",
-        "Q3-rapporten 24 nov: belåning, räntetäckning och redovisningen av KlaraBo-fusionen.",
+        "Q4-rapporten: första hela kvartalet efter fusionen, belåning och räntetäckning.",
         "Plan för obligationsförfallen 2027 och eventuella nya försäljningar.",
         "Förändringar i blankningen och kreditbetyget."
       ],
       "events": [
-        {
-          "date": "2026-11-24",
-          "label": "Delårsrapport januari–september 2026"
-        },
         {
           "date": "2026-12-07",
           "label": "Extra bolagsstämma om inlösen av D-aktier (avstämning 27 nov, anmälan senast 1 dec)"
@@ -1641,6 +1641,10 @@
         {
           "date": "2026-11-23",
           "text": "SBB:s valberedning inför årsstämman 2027 är utsedd (19 nov): Svein Oskar Stoknes (Aker Capital, ordförande), Ilija Batljan, Leif West (Dragfast), Erik Salén – som ersätter Arvid Svenssons representant – samt styrelseordföranden Lennart Sten. Ingen påverkan på case:t. Q3-rapporten kommer i morgon, 24 november; hållningen står kvar som negativ."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Q3-rapporten (24 nov): hyresintäkter 488 MSEK (+4,7 %) och driftnetto 352 MSEK (+11 %). En förvärvsvinst på 2 978 MSEK från KlaraBo-affären lyfte rörelseresultatet och substansvärdet till 8,50 kr per aktie (7,94 i juni), men resultatet per stamaktie blev −0,53 kr, belåningsgraden steg till 56,1 % och räntetäckningen föll till cirka 1,5x. Nye vd Morfiadakis vill renodla SBB till ett investeringsbolag inom samhällsinfrastruktur; ingen prognos. Driften går åt rätt håll, men balansräkningen är fortsatt svag – den negativa hållningen och mycket hög risk står kvar."
         }
       ],
       "links": [
@@ -1658,14 +1662,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "SBB skjuter upp delårsrapporten januari–september 2026",
-          "url": "https://www.sbbnorden.se/en/sbb-postpones-publication-of-its-interim-report-for-january-september-2026/"
-        },
-        {
-          "title": "Kallelse till extra bolagsstämma (TradingView)",
-          "url": "https://www.tradingview.com/news/modular_finance:c8dedd6167fad:0-notice-of-extraordinary-general-meeting-in-samh-llsbyggnadsbolaget-i-norden-ab-publ/"
-        },
         {
           "title": "Börsvärlden – nyhetsflöde SBB",
           "url": "https://borsvarlden.com/Foretagsinfo/sbb"
@@ -1689,6 +1685,14 @@
         {
           "title": "Placera – Erik Salén ersätter Arvid Svensson i SBB:s valberedning (19 nov 2026)",
           "url": "https://www.placera.se/telegram/samhallsbyggnadsbolaget-i-norden-erik-salen-ersatter-arvid-svensson-i-valberedningen-i-sbb-20261119"
+        },
+        {
+          "title": "Placera – SBB ökar hyresintäkterna och driftnettot i Q3 (24 nov 2026)",
+          "url": "https://www.placera.se/nyheter/sbb-okar-hyresintakterna-och-driftnetto-i-tredje-kvartalet-2026-11-24"
+        },
+        {
+          "title": "Hurbra – SBB rapport Q3 2026",
+          "url": "https://hurbra.se/sbb-rapport-q3-2026/"
         }
       ]
     },
@@ -2450,9 +2454,15 @@
       ],
       "analysts": {
         "consensus": "Måttligt köp",
-        "avgTarget": 79.3,
-        "avgTargetNote": "Snitt av de 10 riktkurserna som listas här. Konsensus enligt TradingView: 91,04 USD (41 analytiker, spann 63–160).",
+        "avgTarget": 84.82,
+        "avgTargetNote": "Snitt av de 11 riktkurserna som listas här. Konsensus enligt 24/7 Wall St: 90,65 USD (49 analytiker); TradingKey anger 91,99 USD (spann 63–160).",
         "targets": [
+          {
+            "date": "",
+            "bank": "KeyBanc",
+            "rating": "Köp (Overweight)",
+            "target": 140
+          },
           {
             "date": "2026-10-30",
             "bank": "StoneX",
@@ -2547,6 +2557,10 @@
         {
           "date": "2026-11-23",
           "text": "Vd Lip-Bu Tan sade den 18 november att Intel tecknat sin första externa kund för 18A-processen; CTO:n preciserade att det gäller 18A-P. Kunden, volymen och intäkterna har inte angetts. Aktien steg och stängde på 55,72 USD den 19 november, men föll knappt 8 % till 51,28 USD den 20 november i en bred försäljning av AI- och chipaktier, utan bolagsspecifik nyhet. Flera advokatbyråer marknadsför grupptalan; sista dag att anmäla sig som huvudkärande är 12 januari 2027. Kundbeskedet är ett första steg för foundry-tesen, men utan siffror ändras inte bilden – hållningen står kvar som neutral med hög risk."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Aktien steg till cirka 59,66 USD den 23 november när chipsektorn lyfte, men föll 8,1 % till 54,80 USD den 24 november. Motley Fool pekar på att uppgången i sektorn vände, att Intel sagt lite om sin första 18A-P-kund, att foundry-enheten förlorade 1,85 mdr USD förra kvartalet och att CFO:n antytt att det fria kassaflödet knappast blir positivt nästa år. KeyBanc sänkte riktkursen från 155 till 140 USD men behöll köp. Konsensus för vinst per aktie i Q4 har sänkts från 0,44 till 0,25 USD på 30 dagar. Q4-rapportens datum är fortfarande inte bekräftat. Hållningen står kvar som neutral med hög risk."
         }
       ],
       "links": [
@@ -2556,14 +2570,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Euronews – aktieägare stämmer Intel (16 nov 2026)",
-          "url": "https://www.euronews.com/2026/11/16/shareholders-sue-intel-after-its-shares-plunge-nearly-29"
-        },
-        {
-          "title": "GuruFocus – Intels vd köper aktier för 9,7 MUSD (4 nov)",
-          "url": "https://www.gurufocus.com/news/9170638/intel-ceo-lipbu-tan-buys-97m-in-shares-signaling-confidence-in-intc"
-        },
         {
           "title": "Trefis – vad hände med Intel-aktien (6 nov)",
           "url": "https://www.trefis.com/stock/intc/articles/623356/what-just-happened-to-intel-stock/2026-11-06"
@@ -2587,6 +2593,14 @@
         {
           "title": "IBTimes – Intel shares fall despite 18A customer",
           "url": "https://www.ibtimes.com.au/intel-shares-fall-18a-foundry-customer-pc-business-1879068"
+        },
+        {
+          "title": "Motley Fool – Why Intel stock fell today (24 nov 2026)",
+          "url": "https://www.fool.com/investing/2026/11/24/why-intel-stock-fell-today/"
+        },
+        {
+          "title": "24/7 Wall St – KeyBanc upprepar köp på Intel (24 nov 2026)",
+          "url": "https://247wallst.com/investing/2026/11/24/intel-has-plummeted-30-over-30-days-this-pro-analyst-reiterated-his-buy-status-predicting-133-gains/"
         }
       ]
     }
