@@ -15,6 +15,7 @@ import re
 import sys
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 import zipfile
@@ -31,8 +32,10 @@ OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
 OPENER.addheaders = [("User-Agent", UA), ("Accept", "*/*"), ("Accept-Language", "sv-SE,sv;q=0.9,en;q=0.8")]
 
 PAGES = [
-    "https://www.fi.se/en/vara-register/fis-marknadsregister/blankning/net-short-positions/",
     "https://www.fi.se/sv/vara-register/fis-marknadsregister/blankning/",
+    "https://www.fi.se/en/our-registers/fis-marknadsregister/blankning/net-short-positions/",
+    "https://www.fi.se/en/vara-register/fis-marknadsregister/blankning/net-short-positions/",
+    "https://www.fi.se/sv/vara-register/blankningsregistret/",
 ]
 CANDIDATES = {
     "aktuella": ["https://www.fi.se/BlankningsRegister/GetAktuellFile",
@@ -42,10 +45,16 @@ CANDIDATES = {
 }
 
 
-def get(url, data=None, timeout=60):
+def get(url, data=None, timeout=60, tries=3):
     headers = {"Content-Type": "application/json"} if data is not None else {}
-    with OPENER.open(urllib.request.Request(url, data=data, headers=headers), timeout=timeout) as r:
-        return r.read()
+    for i in range(tries):
+        try:
+            with OPENER.open(urllib.request.Request(url, data=data, headers=headers), timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if i == tries - 1 or e.code not in (404, 429, 500, 502, 503):
+                raise
+            time.sleep(2 + 2 * i)
 
 
 def warn(title, msg):
@@ -64,9 +73,12 @@ def discover():
         hrefs = re.findall(r'(?:href|data-url|data-href)="([^"]+)"', html)
         print(f"sida {page}: {len(html)} tecken, {len(hrefs)} länkar")
         if os.environ.get("FI_DEBUG"):
-            m = re.search(r"function RunReport", html)
-            if m:
-                print("  RunReport:", re.sub(r"\s+", " ", html[m.start():m.start() + 1500]))
+            for src in re.findall(r'<script[^>]+src="([^"]+)"', html):
+                print("  script", src)
+            for m in list(re.finditer(r"RunReport", html))[:8]:
+                print("  ctx", re.sub(r"\s+", " ", html[max(0, m.start() - 80):m.start() + 400]))
+            for m in list(re.finditer(r"(?i)\.(ods|xlsx)|GetAktuell|Aktuell", html))[:6]:
+                print("  fil", re.sub(r"\s+", " ", html[max(0, m.start() - 150):m.start() + 150]))
         for path in re.findall(r"RunReport\('([^']+)'", html):
             low = path.lower()
             kind = "historiska" if "hist" in low else ("aktuella" if "aktuell" in low or "current" in low else None)
