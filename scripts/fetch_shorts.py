@@ -325,16 +325,20 @@ def avanza_hist(oid):
         try:
             data = json.loads(get(f"https://www.avanza.se/_api/price-chart/stock/{oid}?timePeriod={period}&resolution={res}"))
             rows = data.get("ohlc") or data.get("dataPoints") or []
-            out = []
+            out, ohlc = [], []
             for r in rows:
                 ts, c = (r.get("timestamp"), r.get("close")) if isinstance(r, dict) else (r[0], r[-1])
                 if ts is not None and c is not None:
-                    out.append([datetime.fromtimestamp(ts / 1000, timezone.utc).strftime("%Y-%m-%d"), round(float(c), 4)])
+                    d = datetime.fromtimestamp(ts / 1000, timezone.utc).strftime("%Y-%m-%d")
+                    out.append([d, round(float(c), 4)])
+                    if isinstance(r, dict) and None not in (r.get("open"), r.get("high"), r.get("low")):
+                        ohlc.append([d, round(float(r["open"]), 4), round(float(r["high"]), 4),
+                                     round(float(r["low"]), 4), round(float(c), 4)])
             if len(out) > 50:
-                return out, f"{period}/{res}"
+                return out, f"{period}/{res}", ohlc
         except Exception as e:
             print(f"avanza-kurs {oid} {period}: {e}")
-    return [], ""
+    return [], "", []
 
 
 def fetch_prices(recs, cfg):
@@ -357,9 +361,13 @@ def fetch_prices(recs, cfg):
             if prev:
                 quotes[isin] = prev
             continue
-        hist, how = avanza_hist(oid)
+        hist, how, ohlc = avanza_hist(oid)
         if hist:
             quotes[isin] = {"name": name, "avanzaId": oid, "resolution": how, "history": hist}
+            # dagliga öppning/högsta/lägsta/stängning bara för bolag med en tes (daytrade-test)
+            if ohlc and any(t["issuer"] in name.lower() for t in cfg.get("theses", [])):
+                quotes[isin]["ohlc"] = ohlc
+                print(f"ohlc ok {name}: {len(ohlc)} dagar")
             print(f"kurs ok {name}: {len(hist)} punkter ({how})")
         elif prev:
             quotes[isin] = prev

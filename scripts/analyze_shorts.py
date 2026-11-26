@@ -297,6 +297,64 @@ def thesis_test(th, ser, hist, name):
     return res
 
 
+def daytrade_test(th, ser, ohlc, lag=2):
+    """Dagshandel: för varje handelsdag, vilken position var senast KÄND (FI publicerar
+    positionen dagen efter positionsdatumet, så den används från `lag` handelsdagar efter).
+    Jämför dagar i bandet med övriga dagar: köp på öppningen och sälj på stängningen,
+    dagens svängning, och köp med limit X % under öppningskursen (säljs på stängningen)."""
+    days = [(d(r[0]), *r[1:]) for r in ohlc]
+    idx = {dt: i for i, (dt, *_) in enumerate(days)}
+    known = {}
+    for dt, p in ser:
+        i = next((k for k, row in enumerate(days) if row[0] > dt), None)
+        if i is not None and i + lag - 1 < len(days):
+            known[i + lag - 1] = p
+    state, cur = [], None
+    for i in range(len(days)):
+        if i in known:
+            cur = known[i]
+        state.append(cur)
+    first = min(known) if known else len(days)
+
+    def cat(v):
+        if v is None:
+            return None
+        if v == 0:
+            return "ingen position"
+        if th["low"] <= v <= th["high"]:
+            return "i bandet"
+        return "position utanför bandet"
+
+    groups = defaultdict(lambda: {"oc": [], "range": [], "dip2": [], "dip4": []})
+    for i in range(first, len(days)):
+        c = cat(state[i])
+        if c is None:
+            continue
+        _, o, h, l, cl = days[i]
+        if not o:
+            continue
+        g = groups[c]
+        g["oc"].append(cl / o - 1)
+        g["range"].append((h - l) / o)
+        for x, key in ((0.02, "dip2"), (0.04, "dip4")):
+            if l <= o * (1 - x):
+                g[key].append(cl / (o * (1 - x)) - 1)
+    out = {"lagDays": lag, "from": days[first][0].isoformat() if first < len(days) else None, "groups": {}}
+    for k in ("i bandet", "position utanför bandet", "ingen position"):
+        g = groups.get(k)
+        if not g:
+            continue
+        rng = g["range"]
+        out["groups"][k] = {
+            "days": len(g["oc"]),
+            "openClose": agg(g["oc"]),
+            "rangeMean": round(st.mean(rng) * 100, 2) if rng else None,
+            "dip2": agg(g["dip2"]),
+            "dip4": agg(g["dip4"]),
+        }
+    return out
+
+
 # ---------- huvudprogram ----------
 def main():
     cfg = json.load(open(CONFIG, encoding="utf-8"))
@@ -323,7 +381,12 @@ def main():
                 if th["issuer"] in names.get(isin, "").lower():
                     hist = price_index(prices, isin)
                     if hist:
-                        theses_out.append(thesis_test(th, ser, hist, names[isin]))
+                        t = thesis_test(th, ser, hist, names[isin])
+                        ohlc = prices.get("quotes", {}).get(isin, {}).get("ohlc")
+                        if ohlc:
+                            t["daytrade"] = daytrade_test(th, ser, ohlc, lag=2)
+                            t["daytradeFast"] = daytrade_test(th, ser, ohlc, lag=1)
+                        theses_out.append(t)
         for isin, ser in g.items():
             if ser[-1][0] < two_years and ser[-1][1] == 0:
                 continue
