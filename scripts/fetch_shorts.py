@@ -19,8 +19,11 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 import zipfile
+from zoneinfo import ZoneInfo
 from datetime import datetime, timezone
 
+# Avanzas tidsstämplar är midnatt svensk tid – i UTC hamnar de på dagen före.
+STHLM = ZoneInfo("Europe/Stockholm")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "fi", "positions.csv.gz")
 PRICES = os.path.join(ROOT, "data", "short_prices.json")
@@ -329,7 +332,7 @@ def avanza_hist(oid):
             for r in rows:
                 ts, c = (r.get("timestamp"), r.get("close")) if isinstance(r, dict) else (r[0], r[-1])
                 if ts is not None and c is not None:
-                    d = datetime.fromtimestamp(ts / 1000, timezone.utc).strftime("%Y-%m-%d")
+                    d = datetime.fromtimestamp(ts / 1000, STHLM).strftime("%Y-%m-%d")
                     out.append([d, round(float(c), 4)])
                     if isinstance(r, dict) and None not in (r.get("open"), r.get("high"), r.get("low")):
                         ohlc.append([d, round(float(r["open"]), 4), round(float(r["high"]), 4),

@@ -19,8 +19,11 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from zoneinfo import ZoneInfo
 from datetime import date, datetime, timedelta, timezone
 
+# Avanzas tidsstämplar är midnatt svensk tid – i UTC hamnar de på dagen före.
+STHLM = ZoneInfo("Europe/Stockholm")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STOCKS = os.path.join(ROOT, "data", "stocks.json")
 PRICES = os.path.join(ROOT, "data", "prices.json")
@@ -121,7 +124,7 @@ def from_avanza(stock):
             ts, c = r[0], r[-1]
         if ts is None or c is None:
             continue
-        hist.append((datetime.fromtimestamp(ts / 1000, timezone.utc).strftime("%Y-%m-%d"), float(c)))
+        hist.append((datetime.fromtimestamp(ts / 1000, STHLM).strftime("%Y-%m-%d"), float(c)))
     q = build(hist, stock["currency"])
     q["avanzaId"] = oid
     return q
