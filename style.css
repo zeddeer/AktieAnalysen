@@ -314,3 +314,6 @@ table.shorts small { font-size: 11px; }
 }
 ul.plain li.chg { display: flex; justify-content: space-between; gap: 10px; }
 ul.plain li.chg .num { white-space: nowrap; }
+.hscroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table.daytrade { min-width: 520px; }
+table.daytrade small { display: block; }

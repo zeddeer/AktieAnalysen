@@ -313,6 +313,18 @@
       <p class="flat" style="font-size:12px;margin:8px 0 0">Överavkastning i % mot aktiens normala utveckling över lika lång period · andel positiva · antal händelser. Köp antas dagen efter positionsdatumet.</p>`;
   }
 
+  function daytradeTable(dt) {
+    const c = (a) => (a && a.n ? `<td class="r ${cls(a.mean)}">${a.mean > 0 ? "+" : ""}${nf(a.mean, 2)}<small class="flat"> · ${a.hit}% · n${a.n}</small></td>` : `<td class="r flat">—</td>`);
+    const rows = ["i bandet", "position utanför bandet", "ingen position"].filter((k) => dt.groups[k]);
+    return `
+        <p class="lbl" style="margin-top:16px">Som daytrade (dagar då positionen var känd)</p>
+        <div class="hscroll"><table class="targets daytrade">
+          <tr><td class="d">Citadels senast kända position</td><td class="r d">Öppning→stängning</td><td class="r d">Limit −2 %</td><td class="r d">Limit −4 %</td><td class="r d">Svängning</td></tr>
+          ${rows.map((k) => { const g = dt.groups[k]; return `<tr><td>${esc(k)}<br><small class="flat">${g.days} dagar</small></td>${c(g.openClose)}${c(g.dip2)}${c(g.dip4)}<td class="r">${nf(g.rangeMean, 1)} %</td></tr>`; }).join("")}
+        </table></div>
+        <p class="flat" style="font-size:12px;margin:8px 0 0">Snitt % per affär före courtage och spread · andel positiva · antal. Limit = köp om kursen når X % under öppningen, sälj på stängningen. Positionen räknas som känd ${dt.lagDays} handelsdagar efter positionsdatumet (FI publicerar i efterhand). Svängning = (högsta − lägsta) / öppning.</p>`;
+  }
+
   function thesisPanel(t) {
     const c = (a) => (a && a.n ? `<b class="${cls(a.mean)}">${a.mean > 0 ? "+" : ""}${nf(a.mean, 1)} %</b><small>median ${nf(a.median, 1)} · ${a.hit} % positiva · n ${a.n}</small>` : "<b>—</b>");
     return `
@@ -326,6 +338,7 @@
           <tr><td class="d">${fmtDate(e.date, { day: "numeric", month: "short", year: "2-digit" })}</td><td>${pc(e.from)} → <b>${nf(e.pct)}</b>${e.nextPct != null ? ` <span class="flat">→ ${pc(e.nextPct)}</span>` : ""}</td>
           <td class="r ${cls(e["20"])}">${e["20"] == null ? "—" : (e["20"] > 0 ? "+" : "") + nf(e["20"], 1) + " %"}</td></tr>`).join("")}</table>
         <p class="flat" style="font-size:12px;margin:8px 0 0">Position före → vid köp → nästa rapport · kursutveckling 20 handelsdagar efter köp.</p>
+        ${t.daytrade ? daytradeTable(t.daytrade) : ""}
       </section>`;
   }
 
