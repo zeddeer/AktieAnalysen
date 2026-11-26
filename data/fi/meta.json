@@ -1,10 +1,10 @@
 {
  "historiska": {
   "url": "https://www.fi.se/BlankningsRegister/GetHistFile",
-  "rows": 39388
+  "rows": 39412
  },
  "aktuella": {
   "url": "https://www.fi.se/BlankningsRegister/GetAktuellFile",
-  "rows": 249
+  "rows": 255
  }
 }
