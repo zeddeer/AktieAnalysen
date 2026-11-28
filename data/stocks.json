@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "stocks": [
     {
       "id": "electrolux",
@@ -489,10 +489,12 @@
         "Skatteanståndet (95 MSEK i Q1 2027) och första köpeskillingen till Xperi (Q2 2027) förfaller inom ett halvår.",
         "En kapitalanskaffning blir sannolikt kraftigt utspädande vid nuvarande kurs.",
         "Ny nedskrivning på 180 MSEK visar att Autosense-förvärvet inte infriat förväntningarna.",
-        "Byte av CFO och flera styrelseledamöter under hösten."
+        "Styrelsen har krympt till tre stämmovalda ledamöter, varav två är grundare och storägare – få oberoende röster inför finansieringsbeslutet."
       ],
       "watch": [
         "Finansieringsbesked: nyemission, lån eller avyttring – och villkoren.",
+        "Flaggningar och insynsaffärer från storägarna (Eskilsson, Skogö, Bernhard) – vem som köpt under uppgången i slutet av november.",
+        "Extrastämma: finansiering utöver 10 %-bemyndigandet och om styrelsen fylls på med oberoende ledamöter.",
         "Utfallet av förhandlingarna med Xperi om köpeskillingen för Autosense.",
         "Kassan och kreditutnyttjandet fram till Q1 2027.",
         "Bokslutskommunikén (datum ej bekräftat): om positivt operativt kassaflöde 2027 fortfarande är rimligt."
@@ -516,6 +518,10 @@
         {
           "date": "2026-10-22",
           "text": "Q3-rapporten: omsättning 140 MSEK (−11 %, justerat +16 %), EBITDA 18 MSEK och kärnverksamheten gick med vinst, men en nedskrivning på 180 MSEK i Autosense gav rörelseresultat −217 MSEK. Kassan föll till 29 MSEK och bolaget kallar läget ansträngt; finansiering via eget eller lånat kapital utreds med rådgivare och hänger på förhandlingar med Xperi, utan garanti för en affär. Driften förbättras, men inget finansieringsbesked kom – den negativa hållningen och mycket hög risk står kvar."
+        },
+        {
+          "date": "2026-11-28",
+          "text": "Valberedningen inför årsstämman 20 maj 2027 (meddelad 26 nov kl. 18) består av de tre största ägarna per 30 september, som var och en utsett sig själva: Henrik Eskilsson, Mårten Skogö och Nils Bernhard, samt ordföranden Per Norman. Förra året företräddes Eskilsson av Henrik Tellving och John Elvesjö var med; Elvesjö lämnade också styrelsen i maj. Efter att Carl Mellander (14 sep) och Charlotta Falvin (6 okt) gått består styrelsen bara av tre stämmovalda ledamöter – Norman, Eskilsson och Skogö – plus en arbetstagarrepresentant; Jesper Kärrbrink är rådgivare utan plats. Tre av fyra i valberedningen sitter alltså i styrelsen. Grundarna tar i praktiken över styrningen inför finansieringen, vilket talar för att de kan gå in som ankare men också ger tydliga intressekonflikter om de själva deltar. Samtidigt gick Citadel Securities (från 0,59 %) och Squarepoint (från 0,58 %) under 0,5 % med positionsdatum 26 nov, alltså före beskedet; under 0,5 % behöver inte betyda noll. Täckningen motsvarar minst cirka 0,1 procentenhet var och som mest ett par MSEK totalt – för lite för att ensamt förklara att aktien steg från 0,614 kr (24 nov) till 0,86 kr (27 nov), +24 % sista dagen. Inget pressmeddelande förklarar uppgången. GSA (1,20 %) och Origo (1,05 %) ligger kvar. Hållningen står kvar som negativ med mycket hög risk eftersom finansieringen fortfarande saknas."
         }
       ],
       "links": [
@@ -533,10 +539,6 @@
         }
       ],
       "sources": [
-        {
-          "title": "Tobii delårsrapport Q2 2026 (Inderes)",
-          "url": "https://www.inderes.se/releases/interim-report-second-quarter-2026-decisiveness-in-a-challenging-situation"
-        },
         {
           "title": "Tobii Q2 2026 (Quartr)",
           "url": "https://quartr.com/events/tobii-tobii-q2-2026_3gIJ6ORb"
@@ -556,6 +558,14 @@
         {
           "title": "Tobii delårsrapport Q3 2026 (Inderes)",
           "url": "https://www.inderes.fi/en/releases/interim-report-third-quarter-2026-strengthened-core-business-and-focus-on-financing"
+        },
+        {
+          "title": "Tobiis valberedning inför årsstämman 2027 (Inderes)",
+          "url": "https://www.inderes.fi/en/releases/tobiis-nomination-committee-for-the-2027-agm"
+        },
+        {
+          "title": "Tobii – styrelse",
+          "url": "https://corporate.tobii.com/about-us/corporate-governance/board-of-directors"
         }
       ]
     },
