@@ -45,7 +45,7 @@ def warn(title, msg):
     print(f"::warning title={title}::{str(msg)[:500]}")
 
 
-def build(history, currency, market_time=None, price=None):
+def build(history, currency, market_time=None, price=None, volume=None):
     history = sorted({d: c for d, c in history if c is not None}.items())
     history = [[d, round(c, 4)] for d, c in history]
     if len(history) < 2:
@@ -62,6 +62,10 @@ def build(history, currency, market_time=None, price=None):
         "high52": max(vals),
         "low52": min(vals),
         "history": history,
+        # Daglig volym i antal aktier: [[datum, aktier, omsättning i valutan]].
+        "volume": [[d, int(v), round(v * c)] for d, v, c in
+                   sorted((d, v, dict(history).get(d)) for d, v in (volume or {}).items())
+                   if v is not None and dict(history).get(d) is not None],
     }
 
 
@@ -116,16 +120,23 @@ def from_avanza(stock):
     oid = stock.get("avanzaId") or avanza_search(stock)
     data = json.loads(get(f"https://www.avanza.se/_api/price-chart/stock/{oid}?timePeriod=one_year&resolution=day"))
     rows = data.get("ohlc") or data.get("dataPoints") or []
-    hist = []
+    hist, vol = [], {}
     for r in rows:
+        v = None
         if isinstance(r, dict):
             ts, c = r.get("timestamp"), r.get("close")
+            v = r.get("totalVolumeTraded", r.get("volume"))
         else:
             ts, c = r[0], r[-1]
         if ts is None or c is None:
             continue
-        hist.append((datetime.fromtimestamp(ts / 1000, STHLM).strftime("%Y-%m-%d"), float(c)))
-    q = build(hist, stock["currency"])
+        day = datetime.fromtimestamp(ts / 1000, STHLM).strftime("%Y-%m-%d")
+        hist.append((day, float(c)))
+        if v is not None:
+            vol[day] = float(v)
+    if rows and not vol:
+        warn(f"Volym saknas {stock['yahoo']}", f"fält i Avanza-svaret: {list(rows[0])[:12] if isinstance(rows[0], dict) else len(rows[0])}")
+    q = build(hist, stock["currency"], volume=vol)
     q["avanzaId"] = oid
     return q
 
@@ -140,7 +151,8 @@ def from_stooq(stock):
     rows = list(csv.DictReader(io.StringIO(raw)))
     if not rows or "Close" not in rows[0]:
         raise RuntimeError(f"oväntat svar: {raw[:80]}")
-    return build([(r["Date"], float(r["Close"])) for r in rows], "USD")
+    vol = {r["Date"]: float(r["Volume"]) for r in rows if r.get("Volume")}
+    return build([(r["Date"], float(r["Close"])) for r in rows], "USD", volume=vol)
 
 
 # ---------- Yahoo ----------
@@ -166,13 +178,17 @@ def from_yahoo(stock):
     meta = res["meta"]
     ts = res.get("timestamp") or []
     closes = res["indicators"]["quote"][0].get("close") or []
-    hist = [(datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m-%d"), c) for t, c in zip(ts, closes)]
+    vols = res["indicators"]["quote"][0].get("volume") or []
+    days = [datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m-%d") for t in ts]
+    hist = list(zip(days, closes))
+    vol = {d: v for d, v in zip(days, vols) if v is not None}
     mt = meta.get("regularMarketTime")
     return build(
         hist,
         meta.get("currency") or stock["currency"],
         datetime.fromtimestamp(mt, timezone.utc).isoformat() if mt else None,
         meta.get("regularMarketPrice"),
+        vol,
     )
 
 
